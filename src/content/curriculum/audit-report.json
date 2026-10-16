@@ -1,0 +1,237 @@
+{
+  "source": "PPCT KET NOI- YL (1).docx",
+  "sourceSignedAt": "2026-08-25",
+  "auditedAt": "2026-10-09",
+  "rawRows": 369,
+  "readingRows": 91,
+  "distinctItems": 78,
+  "groups": [
+    {
+      "grade": 10,
+      "semester": 1,
+      "distinctItems": 15,
+      "readingRows": 15,
+      "include": 14,
+      "exclude_nonliterary": 1,
+      "author_profile_only": 0,
+      "needs_review": 0
+    },
+    {
+      "grade": 10,
+      "semester": 2,
+      "distinctItems": 13,
+      "readingRows": 13,
+      "include": 7,
+      "exclude_nonliterary": 3,
+      "author_profile_only": 1,
+      "needs_review": 2
+    },
+    {
+      "grade": 11,
+      "semester": 1,
+      "distinctItems": 13,
+      "readingRows": 15,
+      "include": 13,
+      "exclude_nonliterary": 0,
+      "author_profile_only": 0,
+      "needs_review": 0
+    },
+    {
+      "grade": 11,
+      "semester": 2,
+      "distinctItems": 12,
+      "readingRows": 17,
+      "include": 7,
+      "exclude_nonliterary": 3,
+      "author_profile_only": 1,
+      "needs_review": 1
+    },
+    {
+      "grade": 12,
+      "semester": 1,
+      "distinctItems": 12,
+      "readingRows": 16,
+      "include": 10,
+      "exclude_nonliterary": 0,
+      "author_profile_only": 0,
+      "needs_review": 2
+    },
+    {
+      "grade": 12,
+      "semester": 2,
+      "distinctItems": 13,
+      "readingRows": 15,
+      "include": 9,
+      "exclude_nonliterary": 3,
+      "author_profile_only": 1,
+      "needs_review": 0
+    }
+  ],
+  "missingRows": [],
+  "duplicateRecords": [],
+  "mergedRepeatedItems": [
+    {
+      "title": "Nhớ đồng",
+      "sourceRows": [
+        111,
+        113
+      ],
+      "periodReferences": [
+        "12",
+        "13"
+      ]
+    },
+    {
+      "title": "Chiếu cầu hiền",
+      "sourceRows": [
+        124,
+        126
+      ],
+      "periodReferences": [
+        "24",
+        "25"
+      ]
+    },
+    {
+      "title": "Trao duyên",
+      "sourceRows": [
+        163,
+        165
+      ],
+      "periodReferences": [
+        "57",
+        "58"
+      ]
+    },
+    {
+      "title": "Ai đã đặt tên cho dòng sông?",
+      "sourceRows": [
+        174,
+        176
+      ],
+      "periodReferences": [
+        "66",
+        "67-68"
+      ]
+    },
+    {
+      "title": "Và tôi vẫn muốn mẹ…",
+      "sourceRows": [
+        177,
+        179
+      ],
+      "periodReferences": [
+        "69",
+        "70"
+      ]
+    },
+    {
+      "title": "Trí thông minh nhân tạo",
+      "sourceRows": [
+        190,
+        192
+      ],
+      "periodReferences": [
+        "81",
+        "82"
+      ]
+    },
+    {
+      "title": "Văn tế nghĩa sĩ Cần Giuộc",
+      "sourceRows": [
+        204,
+        206
+      ],
+      "periodReferences": [
+        "93",
+        "94"
+      ]
+    },
+    {
+      "title": "Cảm hoài",
+      "sourceRows": [
+        248,
+        250
+      ],
+      "periodReferences": [
+        "12",
+        "13"
+      ]
+    },
+    {
+      "title": "Tây Tiến",
+      "sourceRows": [
+        251,
+        253
+      ],
+      "periodReferences": [
+        "14-15",
+        "16"
+      ]
+    },
+    {
+      "title": "Năng lực sáng tạo",
+      "sourceRows": [
+        264,
+        266
+      ],
+      "periodReferences": [
+        "27",
+        "28"
+      ]
+    },
+    {
+      "title": "Hải khẩu linh từ - Đền thiên của bể",
+      "sourceRows": [
+        275,
+        277
+      ],
+      "periodReferences": [
+        "36",
+        "37"
+      ]
+    },
+    {
+      "title": "Những trò lố hay là Va-ren và Phan Bội Châu",
+      "sourceRows": [
+        304,
+        306
+      ],
+      "periodReferences": [
+        "60",
+        "61"
+      ]
+    },
+    {
+      "title": "Giáo dục khai phóng ở Việt Nam nhìn từ Đông Kinh Nghĩa thục",
+      "sourceRows": [
+        326,
+        328
+      ],
+      "periodReferences": [
+        "81",
+        "82"
+      ]
+    },
+    {
+      "title": "Trở về",
+      "sourceRows": [
+        340,
+        342
+      ],
+      "periodReferences": [
+        "93",
+        "94"
+      ]
+    }
+  ],
+  "notes": [
+    "ppctPage để null: chưa có bản render phân trang đáng tin cậy. sourceRows là chỉ số 0-based trong ppct-raw.json, không phải số trang.",
+    "Một dòng Mộ; Nguyên tiêu có một quyết định include và hai đơn vị con.",
+    "Nhóm thần thoại và hai-cư chưa tách văn bản con vì chưa đối chiếu SGK.",
+    "Danh mục PPCT và bài phân tích xuất bản là hai tập dữ liệu riêng.",
+    "Năm 2026 là năm ký trong tài liệu, không suy diễn niên khóa 2026-2027."
+  ],
+  "publishedArticles": 60,
+  "humanReviewedArticles": 0
+}

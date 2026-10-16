@@ -1,0 +1,554 @@
+[
+  {
+    "id": "dan-gian",
+    "slug": "dan-gian",
+    "name": "Tác giả dân gian",
+    "period": "Văn học dân gian",
+    "bio": "Các tác phẩm được hình thành, lưu truyền và biến đổi trong cộng đồng. Người kể, người hát và người diễn tham gia gìn giữ văn bản qua nhiều thế hệ; không quy về một tác giả cá nhân.",
+    "style": "Thần thoại dùng tưởng tượng kỳ vĩ; sử thi gắn người anh hùng với cộng đồng; truyện thơ và sân khấu dân gian biểu đạt tình cảm qua lời kể, nhịp hát và hành động.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "nguyen-du-truyen-ky",
+    "slug": "nguyen-du-truyen-ky",
+    "name": "Nguyễn Dữ",
+    "period": "Văn học trung đại",
+    "bio": "Nguyễn Dữ là tác giả Truyền kỳ mạn lục. Ông dùng hình thức truyện truyền kỳ để kể những số phận, xung đột và câu hỏi về đạo đức trong đời sống. Không nhầm Nguyễn Dữ với Nguyễn Du, tác giả Truyện Kiều.",
+    "style": "Đan xen chi tiết đời thực với thế giới kỳ ảo, tổ chức đối thoại và kết quả xét xử để làm rõ cách nhìn về công lý.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "hai-cu-nhat-ban",
+    "slug": "hai-cu-nhat-ban",
+    "name": "Bashō, Chiyo và Issa",
+    "period": "Thơ Nhật Bản",
+    "bio": "Matsuo Bashō, Fukuda Chiyo và Kobayashi Issa là các tác giả của ba bài trong chùm hai-cư được đọc. Đây là hồ sơ chung của bài đọc; mỗi bài vẫn được phân biệt tác giả trong phần phân tích.",
+    "style": "Bashō gợi chiều sâu bằng cảnh vắng; Chiyo chú ý sự sống mong manh; Issa thường dành giọng trìu mến cho những sinh vật nhỏ.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "do-phu",
+    "slug": "do-phu",
+    "name": "Đỗ Phủ",
+    "period": "Thơ Đường",
+    "bio": "Đỗ Phủ là nhà thơ Trung Quốc đời Đường. Thơ ông gắn trải nghiệm cá nhân với những biến động xã hội và sự quan tâm tới đời sống con người. Thu hứng thuộc mạch thơ xa quê.",
+    "style": "Kết cấu thơ luật chặt, hình ảnh giàu quan hệ đối sánh; cảnh vật gắn với thời gian, nỗi nhớ và sự bất an.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "han-mac-tu",
+    "slug": "han-mac-tu",
+    "name": "Hàn Mặc Tử",
+    "period": "Thơ mới",
+    "bio": "Hàn Mặc Tử là nhà thơ Việt Nam trong phong trào Thơ mới. Mùa xuân chín cho thấy khả năng kết hợp cảnh quê gần gũi với một đời sống cảm xúc nhiều chuyển động.",
+    "style": "Hình ảnh giàu màu và âm thanh; những liên tưởng mơ màng đi cùng nỗi nhớ, tình cảm thiết tha và ý thức về thời gian.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "chu-van-son",
+    "slug": "chu-van-son",
+    "name": "Chu Văn Sơn",
+    "period": "Phê bình hiện đại",
+    "bio": "Chu Văn Sơn là nhà nghiên cứu và phê bình văn học Việt Nam. Bài viết về Tiếng thu tập trung giải thích vẻ đẹp của một cấu trúc thơ qua sự phối hợp ngôn từ và cảm xúc.",
+    "style": "Phê bình đi từ chi tiết đến cấu tứ, dùng khái niệm cùng liên tưởng giàu cảm giác để diễn đạt hiệu quả thẩm mỹ.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "than-nhan-trung",
+    "slug": "than-nhan-trung",
+    "name": "Thân Nhân Trung",
+    "period": "Văn học trung đại",
+    "bio": "Thân Nhân Trung là văn thần thời Lê, tác giả bài văn bia tiến sĩ khoa Nhâm Tuất 1442. Văn bản trình bày quan niệm về hiền tài và trách nhiệm của người được trọng dụng.",
+    "style": "Lập luận chặt, giọng trang trọng; nguyên lý được nối với việc làm cụ thể và tác dụng đối với cộng đồng.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "phong-tu-khai",
+    "slug": "phong-tu-khai",
+    "name": "Phong Tử Khải",
+    "period": "Văn học Trung Quốc hiện đại",
+    "bio": "Phong Tử Khải là họa sĩ và tác giả Trung Quốc. Yêu và đồng cảm kết nối quan sát đời thường, tâm lý trẻ em và cách nhìn nghệ thuật.",
+    "style": "Tiểu luận gần gũi, ví dụ nhỏ mở ra suy ngẫm rộng về sự chú ý, tình cảm và cảm nhận thẩm mỹ.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "le-dat",
+    "slug": "le-dat",
+    "name": "Lê Đạt",
+    "period": "Thơ Việt Nam hiện đại",
+    "bio": "Lê Đạt là nhà thơ Việt Nam quan tâm tới đổi mới ngôn ngữ. Chữ bầu lên nhà thơ trình bày quan niệm về công phu sáng tạo và vai trò của chữ.",
+    "style": "Cách nói cô đọng, có nghịch lý; chú ý khả năng mở nghĩa của ngôn từ và trách nhiệm lao động của người viết.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "ho-me-ro",
+    "slug": "ho-me-ro",
+    "name": "Hô-me-rơ",
+    "period": "Sử thi Hy Lạp cổ đại",
+    "bio": "Hô-me-rơ là tên tác giả gắn theo truyền thống với hai sử thi I-li-át và Ô-đi-xê. Bài đọc về Héc-to thuộc I-li-át, trong thế giới chiến tranh thành Tơ-roa.",
+    "style": "Sử thi kết hợp quy mô chiến trận với lời nói, hành động và tình cảm gia đình; nhân vật anh hùng có cả trách nhiệm cộng đồng lẫn nỗi đau riêng.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "victor-hugo",
+    "slug": "victor-hugo",
+    "name": "Victor Hugo",
+    "period": "Văn học Pháp thế kỷ XIX",
+    "bio": "Victor Hugo là nhà văn Pháp, tác giả Những người khốn khổ. Tiểu thuyết quan tâm đến con người bị gạt ra ngoài xã hội và khả năng thay đổi nhờ sự đón nhận.",
+    "style": "Tình huống tương phản mạnh, nhân vật mang xung đột đạo đức; lời kể có thể bộc lộ trực tiếp lòng cảm thương.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "thach-lam",
+    "slug": "thach-lam",
+    "name": "Thạch Lam",
+    "period": "Văn học trước 1945",
+    "bio": "Thạch Lam là nhà văn Việt Nam, tác giả nhiều truyện ngắn và những trang viết về sinh hoạt, cảm giác đời thường. Dưới bóng hoàng lan tập trung vào một cuộc trở về và tình cảm âm thầm.",
+    "style": "Ít biến cố, chú ý cảm giác, điểm nhìn và không khí; những thay đổi nhỏ của cảnh vật tạo chiều sâu tâm trạng.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "chekhov",
+    "slug": "chekhov",
+    "name": "Anton Chekhov",
+    "period": "Văn học Nga thế kỷ XIX",
+    "bio": "Anton Chekhov là nhà văn và nhà viết kịch Nga. Một chuyện đùa nho nhỏ cho thấy khả năng đặt một việc rất nhỏ trước những hậu quả tình cảm lâu dài.",
+    "style": "Lời kể tiết chế, kết thúc gợi dư âm; nhân vật thường không hiểu hết điều hành động của mình gây ra.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "robert-frost",
+    "slug": "robert-frost",
+    "name": "Robert Frost",
+    "period": "Thơ Mỹ hiện đại",
+    "bio": "Robert Frost là nhà thơ Mỹ. Con đường không chọn dùng một cảnh trong rừng để đặt câu hỏi về lựa chọn, ký ức và cách con người kể lại đời mình.",
+    "style": "Ngôn ngữ gần lời nói, hình ảnh cụ thể mở ý nghĩa nhiều tầng; vẻ giản dị có thể chứa sự mơ hồ và tự chất vấn.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "kim-lan",
+    "slug": "kim-lan",
+    "name": "Kim Lân",
+    "period": "Văn học Việt Nam hiện đại",
+    "bio": "Kim Lân là nhà văn Việt Nam viết về nông thôn và người dân nghèo. Vợ nhặt đặt chuyện hình thành gia đình giữa nạn đói 1945 để làm rõ nhu cầu sống và được yêu thương.",
+    "style": "Tình huống đặc sắc, tâm lý tinh tế, lời thoại mộc mạc; phẩm giá được thể hiện bằng cử chỉ và ứng xử đời thường.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "nam-cao",
+    "slug": "nam-cao",
+    "name": "Nam Cao",
+    "period": "Văn học trước 1945",
+    "bio": "Nam Cao là nhà văn Việt Nam, tác giả Chí Phèo, Lão Hạc và nhiều truyện về người nghèo, người trí thức. Tác phẩm đặt những câu hỏi sâu về phẩm giá và điều kiện sống.",
+    "style": "Phân tích tâm lý, điểm nhìn linh hoạt, giọng kể có nhiều lớp; phê phán hoàn cảnh làm con người bị tước quyền sống như một người.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "to-huu",
+    "slug": "to-huu",
+    "name": "Tố Hữu",
+    "period": "Thơ Việt Nam hiện đại",
+    "bio": "Tố Hữu là nhà thơ Việt Nam. Nhớ đồng được viết từ trải nghiệm tù đày, nối tiếng gọi của cảnh quê với nhu cầu tự do và hướng sống của chủ thể trữ tình.",
+    "style": "Giọng tha thiết, nhịp điệp giàu sức gọi; cảm xúc cá nhân kết nối với con người lao động và đời sống cộng đồng.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "pushkin",
+    "slug": "pushkin",
+    "name": "Aleksandr Pushkin",
+    "period": "Văn học Nga thế kỷ XIX",
+    "bio": "Pushkin là nhà thơ, nhà văn Nga. Con đường mùa đông tổ chức một hành trình trong tuyết thành sự vận động giữa buồn vắng và mong đợi một nơi thân thuộc.",
+    "style": "Nhạc tính, nhịp lặp và tương quan cảnh với lòng người; cảm xúc được giữ trong một hệ hình ảnh cụ thể.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "ngo-thi-nham",
+    "slug": "ngo-thi-nham",
+    "name": "Ngô Thì Nhậm",
+    "period": "Văn học trung đại",
+    "bio": "Ngô Thì Nhậm là văn thần và tác giả Việt Nam, người viết Chiếu cầu hiền thay lời vua Quang Trung. Văn bản kêu gọi người có tài tham gia xây dựng triều đại và đất nước.",
+    "style": "Lập luận dựa trên hệ giá trị của người nghe, kết hợp thái độ khiêm nhường với chính sách cụ thể.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "martin-luther-king",
+    "slug": "martin-luther-king",
+    "name": "Martin Luther King Jr.",
+    "period": "Diễn thuyết thế kỷ XX",
+    "bio": "Martin Luther King Jr. là người hoạt động cho quyền công dân ở Hoa Kỳ. Diễn văn Tôi có một ước mơ được trình bày năm 1963, kêu gọi bình đẳng và hành động bất bạo động.",
+    "style": "Ẩn dụ nối lý lẽ với cảm xúc; điệp cấu trúc tạo nhịp cộng đồng và chuyển điều đang thiếu thành hình dung về một tương lai chung.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "hoai-thanh",
+    "slug": "hoai-thanh",
+    "name": "Hoài Thanh",
+    "period": "Phê bình văn học hiện đại",
+    "bio": "Hoài Thanh là nhà phê bình Việt Nam. Một thời đại trong thi ca thuộc phần khảo luận của Thi nhân Việt Nam, cuốn sách do Hoài Thanh và Hoài Chân biên soạn.",
+    "style": "Phân tích lịch sử thơ qua cảm thức và cái tôi; khái quát được làm sống bằng những nhận xét tinh tế về từng hồn thơ.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "cao-ba-quat",
+    "slug": "cao-ba-quat",
+    "name": "Cao Bá Quát",
+    "period": "Văn học trung đại",
+    "bio": "Cao Bá Quát là nhà thơ Việt Nam thế kỷ XIX. Dương phụ hành ghi lại một cái nhìn trước cảnh sinh hoạt của người phương Tây và chuyển thành nỗi nhớ riêng.",
+    "style": "Quan sát cụ thể, tâm thế cởi mở trước điều khác lạ; kết thúc thường làm hiện một chuyển động bên trong người nhìn.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "xuan-quynh",
+    "slug": "xuan-quynh",
+    "name": "Xuân Quỳnh",
+    "period": "Thơ Việt Nam hiện đại",
+    "bio": "Xuân Quỳnh là nhà thơ Việt Nam, tác giả Thuyền và biển, Sóng và nhiều bài về tình yêu, gia đình, tuổi trẻ.",
+    "style": "Giọng thơ trực tiếp mà giàu suy nghĩ; hình tượng thiên nhiên tổ chức những trạng thái mong nhớ, bất an và gắn bó.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "shakespeare",
+    "slug": "shakespeare",
+    "name": "William Shakespeare",
+    "period": "Kịch Anh thời Phục hưng",
+    "bio": "William Shakespeare là nhà viết kịch Anh, tác giả Hamlet. Đoạn độc thoại Sống, hay không sống đưa xung đột vào quá trình suy nghĩ của nhân vật.",
+    "style": "Lời kịch giàu lập luận, câu hỏi và hình ảnh; bi kịch hình thành qua lựa chọn khó khăn cùng giới hạn nhận thức.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "nguyen-huy-tuong",
+    "slug": "nguyen-huy-tuong",
+    "name": "Nguyễn Huy Tưởng",
+    "period": "Văn học Việt Nam hiện đại",
+    "bio": "Nguyễn Huy Tưởng là nhà văn, nhà viết kịch Việt Nam. Vũ Như Tô lấy chất liệu lịch sử để đặt câu hỏi về nghệ thuật và đời sống nhân dân.",
+    "style": "Xung đột nhiều chiều, nhân vật giữ những niềm tin không dễ dung hòa; đối thoại và hành động sân khấu đẩy bi kịch đến cao trào.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "nguyen-du",
+    "slug": "nguyen-du",
+    "name": "Nguyễn Du",
+    "period": "Văn học trung đại",
+    "bio": "Nguyễn Du là tác giả Truyện Kiều và nhiều tập thơ chữ Hán. Những tác phẩm được đọc ở đây chú ý số phận, tình cảm và sự cô độc của con người tài hoa.",
+    "style": "Khả năng diễn tả tâm lý sâu, ngôn ngữ giàu sức gợi; cảm thương mở từ một số phận cụ thể sang câu hỏi về phẩm giá và quyền sống.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "hoang-phu-ngoc-tuong",
+    "slug": "hoang-phu-ngoc-tuong",
+    "name": "Hoàng Phủ Ngọc Tường",
+    "period": "Ký Việt Nam hiện đại",
+    "bio": "Hoàng Phủ Ngọc Tường là tác giả bút ký Việt Nam, gắn nhiều trang viết với Huế. Ai đã đặt tên cho dòng sông? kết nối cảnh sông Hương với lịch sử, văn hóa và ký ức.",
+    "style": "Liên tưởng phong phú, tri thức nhiều lĩnh vực đi cùng cái tôi trữ tình; cảnh vật được nhìn trong các quan hệ văn hóa.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "svetlana-alexievich",
+    "slug": "svetlana-alexievich",
+    "name": "Svetlana Alexievich",
+    "period": "Văn học tư liệu hiện đại",
+    "bio": "Svetlana Alexievich là nhà văn Belarus, tác giả Những nhân chứng cuối cùng. Bà ghi lại ký ức của con người từng trải qua chiến tranh, chú ý những tiếng nói thường bị khuất sau lịch sử sự kiện.",
+    "style": "Cấu trúc từ lời kể nhân chứng, giữ sức nặng của trải nghiệm và khoảng lặng; tiếng nói cá nhân làm rõ hậu quả chiến tranh trong đời sống.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "tran-tuan",
+    "slug": "tran-tuan",
+    "name": "Trần Tuấn",
+    "period": "Ký Việt Nam đương đại",
+    "bio": "Trần Tuấn là nhà thơ và tác giả ký Việt Nam. Cà Mau quê xứ kể một chuyến đến đất Mũi qua cảm giác, liên tưởng văn học và sự gặp gỡ con người.",
+    "style": "Giọng ký linh hoạt, lời nói địa phương và cảm xúc cá nhân nối cảnh quan với tình cảm gắn bó.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "nguyen-cong-tru",
+    "slug": "nguyen-cong-tru",
+    "name": "Nguyễn Công Trứ",
+    "period": "Văn học trung đại",
+    "bio": "Nguyễn Công Trứ là tác giả Việt Nam thế kỷ XIX, có đời sống gắn với việc làm quan và những thăng trầm. Bài ca ngất ngưởng thể hiện một cách tự nhìn về tài năng, công việc và cá tính.",
+    "style": "Hát nói có nhịp linh hoạt; giọng tự thuật kết hợp nghiêm túc với hóm hỉnh, khẳng định một cá tính trong khuôn khổ bổn phận.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "nguyen-dinh-chieu",
+    "slug": "nguyen-dinh-chieu",
+    "name": "Nguyễn Đình Chiểu",
+    "period": "Văn học trung đại",
+    "bio": "Nguyễn Đình Chiểu là nhà thơ Việt Nam, tác giả Lục Vân Tiên và Văn tế nghĩa sĩ Cần Giuộc. Sáng tác đề cao đạo nghĩa và sự hy sinh của những người dân bình thường.",
+    "style": "Ngôn ngữ giàu hơi thở Nam Bộ, hình ảnh đời thường có sức nâng phẩm giá; giọng cảm thương gắn với phê phán và tôn vinh.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "vu-trong-phung",
+    "slug": "vu-trong-phung",
+    "name": "Vũ Trọng Phụng",
+    "period": "Văn học trước 1945",
+    "bio": "Vũ Trọng Phụng là nhà văn Việt Nam, tác giả Số đỏ và nhiều tác phẩm phóng sự. Đoạn Xuân Tóc Đỏ cứu quốc làm rõ cách danh tiếng được tạo trong một xã hội thích diễn trò.",
+    "style": "Trào phúng sắc, tình huống nghịch lý, ngôn ngữ nhiều giọng; phơi bày độ lệch giữa tên gọi đạo đức và động cơ vụ lợi.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "ma-van-khang",
+    "slug": "ma-van-khang",
+    "name": "Ma Văn Kháng",
+    "period": "Văn học sau 1975",
+    "bio": "Ma Văn Kháng là nhà văn Việt Nam, tác giả Mùa lá rụng trong vườn. Tiểu thuyết đặt đời sống gia đình trước những đổi thay của xã hội và các giá trị.",
+    "style": "Tâm lý nhân vật gắn với quan hệ gia đình; những sinh hoạt bình thường trở thành nơi va chạm giữa cách sống và kỳ vọng.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "dang-dung",
+    "slug": "dang-dung",
+    "name": "Đặng Dung",
+    "period": "Văn học trung đại",
+    "bio": "Đặng Dung là tác giả Cảm hoài, gắn với cuộc kháng chiến chống quân Minh đầu thế kỷ XV. Bài thơ đặt chí lớn trước tuổi tác và thời thế không thuận.",
+    "style": "Thơ luật có đối sánh mạnh, điển cố mở tầm suy nghĩ; hình ảnh cuối giữ ý chí trong một cảnh cô độc.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "quang-dung",
+    "slug": "quang-dung",
+    "name": "Quang Dũng",
+    "period": "Thơ kháng chiến",
+    "bio": "Quang Dũng là nhà thơ Việt Nam, từng tham gia đơn vị Tây Tiến. Thơ ông kết nối ký ức miền Tây với vẻ đẹp hào hoa và những mất mát của người lính.",
+    "style": "Hình ảnh giàu chất họa, nhịp biến hóa; hiện thực gian khổ đi cùng liên tưởng lãng mạn và giọng bi tráng.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "thanh-thao",
+    "slug": "thanh-thao",
+    "name": "Thanh Thảo",
+    "period": "Thơ Việt Nam hiện đại",
+    "bio": "Thanh Thảo là nhà thơ Việt Nam. Đàn ghi ta của Lor-ca tưởng niệm nhà thơ Tây Ban Nha Federico García Lorca và suy nghĩ về sức sống của nghệ thuật.",
+    "style": "Cấu trúc liên tưởng, biểu tượng và nhịp tự do; những chuyển đổi giác quan tạo hình thức cho mất mát và dư âm.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "nguyen-dinh-thi",
+    "slug": "nguyen-dinh-thi",
+    "name": "Nguyễn Đình Thi",
+    "period": "Văn học Việt Nam hiện đại",
+    "bio": "Nguyễn Đình Thi là nhà văn, nhà thơ Việt Nam, tác giả Mấy ý nghĩ về thơ. Tiểu luận suy nghĩ về cảm xúc, hình ảnh và ngôn ngữ trong sáng tạo thơ.",
+    "style": "Lý lẽ kết hợp ví dụ và cảm nhận, ngôn ngữ giàu hình dung; quan tâm sự sống của trải nghiệm trong hình thức nghệ thuật.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "doan-thi-diem",
+    "slug": "doan-thi-diem",
+    "name": "Đoàn Thị Điểm",
+    "period": "Văn học trung đại",
+    "bio": "Đoàn Thị Điểm là nữ tác giả Việt Nam thế kỷ XVIII, gắn với Truyền kỳ tân phả. Hải khẩu linh từ dựng hình tượng Bích Châu qua tài năng, can gián và sự hy sinh.",
+    "style": "Truyền kỳ kết hợp dấu vết lịch sử với thế giới thần linh; tiếng nói nữ nhân vật mở các câu hỏi về đạo nghĩa và công lý.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "nguyen-huy-thiep",
+    "slug": "nguyen-huy-thiep",
+    "name": "Nguyễn Huy Thiệp",
+    "period": "Văn học sau 1975",
+    "bio": "Nguyễn Huy Thiệp là nhà văn Việt Nam. Muối của rừng dùng một cuộc săn để đặt lại quan hệ giữa con người, quyền lực và sự sống của tự nhiên.",
+    "style": "Lời kể tiết chế, giọng có khoảng mỉa, chi tiết cụ thể đặt nhân vật trước những biến cố làm lung lay định kiến.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "gogol",
+    "slug": "gogol",
+    "name": "Nikolai Gogol",
+    "period": "Văn học Nga thế kỷ XIX",
+    "bio": "Nikolai Gogol là nhà văn, nhà viết kịch Nga, tác giả Quan thanh tra. Đoạn Nhân vật quan trọng khai thác sự hiểu lầm cùng tâm lý sợ quyền lực của giới chức địa phương.",
+    "style": "Phóng đại, đối thoại và sai lệch nhận thức tạo tiếng cười; sự tự lộ của nhân vật phơi bày một cơ chế xã hội.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "long-chuong",
+    "slug": "long-chuong",
+    "name": "Lộng Chương",
+    "period": "Kịch Việt Nam hiện đại",
+    "bio": "Lộng Chương là nhà viết kịch Việt Nam, tác giả hài kịch Quẫn. Đoạn Giấu của dùng cảnh ông bà Đại Cát tìm nơi cất tài sản để bộc lộ sự bất an và ám ảnh sở hữu.",
+    "style": "Hài kịch dựa vào đối thoại lệch pha, động tác rối và tình huống tăng cấp; tiếng cười nảy từ mâu thuẫn giữa ý định và hành động.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "ho-chi-minh",
+    "slug": "ho-chi-minh",
+    "name": "Hồ Chí Minh",
+    "period": "Văn học Việt Nam hiện đại",
+    "bio": "Hồ Chí Minh sáng tác thơ, truyện và văn chính luận; trong một số tác phẩm dùng tên Nguyễn Ái Quốc. Các bài được đọc có hình thức khác nhau nên cần xem xét riêng mục đích và bối cảnh.",
+    "style": "Chính luận tổ chức lý lẽ sắc; truyện có sức châm biếm; thơ có thể kết hợp hình ảnh cổ điển với đời sống và tư thế chủ động.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "ngo-tat-to",
+    "slug": "ngo-tat-to",
+    "name": "Ngô Tất Tố",
+    "period": "Văn học trước 1945",
+    "bio": "Ngô Tất Tố là nhà văn, nhà báo Việt Nam, tác giả Tắt đèn và Việc làng. Những trang phóng sự quan sát cơ chế phong tục và sức ép đối với người dân nông thôn.",
+    "style": "Ghi chép cụ thể, đối thoại đời thường, giọng kể có mỉa; những việc nhỏ bộc lộ trật tự và bất công xã hội.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "dao-duy-anh",
+    "slug": "dao-duy-anh",
+    "name": "Đào Duy Anh",
+    "period": "Hồi ký Việt Nam hiện đại",
+    "bio": "Đào Duy Anh là nhà nghiên cứu Việt Nam, tác giả Nhớ nghĩ chiều hôm. Bước vào đời hồi tưởng những lựa chọn tuổi trẻ trong quan hệ với chuyển động xã hội.",
+    "style": "Ngôi kể thứ nhất có độ lùi thời gian; trải nghiệm riêng kết nối với nhân vật, địa danh và sự kiện lịch sử.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "xuan-dieu",
+    "slug": "xuan-dieu",
+    "name": "Xuân Diệu",
+    "period": "Thơ mới",
+    "bio": "Xuân Diệu là nhà thơ Việt Nam trong phong trào Thơ mới. Vội vàng đặt niềm yêu đời trước ý thức thời gian trôi và tuổi trẻ không trở lại.",
+    "style": "Cảm giác giàu cường độ, nhịp biến hóa; hình ảnh thiên nhiên gắn với khát vọng gần gũi và tận hưởng đời sống.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  },
+  {
+    "id": "hemingway",
+    "slug": "hemingway",
+    "name": "Ernest Hemingway",
+    "period": "Văn học Mỹ thế kỷ XX",
+    "bio": "Ernest Hemingway là nhà văn Mỹ, tác giả Ông già và biển cả. Đoạn Trở về tiếp tục câu chuyện người ngư dân sau cuộc vật lộn trên biển và những mất mát.",
+    "style": "Lời kể kiệm, hành động và đối thoại cụ thể mở lớp nghĩa ngầm; những chi tiết không được giải thích hết giữ sức suy ngẫm.",
+    "status": "published",
+    "sourceIds": [
+      "ppct"
+    ]
+  }
+]

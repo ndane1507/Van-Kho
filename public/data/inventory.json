@@ -1,0 +1,2178 @@
+[
+  {
+    "id": "ppct-10-1-1",
+    "grade": 10,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 1: Sức hấp dẫn của truyện kể (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 1, 2, 3:  Truyện về các vị thần sáng tạo thế giới",
+    "workTitle": "Truyện về các vị thần sáng tạo thế giới",
+    "excerptTitle": null,
+    "genre": "Thần thoại",
+    "lessonOrder": 1,
+    "ppctPage": null,
+    "sourceRows": [
+      8
+    ],
+    "periodReferences": [
+      "1 -2 "
+    ],
+    "anthologyGroup": "Truyện về các vị thần sáng tạo thế giới",
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "truyen-ve-cac-vi-than-sang-tao-the-gioi",
+    "articleSlug": "truyen-ve-cac-vi-than-sang-tao-the-gioi"
+  },
+  {
+    "id": "ppct-10-1-2",
+    "grade": 10,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 1: Sức hấp dẫn của truyện kể (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 4:  Tản Viên từ Phán sự lục",
+    "workTitle": "Tản Viên từ Phán sự lục",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 2,
+    "ppctPage": null,
+    "sourceRows": [
+      9
+    ],
+    "periodReferences": [
+      "3 -4"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "tan-vien-tu-phan-su-luc",
+    "articleSlug": "tan-vien-tu-phan-su-luc"
+  },
+  {
+    "id": "ppct-10-1-3",
+    "grade": 10,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 1: Sức hấp dẫn của truyện kể (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 5:  Chữ người tử tù",
+    "workTitle": "Chữ người tử tù",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 3,
+    "ppctPage": null,
+    "sourceRows": [
+      10
+    ],
+    "periodReferences": [
+      "5 -6-7"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "chu-nguoi-tu-tu",
+    "articleSlug": "chu-nguoi-tu-tu"
+  },
+  {
+    "id": "ppct-10-1-4",
+    "grade": 10,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 2: Vẻ đẹp của thơ ca (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 1, 2, 3:  Chùm thơ hai-cư",
+    "workTitle": "Chùm thơ hai-cư",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 4,
+    "ppctPage": null,
+    "sourceRows": [
+      15
+    ],
+    "periodReferences": [
+      "12"
+    ],
+    "anthologyGroup": "Chùm thơ hai-cư",
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "chum-tho-hai-cu",
+    "articleSlug": "chum-tho-hai-cu"
+  },
+  {
+    "id": "ppct-10-1-5",
+    "grade": 10,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 2: Vẻ đẹp của thơ ca (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 4:  Thu hứng",
+    "workTitle": "Thu hứng",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 5,
+    "ppctPage": null,
+    "sourceRows": [
+      16
+    ],
+    "periodReferences": [
+      "13 -14"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "thu-hung",
+    "articleSlug": "thu-hung"
+  },
+  {
+    "id": "ppct-10-1-6",
+    "grade": 10,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 2: Vẻ đẹp của thơ ca (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 5:  Mùa xuân chín",
+    "workTitle": "Mùa xuân chín",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 6,
+    "ppctPage": null,
+    "sourceRows": [
+      17
+    ],
+    "periodReferences": [
+      "15  -16"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "mua-xuan-chin",
+    "articleSlug": "mua-xuan-chin"
+  },
+  {
+    "id": "ppct-10-1-7",
+    "grade": 10,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 2: Vẻ đẹp của thơ ca (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 6:  Bản hoà âm ngôn từ trong  Tiếng thu  của Lưu Trọng Lư",
+    "workTitle": "Bản hoà âm ngôn từ trong Tiếng thu của Lưu Trọng Lư",
+    "excerptTitle": null,
+    "genre": "Phê bình văn học",
+    "lessonOrder": 7,
+    "ppctPage": null,
+    "sourceRows": [
+      18
+    ],
+    "periodReferences": [
+      "17"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK.",
+    "validationStatus": "editorial_cross_checked_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "ban-hoa-am-ngon-tu",
+    "articleSlug": "ban-hoa-am-ngon-tu"
+  },
+  {
+    "id": "ppct-10-1-8",
+    "grade": 10,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 3: Nghệ thuật thuyết phục trong văn nghị luận (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Hiền tài là nguyên khí của quốc gia",
+    "workTitle": "Hiền tài là nguyên khí của quốc gia",
+    "excerptTitle": null,
+    "genre": "Chính luận",
+    "lessonOrder": 8,
+    "ppctPage": null,
+    "sourceRows": [
+      24
+    ],
+    "periodReferences": [
+      "25  -26 "
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "hien-tai-la-nguyen-khi",
+    "articleSlug": "hien-tai-la-nguyen-khi"
+  },
+  {
+    "id": "ppct-10-1-9",
+    "grade": 10,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 3: Nghệ thuật thuyết phục trong văn nghị luận (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Yêu và đồng cảm",
+    "workTitle": "Yêu và đồng cảm",
+    "excerptTitle": null,
+    "genre": "Tiểu luận",
+    "lessonOrder": 9,
+    "ppctPage": null,
+    "sourceRows": [
+      25
+    ],
+    "periodReferences": [
+      "27 - 28"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK.",
+    "validationStatus": "editorial_cross_checked_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "yeu-va-dong-cam",
+    "articleSlug": "yeu-va-dong-cam"
+  },
+  {
+    "id": "ppct-10-1-10",
+    "grade": 10,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 3: Nghệ thuật thuyết phục trong văn nghị luận (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 3:  Chữ bầu lên nhà thơ",
+    "workTitle": "Chữ bầu lên nhà thơ",
+    "excerptTitle": null,
+    "genre": "Phê bình văn học",
+    "lessonOrder": 10,
+    "ppctPage": null,
+    "sourceRows": [
+      26
+    ],
+    "periodReferences": [
+      "29  -30"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "chu-bau-len-nha-tho",
+    "articleSlug": "chu-bau-len-nha-tho"
+  },
+  {
+    "id": "ppct-10-1-11",
+    "grade": 10,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 4: Sức sống sử thi (08 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Héc-to từ biệt Ăng-đrô-mác",
+    "workTitle": "Héc-to từ biệt Ăng-đrô-mác",
+    "excerptTitle": null,
+    "genre": "Sử thi",
+    "lessonOrder": 11,
+    "ppctPage": null,
+    "sourceRows": [
+      32
+    ],
+    "periodReferences": [
+      "36 - 37"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "hec-to-tu-biet-ang-dro-mac",
+    "articleSlug": "hec-to-tu-biet-ang-dro-mac"
+  },
+  {
+    "id": "ppct-10-1-12",
+    "grade": 10,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 4: Sức sống sử thi (08 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Đăm Săn đi bắt Nữ Thần Mặt Trời",
+    "workTitle": "Đăm Săn đi bắt Nữ Thần Mặt Trời",
+    "excerptTitle": null,
+    "genre": "Sử thi",
+    "lessonOrder": 12,
+    "ppctPage": null,
+    "sourceRows": [
+      33
+    ],
+    "periodReferences": [
+      "38  -39"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "dam-san-di-bat-nu-than-mat-troi",
+    "articleSlug": "dam-san-di-bat-nu-than-mat-troi"
+  },
+  {
+    "id": "ppct-10-1-13",
+    "grade": 10,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 5: Tích trò sân khấu dân gian (07 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Xuý Vân giả dại",
+    "workTitle": "Xuý Vân giả dại",
+    "excerptTitle": null,
+    "genre": "Chèo",
+    "lessonOrder": 13,
+    "ppctPage": null,
+    "sourceRows": [
+      38
+    ],
+    "periodReferences": [
+      "44  -45"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK.",
+    "validationStatus": "editorial_cross_checked_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "xuy-van-gia-dai",
+    "articleSlug": "xuy-van-gia-dai"
+  },
+  {
+    "id": "ppct-10-1-14",
+    "grade": 10,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 5: Tích trò sân khấu dân gian (07 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Huyện đường",
+    "workTitle": "Huyện đường",
+    "excerptTitle": null,
+    "genre": "Kịch",
+    "lessonOrder": 14,
+    "ppctPage": null,
+    "sourceRows": [
+      39
+    ],
+    "periodReferences": [
+      "46"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "huyen-duong",
+    "articleSlug": "huyen-duong"
+  },
+  {
+    "id": "ppct-10-1-15",
+    "grade": 10,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 5: Tích trò sân khấu dân gian (07 tiết)",
+    "ppctLessonLabel": "Đọc VB 3:  Múa rối nước - hiện đại soi bóng tiền nhân",
+    "workTitle": "Múa rối nước - hiện đại soi bóng tiền nhân",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 15,
+    "ppctPage": null,
+    "sourceRows": [
+      40
+    ],
+    "periodReferences": [
+      "47"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "exclude_nonliterary",
+    "decisionReason": "Văn bản thông tin ngoài phạm vi thư viện tác phẩm.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-10-2-1",
+    "grade": 10,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 6: Nguyễn Trãi – \"Dành còn để trợ dân này” (11 tiết )",
+    "ppctLessonLabel": "Đọc VB 1:  Tác gia Nguyễn Trãi",
+    "workTitle": "Tác gia Nguyễn Trãi",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 1,
+    "ppctPage": null,
+    "sourceRows": [
+      49
+    ],
+    "periodReferences": [
+      "55"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "author_profile_only",
+    "decisionReason": "Bài giới thiệu tác gia, chỉ tạo hồ sơ tác giả.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-10-2-2",
+    "grade": 10,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 6: Nguyễn Trãi – \"Dành còn để trợ dân này” (11 tiết )",
+    "ppctLessonLabel": "Đọc VB 2:  Bình Ngô đại cáo",
+    "workTitle": "Bình Ngô đại cáo",
+    "excerptTitle": null,
+    "genre": "Chính luận",
+    "lessonOrder": 2,
+    "ppctPage": null,
+    "sourceRows": [
+      50
+    ],
+    "periodReferences": [
+      "56 -57-58"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "binh-ngo-dai-cao",
+    "articleSlug": "binh-ngo-dai-cao"
+  },
+  {
+    "id": "ppct-10-2-3",
+    "grade": 10,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 6: Nguyễn Trãi – \"Dành còn để trợ dân này” (11 tiết )",
+    "ppctLessonLabel": "Đọc VB 3:  Bảo kính cảnh giới (Bài 43)",
+    "workTitle": "Bảo kính cảnh giới (Bài 43)",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 3,
+    "ppctPage": null,
+    "sourceRows": [
+      51
+    ],
+    "periodReferences": [
+      "59"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "bao-kinh-canh-gioi",
+    "articleSlug": "bao-kinh-canh-gioi"
+  },
+  {
+    "id": "ppct-10-2-4",
+    "grade": 10,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 6: Nguyễn Trãi – \"Dành còn để trợ dân này” (11 tiết )",
+    "ppctLessonLabel": "Đọc VB 4:  Dục Thuý sơn",
+    "workTitle": "Dục Thuý sơn",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 4,
+    "ppctPage": null,
+    "sourceRows": [
+      52
+    ],
+    "periodReferences": [
+      "60"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "duc-thuy-son",
+    "articleSlug": "duc-thuy-son"
+  },
+  {
+    "id": "ppct-10-2-5",
+    "grade": 10,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 7: Quyền năng của người kể chuyện (12 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Người cầm quyền khôi phục uy quyền",
+    "workTitle": "Người cầm quyền khôi phục uy quyền",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 5,
+    "ppctPage": null,
+    "sourceRows": [
+      57
+    ],
+    "periodReferences": [
+      "66  - 67 - 68"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "nguoi-cam-quyen-khoi-phuc-uy-quyen",
+    "articleSlug": "nguoi-cam-quyen-khoi-phuc-uy-quyen"
+  },
+  {
+    "id": "ppct-10-2-6",
+    "grade": 10,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 7: Quyền năng của người kể chuyện (12 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Dưới bóng hoàng lan",
+    "workTitle": "Dưới bóng hoàng lan",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 6,
+    "ppctPage": null,
+    "sourceRows": [
+      58
+    ],
+    "periodReferences": [
+      "69 -70-71"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "duoi-bong-hoang-lan",
+    "articleSlug": "duoi-bong-hoang-lan"
+  },
+  {
+    "id": "ppct-10-2-7",
+    "grade": 10,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 7: Quyền năng của người kể chuyện (12 tiết)",
+    "ppctLessonLabel": "Đọc VB 3:  Một chuyện đùa nho nhỏ",
+    "workTitle": "Một chuyện đùa nho nhỏ",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 7,
+    "ppctPage": null,
+    "sourceRows": [
+      59
+    ],
+    "periodReferences": [
+      "72 -73"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "mot-chuyen-dua-nho-nho",
+    "articleSlug": "mot-chuyen-dua-nho-nho"
+  },
+  {
+    "id": "ppct-10-2-8",
+    "grade": 10,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 8: Thế giới đa dạng của thông tin (11 tiết )",
+    "ppctLessonLabel": "Đọc VB 1:  Sự sống và cái chết",
+    "workTitle": "Sự sống và cái chết",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 8,
+    "ppctPage": null,
+    "sourceRows": [
+      65
+    ],
+    "periodReferences": [
+      "80 -81"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "exclude_nonliterary",
+    "decisionReason": "Văn bản thông tin ngoài phạm vi thư viện tác phẩm.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-10-2-9",
+    "grade": 10,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 8: Thế giới đa dạng của thông tin (11 tiết )",
+    "ppctLessonLabel": "Đọc VB 2:  Nghệ thuật truyền thống của người Việt",
+    "workTitle": "Nghệ thuật truyền thống của người Việt",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 9,
+    "ppctPage": null,
+    "sourceRows": [
+      66
+    ],
+    "periodReferences": [
+      "82 -83"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "exclude_nonliterary",
+    "decisionReason": "Văn bản thông tin ngoài phạm vi thư viện tác phẩm.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-10-2-10",
+    "grade": 10,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 8: Thế giới đa dạng của thông tin (11 tiết )",
+    "ppctLessonLabel": "Đọc VB 3:  Phục hồi tâng ozone: Thành công hiếm hoi của nỗ lực toàn cầu",
+    "workTitle": "Phục hồi tâng ozone: Thành công hiếm hoi của nỗ lực toàn cầu",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 10,
+    "ppctPage": null,
+    "sourceRows": [
+      67
+    ],
+    "periodReferences": [
+      "84 -85"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "exclude_nonliterary",
+    "decisionReason": "Văn bản thông tin ngoài phạm vi thư viện tác phẩm.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-10-2-11",
+    "grade": 10,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 9: Hành trang cuộc sống (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Về chính chúng ta",
+    "workTitle": "Về chính chúng ta",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 11,
+    "ppctPage": null,
+    "sourceRows": [
+      73
+    ],
+    "periodReferences": [
+      "92 -93"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "needs_review",
+    "decisionReason": "Cần xác minh thể loại, nhan đề hoặc phạm vi trước khi chọn xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-10-2-12",
+    "grade": 10,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 9: Hành trang cuộc sống (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Con đường không chọn",
+    "workTitle": "Con đường không chọn",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 12,
+    "ppctPage": null,
+    "sourceRows": [
+      74
+    ],
+    "periodReferences": [
+      "94 -95"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "con-duong-khong-chon",
+    "articleSlug": "con-duong-khong-chon"
+  },
+  {
+    "id": "ppct-10-2-13",
+    "grade": 10,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 9: Hành trang cuộc sống (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 3:  Một đời như kẻ tìm đường",
+    "workTitle": "Một đời như kẻ tìm đường",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 13,
+    "ppctPage": null,
+    "sourceRows": [
+      75
+    ],
+    "periodReferences": [
+      "96 -97"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "needs_review",
+    "decisionReason": "Cần xác minh thể loại, nhan đề hoặc phạm vi trước khi chọn xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-11-1-1",
+    "grade": 11,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 1: Câu chuyện và điểm nhìn trong truyện kể (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Vợ nhặt",
+    "workTitle": "Vợ nhặt",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 1,
+    "ppctPage": null,
+    "sourceRows": [
+      101
+    ],
+    "periodReferences": [
+      "1-2-3"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "vo-nhat",
+    "articleSlug": "vo-nhat"
+  },
+  {
+    "id": "ppct-11-1-2",
+    "grade": 11,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 1: Câu chuyện và điểm nhìn trong truyện kể (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Chí Phèo",
+    "workTitle": "Chí Phèo",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 2,
+    "ppctPage": null,
+    "sourceRows": [
+      103
+    ],
+    "periodReferences": [
+      "4-5-6"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "chi-pheo",
+    "articleSlug": "chi-pheo"
+  },
+  {
+    "id": "ppct-11-1-3",
+    "grade": 11,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 2: Cấu tứ và hình ảnh trong thơ trữ tình (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Nhớ đồng",
+    "workTitle": "Nhớ đồng",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 3,
+    "ppctPage": null,
+    "sourceRows": [
+      111,
+      113
+    ],
+    "periodReferences": [
+      "12",
+      "13"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "nho-dong",
+    "articleSlug": "nho-dong"
+  },
+  {
+    "id": "ppct-11-1-4",
+    "grade": 11,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 2: Cấu tứ và hình ảnh trong thơ trữ tình (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Tràng giang",
+    "workTitle": "Tràng giang",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 4,
+    "ppctPage": null,
+    "sourceRows": [
+      114
+    ],
+    "periodReferences": [
+      "14-15"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "trang-giang",
+    "articleSlug": "trang-giang"
+  },
+  {
+    "id": "ppct-11-1-5",
+    "grade": 11,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 2: Cấu tứ và hình ảnh trong thơ trữ tình (10 tiết)",
+    "ppctLessonLabel": "Đọc VB3:  Con đường mùa đông",
+    "workTitle": "Con đường mùa đông",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 5,
+    "ppctPage": null,
+    "sourceRows": [
+      116
+    ],
+    "periodReferences": [
+      "16 – 17"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "con-duong-mua-dong",
+    "articleSlug": "con-duong-mua-dong"
+  },
+  {
+    "id": "ppct-11-1-6",
+    "grade": 11,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 3: Cấu trúc của văn bản nghị luận (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Chiếu cầu hiền",
+    "workTitle": "Chiếu cầu hiền",
+    "excerptTitle": null,
+    "genre": "Chính luận",
+    "lessonOrder": 6,
+    "ppctPage": null,
+    "sourceRows": [
+      124,
+      126
+    ],
+    "periodReferences": [
+      "24",
+      "25"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "chieu-cau-hien",
+    "articleSlug": "chieu-cau-hien"
+  },
+  {
+    "id": "ppct-11-1-7",
+    "grade": 11,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 3: Cấu trúc của văn bản nghị luận (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Tôi có một ước mơ",
+    "workTitle": "Tôi có một ước mơ",
+    "excerptTitle": null,
+    "genre": "Chính luận",
+    "lessonOrder": 7,
+    "ppctPage": null,
+    "sourceRows": [
+      127
+    ],
+    "periodReferences": [
+      "26-27"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "toi-co-mot-uoc-mo",
+    "articleSlug": "toi-co-mot-uoc-mo"
+  },
+  {
+    "id": "ppct-11-1-8",
+    "grade": 11,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 3: Cấu trúc của văn bản nghị luận (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 3:  Một thời đại trong thi ca",
+    "workTitle": "Một thời đại trong thi ca",
+    "excerptTitle": null,
+    "genre": "Phê bình văn học",
+    "lessonOrder": 8,
+    "ppctPage": null,
+    "sourceRows": [
+      129
+    ],
+    "periodReferences": [
+      "28-29"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "mot-thoi-dai-trong-thi-ca",
+    "articleSlug": "mot-thoi-dai-trong-thi-ca"
+  },
+  {
+    "id": "ppct-11-1-9",
+    "grade": 11,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 4: Tự sự trong truyện thơ dân gian và trong thơ trữ tình (09 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Lời tiễn dặn",
+    "workTitle": "Lời tiễn dặn",
+    "excerptTitle": null,
+    "genre": "Truyện thơ",
+    "lessonOrder": 9,
+    "ppctPage": null,
+    "sourceRows": [
+      137
+    ],
+    "periodReferences": [
+      "35-36"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "loi-tien-dan",
+    "articleSlug": "loi-tien-dan"
+  },
+  {
+    "id": "ppct-11-1-10",
+    "grade": 11,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 4: Tự sự trong truyện thơ dân gian và trong thơ trữ tình (09 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Dương phụ hành",
+    "workTitle": "Dương phụ hành",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 10,
+    "ppctPage": null,
+    "sourceRows": [
+      139
+    ],
+    "periodReferences": [
+      "37"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "duong-phu-hanh",
+    "articleSlug": "duong-phu-hanh"
+  },
+  {
+    "id": "ppct-11-1-11",
+    "grade": 11,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 4: Tự sự trong truyện thơ dân gian và trong thơ trữ tình (09 tiết)",
+    "ppctLessonLabel": "Đọc VB 3:  Thuyền và biển",
+    "workTitle": "Thuyền và biển",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 11,
+    "ppctPage": null,
+    "sourceRows": [
+      140
+    ],
+    "periodReferences": [
+      "38-39"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "thuyen-va-bien",
+    "articleSlug": "thuyen-va-bien"
+  },
+  {
+    "id": "ppct-11-1-12",
+    "grade": 11,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 5: Nhân vật và xung đột trong bi kịch (07 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Sống, hay không sống",
+    "workTitle": "Sống, hay không sống",
+    "excerptTitle": null,
+    "genre": "Kịch",
+    "lessonOrder": 12,
+    "ppctPage": null,
+    "sourceRows": [
+      147
+    ],
+    "periodReferences": [
+      "44 -  45"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "song-hay-khong-song",
+    "articleSlug": "song-hay-khong-song"
+  },
+  {
+    "id": "ppct-11-1-13",
+    "grade": 11,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 5: Nhân vật và xung đột trong bi kịch (07 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Vĩnh biệt Cửu Trùng Đài",
+    "workTitle": "Vĩnh biệt Cửu Trùng Đài",
+    "excerptTitle": null,
+    "genre": "Kịch",
+    "lessonOrder": 13,
+    "ppctPage": null,
+    "sourceRows": [
+      149
+    ],
+    "periodReferences": [
+      "46 - 47"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "vinh-biet-cuu-trung-dai",
+    "articleSlug": "vinh-biet-cuu-trung-dai"
+  },
+  {
+    "id": "ppct-11-2-1",
+    "grade": 11,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 6: Nguyễn Du – “Những điều trông thấy mà đau đớn lòng”(11 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Tác gia Nguyễn Du",
+    "workTitle": "Tác gia Nguyễn Du",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 1,
+    "ppctPage": null,
+    "sourceRows": [
+      162
+    ],
+    "periodReferences": [
+      "55-56"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "author_profile_only",
+    "decisionReason": "Bài giới thiệu tác gia, chỉ tạo hồ sơ tác giả.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-11-2-2",
+    "grade": 11,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 6: Nguyễn Du – “Những điều trông thấy mà đau đớn lòng”(11 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Trao duyên",
+    "workTitle": "Trao duyên",
+    "excerptTitle": null,
+    "genre": "Truyện thơ",
+    "lessonOrder": 2,
+    "ppctPage": null,
+    "sourceRows": [
+      163,
+      165
+    ],
+    "periodReferences": [
+      "57",
+      "58"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "trao-duyen",
+    "articleSlug": "trao-duyen"
+  },
+  {
+    "id": "ppct-11-2-3",
+    "grade": 11,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 6: Nguyễn Du – “Những điều trông thấy mà đau đớn lòng”(11 tiết)",
+    "ppctLessonLabel": "Đọc VB 3:  Độc tiểu Thanh kí",
+    "workTitle": "Độc tiểu Thanh kí",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 3,
+    "ppctPage": null,
+    "sourceRows": [
+      166
+    ],
+    "periodReferences": [
+      "59-60"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "doc-tieu-thanh-ki",
+    "articleSlug": "doc-tieu-thanh-ki"
+  },
+  {
+    "id": "ppct-11-2-4",
+    "grade": 11,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 7: Ghi chép và tưởng tượng trong kí (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Ai đã đặt tên cho dòng sông?",
+    "workTitle": "Ai đã đặt tên cho dòng sông?",
+    "excerptTitle": null,
+    "genre": "Ký",
+    "lessonOrder": 4,
+    "ppctPage": null,
+    "sourceRows": [
+      174,
+      176
+    ],
+    "periodReferences": [
+      "66",
+      "67-68"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "ai-da-dat-ten-cho-dong-song",
+    "articleSlug": "ai-da-dat-ten-cho-dong-song"
+  },
+  {
+    "id": "ppct-11-2-5",
+    "grade": 11,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 7: Ghi chép và tưởng tượng trong kí (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Và tôi vẫn muốn mẹ…",
+    "workTitle": "Và tôi vẫn muốn mẹ…",
+    "excerptTitle": null,
+    "genre": "Ký",
+    "lessonOrder": 5,
+    "ppctPage": null,
+    "sourceRows": [
+      177,
+      179
+    ],
+    "periodReferences": [
+      "69",
+      "70"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "va-toi-van-muon-me",
+    "articleSlug": "va-toi-van-muon-me"
+  },
+  {
+    "id": "ppct-11-2-6",
+    "grade": 11,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 7: Ghi chép và tưởng tượng trong kí (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 3:  Cà Mau quê xứ",
+    "workTitle": "Cà Mau quê xứ",
+    "excerptTitle": null,
+    "genre": "Ký",
+    "lessonOrder": 6,
+    "ppctPage": null,
+    "sourceRows": [
+      180
+    ],
+    "periodReferences": [
+      "71-72"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK.",
+    "validationStatus": "editorial_cross_checked_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "ca-mau-que-xu",
+    "articleSlug": "ca-mau-que-xu"
+  },
+  {
+    "id": "ppct-11-2-7",
+    "grade": 11,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 8: Cấu trúc của văn bản thông tin (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Nữ phóng viên đầu tiên",
+    "workTitle": "Nữ phóng viên đầu tiên",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 7,
+    "ppctPage": null,
+    "sourceRows": [
+      189
+    ],
+    "periodReferences": [
+      "79-80"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "exclude_nonliterary",
+    "decisionReason": "Văn bản thông tin ngoài phạm vi thư viện tác phẩm.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-11-2-8",
+    "grade": 11,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 8: Cấu trúc của văn bản thông tin (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Trí thông minh nhân tạo",
+    "workTitle": "Trí thông minh nhân tạo",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 8,
+    "ppctPage": null,
+    "sourceRows": [
+      190,
+      192
+    ],
+    "periodReferences": [
+      "81",
+      "82"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "exclude_nonliterary",
+    "decisionReason": "Văn bản thông tin ngoài phạm vi thư viện tác phẩm.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-11-2-9",
+    "grade": 11,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 8: Cấu trúc của văn bản thông tin (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 3:  Pa-ra-lim-pích (Paralympic): Một lịch sử chữa lành những vết thương.",
+    "workTitle": "Pa-ra-lim-pích (Paralympic): Một lịch sử chữa lành những vết thương.",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 9,
+    "ppctPage": null,
+    "sourceRows": [
+      193
+    ],
+    "periodReferences": [
+      "83-84"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "exclude_nonliterary",
+    "decisionReason": "Văn bản thông tin ngoài phạm vi thư viện tác phẩm.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-11-2-10",
+    "grade": 11,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 9: Lựa chọn và hành động (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Bài ca ngất ngưởng",
+    "workTitle": "Bài ca ngất ngưởng",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 10,
+    "ppctPage": null,
+    "sourceRows": [
+      203
+    ],
+    "periodReferences": [
+      "91-92"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "bai-ca-ngat-nguong",
+    "articleSlug": "bai-ca-ngat-nguong"
+  },
+  {
+    "id": "ppct-11-2-11",
+    "grade": 11,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 9: Lựa chọn và hành động (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Văn tế nghĩa sĩ Cần Giuộc",
+    "workTitle": "Văn tế nghĩa sĩ Cần Giuộc",
+    "excerptTitle": null,
+    "genre": "Văn tế",
+    "lessonOrder": 11,
+    "ppctPage": null,
+    "sourceRows": [
+      204,
+      206
+    ],
+    "periodReferences": [
+      "93",
+      "94"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "van-te-nghia-si-can-giuoc",
+    "articleSlug": "van-te-nghia-si-can-giuoc"
+  },
+  {
+    "id": "ppct-11-2-12",
+    "grade": 11,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 9: Lựa chọn và hành động (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 3:  Cộng đồng và cá thể",
+    "workTitle": "Cộng đồng và cá thể",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 12,
+    "ppctPage": null,
+    "sourceRows": [
+      207
+    ],
+    "periodReferences": [
+      "95-96"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "needs_review",
+    "decisionReason": "Cần xác minh thể loại, nhan đề hoặc phạm vi trước khi chọn xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-12-1-1",
+    "grade": 12,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 1: Khả năng lớn lao của tiểu thuyết (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Xuân Tóc Đỏ cứu quốc",
+    "workTitle": "Xuân Tóc Đỏ cứu quốc",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 1,
+    "ppctPage": null,
+    "sourceRows": [
+      238
+    ],
+    "periodReferences": [
+      "1-2-3"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "xuan-toc-do-cuu-quoc",
+    "articleSlug": "xuan-toc-do-cuu-quoc"
+  },
+  {
+    "id": "ppct-12-1-2",
+    "grade": 12,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 1: Khả năng lớn lao của tiểu thuyết (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 2: Mùa lá rụng trong vườn",
+    "workTitle": "Mùa lá rụng trong vườn",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 2,
+    "ppctPage": null,
+    "sourceRows": [
+      240
+    ],
+    "periodReferences": [
+      "4-5-6"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "mua-la-rung-trong-vuon",
+    "articleSlug": "mua-la-rung-trong-vuon"
+  },
+  {
+    "id": "ppct-12-1-3",
+    "grade": 12,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 2: Những thế giới thơ (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Cảm hoài",
+    "workTitle": "Cảm hoài",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 3,
+    "ppctPage": null,
+    "sourceRows": [
+      248,
+      250
+    ],
+    "periodReferences": [
+      "12",
+      "13"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "cam-hoai",
+    "articleSlug": "cam-hoai"
+  },
+  {
+    "id": "ppct-12-1-4",
+    "grade": 12,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 2: Những thế giới thơ (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Tây Tiến",
+    "workTitle": "Tây Tiến",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 4,
+    "ppctPage": null,
+    "sourceRows": [
+      251,
+      253
+    ],
+    "periodReferences": [
+      "14-15",
+      "16"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "tay-tien",
+    "articleSlug": "tay-tien"
+  },
+  {
+    "id": "ppct-12-1-5",
+    "grade": 12,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 2: Những thế giới thơ (11 tiết)",
+    "ppctLessonLabel": "Đọc VB3:  Đàn ghi ta của Lor-ca",
+    "workTitle": "Đàn ghi ta của Lor-ca",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 5,
+    "ppctPage": null,
+    "sourceRows": [
+      254
+    ],
+    "periodReferences": [
+      "17-18"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "dan-ghi-ta-cua-lor-ca",
+    "articleSlug": "dan-ghi-ta-cua-lor-ca"
+  },
+  {
+    "id": "ppct-12-1-6",
+    "grade": 12,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 3: Lập luận trong văn bản nghị luận (10 tiết )",
+    "ppctLessonLabel": "Đọc VB 1:  Nhìn về vốn văn hóa dân tộc",
+    "workTitle": "Nhìn về vốn văn hóa dân tộc",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 6,
+    "ppctPage": null,
+    "sourceRows": [
+      263
+    ],
+    "periodReferences": [
+      "25-26"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "needs_review",
+    "decisionReason": "Cần xác minh thể loại, nhan đề hoặc phạm vi trước khi chọn xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-12-1-7",
+    "grade": 12,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 3: Lập luận trong văn bản nghị luận (10 tiết )",
+    "ppctLessonLabel": "Đọc VB 2:  Năng lực sáng tạo",
+    "workTitle": "Năng lực sáng tạo",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 7,
+    "ppctPage": null,
+    "sourceRows": [
+      264,
+      266
+    ],
+    "periodReferences": [
+      "27",
+      "28"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "needs_review",
+    "decisionReason": "Cần xác minh thể loại, nhan đề hoặc phạm vi trước khi chọn xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-12-1-8",
+    "grade": 12,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 3: Lập luận trong văn bản nghị luận (10 tiết )",
+    "ppctLessonLabel": "Đọc VB 3:  Mấy ý nghĩ về thơ",
+    "workTitle": "Mấy ý nghĩ về thơ",
+    "excerptTitle": null,
+    "genre": "Phê bình văn học",
+    "lessonOrder": 8,
+    "ppctPage": null,
+    "sourceRows": [
+      267
+    ],
+    "periodReferences": [
+      "29-30"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "may-y-nghi-ve-tho",
+    "articleSlug": "may-y-nghi-ve-tho"
+  },
+  {
+    "id": "ppct-12-1-9",
+    "grade": 12,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 4: Yếu tố kì ảo trong truyện kể ( 8 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Hải khẩu linh từ - Đền thiên của bể",
+    "workTitle": "Hải khẩu linh từ - Đền thiên của bể",
+    "excerptTitle": null,
+    "genre": "Truyện truyền kỳ",
+    "lessonOrder": 9,
+    "ppctPage": null,
+    "sourceRows": [
+      275,
+      277
+    ],
+    "periodReferences": [
+      "36",
+      "37"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK.",
+    "validationStatus": "editorial_cross_checked_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "hai-khau-linh-tu",
+    "articleSlug": "hai-khau-linh-tu"
+  },
+  {
+    "id": "ppct-12-1-10",
+    "grade": 12,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 4: Yếu tố kì ảo trong truyện kể ( 8 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Muối của rừng",
+    "workTitle": "Muối của rừng",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 10,
+    "ppctPage": null,
+    "sourceRows": [
+      278
+    ],
+    "periodReferences": [
+      "38-39"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "muoi-cua-rung",
+    "articleSlug": "muoi-cua-rung"
+  },
+  {
+    "id": "ppct-12-1-11",
+    "grade": 12,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 5: Tiếng cười của hài kịch (07 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Nhân vật quan trọng",
+    "workTitle": "Nhân vật quan trọng",
+    "excerptTitle": null,
+    "genre": "Kịch",
+    "lessonOrder": 11,
+    "ppctPage": null,
+    "sourceRows": [
+      285
+    ],
+    "periodReferences": [
+      "44-45"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "nhan-vat-quan-trong",
+    "articleSlug": "nhan-vat-quan-trong"
+  },
+  {
+    "id": "ppct-12-1-12",
+    "grade": 12,
+    "semester": 1,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 5: Tiếng cười của hài kịch (07 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Giấu của",
+    "workTitle": "Giấu của",
+    "excerptTitle": null,
+    "genre": "Kịch",
+    "lessonOrder": 12,
+    "ppctPage": null,
+    "sourceRows": [
+      287
+    ],
+    "periodReferences": [
+      "46-47"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "giau-cua",
+    "articleSlug": "giau-cua"
+  },
+  {
+    "id": "ppct-12-2-1",
+    "grade": 12,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 6: Hồ Chí Minh– “Văn hóa phải soi đường cho quốc dân đi” (12 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Tác gia Hồ Chí Minh",
+    "workTitle": "Tác gia Hồ Chí Minh",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 1,
+    "ppctPage": null,
+    "sourceRows": [
+      300
+    ],
+    "periodReferences": [
+      "55"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "author_profile_only",
+    "decisionReason": "Bài giới thiệu tác gia, chỉ tạo hồ sơ tác giả.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-12-2-2",
+    "grade": 12,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 6: Hồ Chí Minh– “Văn hóa phải soi đường cho quốc dân đi” (12 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Tuyên ngôn Độc lập",
+    "workTitle": "Tuyên ngôn Độc lập",
+    "excerptTitle": null,
+    "genre": "Chính luận",
+    "lessonOrder": 2,
+    "ppctPage": null,
+    "sourceRows": [
+      301
+    ],
+    "periodReferences": [
+      "56-57"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "tuyen-ngon-doc-lap",
+    "articleSlug": "tuyen-ngon-doc-lap"
+  },
+  {
+    "id": "ppct-12-2-3",
+    "grade": 12,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 6: Hồ Chí Minh– “Văn hóa phải soi đường cho quốc dân đi” (12 tiết)",
+    "ppctLessonLabel": "Đọc VB3,4:  Mộ; Nguyên tiêu",
+    "workTitle": "Mộ",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 3,
+    "ppctPage": null,
+    "sourceRows": [
+      303
+    ],
+    "periodReferences": [
+      "58-59"
+    ],
+    "anthologyGroup": "Mộ; Nguyên tiêu",
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "mo",
+    "articleSlug": "mo"
+  },
+  {
+    "id": "ppct-12-2-4",
+    "grade": 12,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 6: Hồ Chí Minh– “Văn hóa phải soi đường cho quốc dân đi” (12 tiết)",
+    "ppctLessonLabel": "Đọc VB3,4:  Mộ; Nguyên tiêu",
+    "workTitle": "Nguyên tiêu",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 4,
+    "ppctPage": null,
+    "sourceRows": [
+      303
+    ],
+    "periodReferences": [
+      "58-59"
+    ],
+    "anthologyGroup": "Mộ; Nguyên tiêu",
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "nguyen-tieu",
+    "articleSlug": "nguyen-tieu"
+  },
+  {
+    "id": "ppct-12-2-5",
+    "grade": 12,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 6: Hồ Chí Minh– “Văn hóa phải soi đường cho quốc dân đi” (12 tiết)",
+    "ppctLessonLabel": "Đọc VB 5:  Những trò lố hay là Va-ren và Phan Bội Châu",
+    "workTitle": "Những trò lố hay là Va-ren và Phan Bội Châu",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 5,
+    "ppctPage": null,
+    "sourceRows": [
+      304,
+      306
+    ],
+    "periodReferences": [
+      "60",
+      "61"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "nhung-tro-lo",
+    "articleSlug": "nhung-tro-lo"
+  },
+  {
+    "id": "ppct-12-2-6",
+    "grade": 12,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 7: Sự thật trong tác phẩm kí (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Nghệ thuật băm thịt gà",
+    "workTitle": "Nghệ thuật băm thịt gà",
+    "excerptTitle": null,
+    "genre": "Ký",
+    "lessonOrder": 6,
+    "ppctPage": null,
+    "sourceRows": [
+      314
+    ],
+    "periodReferences": [
+      "67-68-69"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK.",
+    "validationStatus": "editorial_cross_checked_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "nghe-thuat-bam-thit-ga",
+    "articleSlug": "nghe-thuat-bam-thit-ga"
+  },
+  {
+    "id": "ppct-12-2-7",
+    "grade": 12,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 7: Sự thật trong tác phẩm kí (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Bước vào đời",
+    "workTitle": "Bước vào đời",
+    "excerptTitle": null,
+    "genre": "Hồi ký",
+    "lessonOrder": 7,
+    "ppctPage": null,
+    "sourceRows": [
+      316
+    ],
+    "periodReferences": [
+      "70-71"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK.",
+    "validationStatus": "editorial_cross_checked_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "buoc-vao-doi",
+    "articleSlug": "buoc-vao-doi"
+  },
+  {
+    "id": "ppct-12-2-8",
+    "grade": 12,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 8: Dữ liệu trong văn bản thông tin (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Pa-ra-ma",
+    "workTitle": "Pa-ra-ma",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 8,
+    "ppctPage": null,
+    "sourceRows": [
+      325
+    ],
+    "periodReferences": [
+      "79-80"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "exclude_nonliterary",
+    "decisionReason": "Văn bản thông tin ngoài phạm vi thư viện tác phẩm.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-12-2-9",
+    "grade": 12,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 8: Dữ liệu trong văn bản thông tin (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Giáo dục khai phóng ở Việt Nam nhìn từ Đông Kinh Nghĩa thục",
+    "workTitle": "Giáo dục khai phóng ở Việt Nam nhìn từ Đông Kinh Nghĩa thục",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 9,
+    "ppctPage": null,
+    "sourceRows": [
+      326,
+      328
+    ],
+    "periodReferences": [
+      "81",
+      "82"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "exclude_nonliterary",
+    "decisionReason": "Văn bản thông tin ngoài phạm vi thư viện tác phẩm.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-12-2-10",
+    "grade": 12,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 8: Dữ liệu trong văn bản thông tin (11 tiết)",
+    "ppctLessonLabel": "Đọc VB 3:  Đời muối",
+    "workTitle": "Đời muối",
+    "excerptTitle": null,
+    "genre": "Văn xuôi",
+    "lessonOrder": 10,
+    "ppctPage": null,
+    "sourceRows": [
+      329
+    ],
+    "periodReferences": [
+      "83   -   84"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "exclude_nonliterary",
+    "decisionReason": "Văn bản thông tin ngoài phạm vi thư viện tác phẩm.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "draft",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx"
+  },
+  {
+    "id": "ppct-12-2-11",
+    "grade": 12,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 9: Văn học và cuộc đời (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 1:  Vội vàng",
+    "workTitle": "Vội vàng",
+    "excerptTitle": null,
+    "genre": "Thơ",
+    "lessonOrder": 11,
+    "ppctPage": null,
+    "sourceRows": [
+      339
+    ],
+    "periodReferences": [
+      "91-92"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "voi-vang",
+    "articleSlug": "voi-vang"
+  },
+  {
+    "id": "ppct-12-2-12",
+    "grade": 12,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 9: Văn học và cuộc đời (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 2:  Trở về",
+    "workTitle": "Trở về",
+    "excerptTitle": null,
+    "genre": "Truyện vừa",
+    "lessonOrder": 12,
+    "ppctPage": null,
+    "sourceRows": [
+      340,
+      342
+    ],
+    "periodReferences": [
+      "93",
+      "94"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK.",
+    "validationStatus": "editorial_cross_checked_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "tro-ve",
+    "articleSlug": "tro-ve"
+  },
+  {
+    "id": "ppct-12-2-13",
+    "grade": 12,
+    "semester": 2,
+    "schoolYear": "2026 (năm ký tài liệu; chưa xác minh niên khóa)",
+    "textbookSeries": "Kết nối tri thức (theo phạm vi prompt)",
+    "unitTitle": "Bài 9: Văn học và cuộc đời (10 tiết)",
+    "ppctLessonLabel": "Đọc VB 3:  Hồn trương ba, da hàng thịt",
+    "workTitle": "Hồn trương ba, da hàng thịt",
+    "excerptTitle": null,
+    "genre": "Kịch",
+    "lessonOrder": 13,
+    "ppctPage": null,
+    "sourceRows": [
+      343
+    ],
+    "periodReferences": [
+      "95-96"
+    ],
+    "anthologyGroup": null,
+    "includeDecision": "include",
+    "decisionReason": "Tác phẩm hoặc thể loại văn học trong phạm vi; cần xác minh bản SGK trước khi xuất bản.",
+    "validationStatus": "ppct_verified_textbook_pending",
+    "publicationStatus": "published",
+    "sourcePPCT": "PPCT KET NOI- YL (1).docx",
+    "workId": "hon-truong-ba",
+    "articleSlug": "hon-truong-ba-da-hang-thit"
+  }
+]

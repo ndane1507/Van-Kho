@@ -1,0 +1,450 @@
+[
+  {
+    "slug": "truyen-ve-cac-vi-than-sang-tao-the-gioi",
+    "curriculumId": "ppct-10-1-1",
+    "title": "Truyện về các vị thần sáng tạo thế giới",
+    "authorId": "dan-gian",
+    "genre": "Thần thoại",
+    "genreSlug": "than-thoai"
+  },
+  {
+    "slug": "tan-vien-tu-phan-su-luc",
+    "curriculumId": "ppct-10-1-2",
+    "title": "Tản Viên từ Phán sự lục",
+    "authorId": "nguyen-du-truyen-ky",
+    "genre": "Truyện truyền kỳ",
+    "genreSlug": "truyen-truyen-ky"
+  },
+  {
+    "slug": "chum-tho-hai-cu",
+    "curriculumId": "ppct-10-1-4",
+    "title": "Chùm thơ hai-cư",
+    "authorId": "hai-cu-nhat-ban",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "thu-hung",
+    "curriculumId": "ppct-10-1-5",
+    "title": "Thu hứng",
+    "authorId": "do-phu",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "mua-xuan-chin",
+    "curriculumId": "ppct-10-1-6",
+    "title": "Mùa xuân chín",
+    "authorId": "han-mac-tu",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "ban-hoa-am-ngon-tu",
+    "curriculumId": "ppct-10-1-7",
+    "title": "Bản hòa âm ngôn từ trong Tiếng thu của Lưu Trọng Lư",
+    "authorId": "chu-van-son",
+    "genre": "Phê bình văn học",
+    "genreSlug": "phe-binh-van-hoc"
+  },
+  {
+    "slug": "hien-tai-la-nguyen-khi",
+    "curriculumId": "ppct-10-1-8",
+    "title": "Hiền tài là nguyên khí của quốc gia",
+    "authorId": "than-nhan-trung",
+    "genre": "Chính luận",
+    "genreSlug": "chinh-luan"
+  },
+  {
+    "slug": "yeu-va-dong-cam",
+    "curriculumId": "ppct-10-1-9",
+    "title": "Yêu và đồng cảm",
+    "authorId": "phong-tu-khai",
+    "genre": "Tiểu luận",
+    "genreSlug": "tieu-luan"
+  },
+  {
+    "slug": "chu-bau-len-nha-tho",
+    "curriculumId": "ppct-10-1-10",
+    "title": "Chữ bầu lên nhà thơ",
+    "authorId": "le-dat",
+    "genre": "Phê bình văn học",
+    "genreSlug": "phe-binh-van-hoc"
+  },
+  {
+    "slug": "hec-to-tu-biet-ang-dro-mac",
+    "curriculumId": "ppct-10-1-11",
+    "title": "Héc-to từ biệt Ăng-đrô-mác",
+    "authorId": "ho-me-ro",
+    "genre": "Sử thi",
+    "genreSlug": "su-thi"
+  },
+  {
+    "slug": "dam-san-di-bat-nu-than-mat-troi",
+    "curriculumId": "ppct-10-1-12",
+    "title": "Đăm Săn đi bắt Nữ Thần Mặt Trời",
+    "authorId": "dan-gian",
+    "genre": "Sử thi",
+    "genreSlug": "su-thi"
+  },
+  {
+    "slug": "xuy-van-gia-dai",
+    "curriculumId": "ppct-10-1-13",
+    "title": "Xúy Vân giả dại",
+    "authorId": "dan-gian",
+    "genre": "Chèo",
+    "genreSlug": "cheo"
+  },
+  {
+    "slug": "huyen-duong",
+    "curriculumId": "ppct-10-1-14",
+    "title": "Huyện đường",
+    "authorId": "dan-gian",
+    "genre": "Tuồng",
+    "genreSlug": "tuong"
+  },
+  {
+    "slug": "bao-kinh-canh-gioi",
+    "curriculumId": "ppct-10-2-3",
+    "title": "Bảo kính cảnh giới (Bài 43)",
+    "authorId": "nguyen-trai",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "duc-thuy-son",
+    "curriculumId": "ppct-10-2-4",
+    "title": "Dục Thúy sơn",
+    "authorId": "nguyen-trai",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "nguoi-cam-quyen-khoi-phuc-uy-quyen",
+    "curriculumId": "ppct-10-2-5",
+    "title": "Người cầm quyền khôi phục uy quyền",
+    "authorId": "victor-hugo",
+    "genre": "Tiểu thuyết",
+    "genreSlug": "tieu-thuyet"
+  },
+  {
+    "slug": "duoi-bong-hoang-lan",
+    "curriculumId": "ppct-10-2-6",
+    "title": "Dưới bóng hoàng lan",
+    "authorId": "thach-lam",
+    "genre": "Truyện ngắn",
+    "genreSlug": "truyen-ngan"
+  },
+  {
+    "slug": "mot-chuyen-dua-nho-nho",
+    "curriculumId": "ppct-10-2-7",
+    "title": "Một chuyện đùa nho nhỏ",
+    "authorId": "chekhov",
+    "genre": "Truyện ngắn",
+    "genreSlug": "truyen-ngan"
+  },
+  {
+    "slug": "con-duong-khong-chon",
+    "curriculumId": "ppct-10-2-12",
+    "title": "Con đường không chọn",
+    "authorId": "robert-frost",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "vo-nhat",
+    "curriculumId": "ppct-11-1-1",
+    "title": "Vợ nhặt",
+    "authorId": "kim-lan",
+    "genre": "Truyện ngắn",
+    "genreSlug": "truyen-ngan"
+  },
+  {
+    "slug": "chi-pheo",
+    "curriculumId": "ppct-11-1-2",
+    "title": "Chí Phèo",
+    "authorId": "nam-cao",
+    "genre": "Truyện ngắn",
+    "genreSlug": "truyen-ngan"
+  },
+  {
+    "slug": "nho-dong",
+    "curriculumId": "ppct-11-1-3",
+    "title": "Nhớ đồng",
+    "authorId": "to-huu",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "con-duong-mua-dong",
+    "curriculumId": "ppct-11-1-5",
+    "title": "Con đường mùa đông",
+    "authorId": "pushkin",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "chieu-cau-hien",
+    "curriculumId": "ppct-11-1-6",
+    "title": "Chiếu cầu hiền",
+    "authorId": "ngo-thi-nham",
+    "genre": "Chính luận",
+    "genreSlug": "chinh-luan"
+  },
+  {
+    "slug": "toi-co-mot-uoc-mo",
+    "curriculumId": "ppct-11-1-7",
+    "title": "Tôi có một ước mơ",
+    "authorId": "martin-luther-king",
+    "genre": "Chính luận",
+    "genreSlug": "chinh-luan"
+  },
+  {
+    "slug": "mot-thoi-dai-trong-thi-ca",
+    "curriculumId": "ppct-11-1-8",
+    "title": "Một thời đại trong thi ca",
+    "authorId": "hoai-thanh",
+    "genre": "Phê bình văn học",
+    "genreSlug": "phe-binh-van-hoc"
+  },
+  {
+    "slug": "loi-tien-dan",
+    "curriculumId": "ppct-11-1-9",
+    "title": "Lời tiễn dặn",
+    "authorId": "dan-gian",
+    "genre": "Truyện thơ",
+    "genreSlug": "truyen-tho"
+  },
+  {
+    "slug": "duong-phu-hanh",
+    "curriculumId": "ppct-11-1-10",
+    "title": "Dương phụ hành",
+    "authorId": "cao-ba-quat",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "thuyen-va-bien",
+    "curriculumId": "ppct-11-1-11",
+    "title": "Thuyền và biển",
+    "authorId": "xuan-quynh",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "song-hay-khong-song",
+    "curriculumId": "ppct-11-1-12",
+    "title": "Sống, hay không sống",
+    "authorId": "shakespeare",
+    "genre": "Kịch",
+    "genreSlug": "kich"
+  },
+  {
+    "slug": "vinh-biet-cuu-trung-dai",
+    "curriculumId": "ppct-11-1-13",
+    "title": "Vĩnh biệt Cửu Trùng Đài",
+    "authorId": "nguyen-huy-tuong",
+    "genre": "Kịch",
+    "genreSlug": "kich"
+  },
+  {
+    "slug": "trao-duyen",
+    "curriculumId": "ppct-11-2-2",
+    "title": "Trao duyên",
+    "authorId": "nguyen-du",
+    "genre": "Truyện thơ",
+    "genreSlug": "truyen-tho"
+  },
+  {
+    "slug": "doc-tieu-thanh-ki",
+    "curriculumId": "ppct-11-2-3",
+    "title": "Độc Tiểu Thanh kí",
+    "authorId": "nguyen-du",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "ai-da-dat-ten-cho-dong-song",
+    "curriculumId": "ppct-11-2-4",
+    "title": "Ai đã đặt tên cho dòng sông?",
+    "authorId": "hoang-phu-ngoc-tuong",
+    "genre": "Ký",
+    "genreSlug": "ky"
+  },
+  {
+    "slug": "va-toi-van-muon-me",
+    "curriculumId": "ppct-11-2-5",
+    "title": "Và tôi vẫn muốn mẹ…",
+    "authorId": "svetlana-alexievich",
+    "genre": "Ký",
+    "genreSlug": "ky"
+  },
+  {
+    "slug": "ca-mau-que-xu",
+    "curriculumId": "ppct-11-2-6",
+    "title": "Cà Mau quê xứ",
+    "authorId": "tran-tuan",
+    "genre": "Ký",
+    "genreSlug": "ky"
+  },
+  {
+    "slug": "bai-ca-ngat-nguong",
+    "curriculumId": "ppct-11-2-10",
+    "title": "Bài ca ngất ngưởng",
+    "authorId": "nguyen-cong-tru",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "van-te-nghia-si-can-giuoc",
+    "curriculumId": "ppct-11-2-11",
+    "title": "Văn tế nghĩa sĩ Cần Giuộc",
+    "authorId": "nguyen-dinh-chieu",
+    "genre": "Văn tế",
+    "genreSlug": "van-te"
+  },
+  {
+    "slug": "xuan-toc-do-cuu-quoc",
+    "curriculumId": "ppct-12-1-1",
+    "title": "Xuân Tóc Đỏ cứu quốc",
+    "authorId": "vu-trong-phung",
+    "genre": "Tiểu thuyết",
+    "genreSlug": "tieu-thuyet"
+  },
+  {
+    "slug": "mua-la-rung-trong-vuon",
+    "curriculumId": "ppct-12-1-2",
+    "title": "Mùa lá rụng trong vườn",
+    "authorId": "ma-van-khang",
+    "genre": "Tiểu thuyết",
+    "genreSlug": "tieu-thuyet"
+  },
+  {
+    "slug": "cam-hoai",
+    "curriculumId": "ppct-12-1-3",
+    "title": "Cảm hoài",
+    "authorId": "dang-dung",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "tay-tien",
+    "curriculumId": "ppct-12-1-4",
+    "title": "Tây Tiến",
+    "authorId": "quang-dung",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "dan-ghi-ta-cua-lor-ca",
+    "curriculumId": "ppct-12-1-5",
+    "title": "Đàn ghi ta của Lor-ca",
+    "authorId": "thanh-thao",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "may-y-nghi-ve-tho",
+    "curriculumId": "ppct-12-1-8",
+    "title": "Mấy ý nghĩ về thơ",
+    "authorId": "nguyen-dinh-thi",
+    "genre": "Phê bình văn học",
+    "genreSlug": "phe-binh-van-hoc"
+  },
+  {
+    "slug": "hai-khau-linh-tu",
+    "curriculumId": "ppct-12-1-9",
+    "title": "Hải khẩu linh từ – Đền thiêng cửa bể",
+    "authorId": "doan-thi-diem",
+    "genre": "Truyện truyền kỳ",
+    "genreSlug": "truyen-truyen-ky"
+  },
+  {
+    "slug": "muoi-cua-rung",
+    "curriculumId": "ppct-12-1-10",
+    "title": "Muối của rừng",
+    "authorId": "nguyen-huy-thiep",
+    "genre": "Truyện ngắn",
+    "genreSlug": "truyen-ngan"
+  },
+  {
+    "slug": "nhan-vat-quan-trong",
+    "curriculumId": "ppct-12-1-11",
+    "title": "Nhân vật quan trọng",
+    "authorId": "gogol",
+    "genre": "Kịch",
+    "genreSlug": "kich"
+  },
+  {
+    "slug": "giau-cua",
+    "curriculumId": "ppct-12-1-12",
+    "title": "Giấu của",
+    "authorId": "long-chuong",
+    "genre": "Kịch",
+    "genreSlug": "kich"
+  },
+  {
+    "slug": "tuyen-ngon-doc-lap",
+    "curriculumId": "ppct-12-2-2",
+    "title": "Tuyên ngôn Độc lập",
+    "authorId": "ho-chi-minh",
+    "genre": "Chính luận",
+    "genreSlug": "chinh-luan"
+  },
+  {
+    "slug": "mo",
+    "curriculumId": "ppct-12-2-3",
+    "title": "Mộ (Chiều tối)",
+    "authorId": "ho-chi-minh",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "nguyen-tieu",
+    "curriculumId": "ppct-12-2-4",
+    "title": "Nguyên tiêu (Rằm tháng giêng)",
+    "authorId": "ho-chi-minh",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "nhung-tro-lo",
+    "curriculumId": "ppct-12-2-5",
+    "title": "Những trò lố hay là Va-ren và Phan Bội Châu",
+    "authorId": "ho-chi-minh",
+    "genre": "Truyện ngắn",
+    "genreSlug": "truyen-ngan"
+  },
+  {
+    "slug": "nghe-thuat-bam-thit-ga",
+    "curriculumId": "ppct-12-2-6",
+    "title": "Nghệ thuật băm thịt gà",
+    "authorId": "ngo-tat-to",
+    "genre": "Ký",
+    "genreSlug": "ky"
+  },
+  {
+    "slug": "buoc-vao-doi",
+    "curriculumId": "ppct-12-2-7",
+    "title": "Bước vào đời",
+    "authorId": "dao-duy-anh",
+    "genre": "Hồi ký",
+    "genreSlug": "hoi-ky"
+  },
+  {
+    "slug": "voi-vang",
+    "curriculumId": "ppct-12-2-11",
+    "title": "Vội vàng",
+    "authorId": "xuan-dieu",
+    "genre": "Thơ",
+    "genreSlug": "tho"
+  },
+  {
+    "slug": "tro-ve",
+    "curriculumId": "ppct-12-2-12",
+    "title": "Trở về",
+    "authorId": "hemingway",
+    "genre": "Truyện vừa",
+    "genreSlug": "truyen-vua"
+  }
+]

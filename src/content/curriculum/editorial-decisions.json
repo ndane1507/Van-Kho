@@ -1,0 +1,74 @@
+[
+  {
+    "curriculumId": "ppct-10-1-7",
+    "includeDecision": "include",
+    "genre": "Phê bình văn học",
+    "title": "Bản hòa âm ngôn từ trong Tiếng thu của Lưu Trọng Lư",
+    "sourceId": "ban-hoa-am-ngon-tu-text",
+    "checkedAt": "2026-10-09",
+    "reason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK."
+  },
+  {
+    "curriculumId": "ppct-10-1-9",
+    "includeDecision": "include",
+    "genre": "Tiểu luận",
+    "title": "Yêu và đồng cảm",
+    "sourceId": "yeu-va-dong-cam-text",
+    "checkedAt": "2026-10-09",
+    "reason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK."
+  },
+  {
+    "curriculumId": "ppct-10-1-13",
+    "includeDecision": "include",
+    "genre": "Chèo",
+    "title": "Xúy Vân giả dại",
+    "sourceId": "xuy-van-gia-dai-text",
+    "checkedAt": "2026-10-09",
+    "reason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK."
+  },
+  {
+    "curriculumId": "ppct-11-2-6",
+    "includeDecision": "include",
+    "genre": "Ký",
+    "title": "Cà Mau quê xứ",
+    "sourceId": "ca-mau-que-xu-text",
+    "checkedAt": "2026-10-09",
+    "reason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK."
+  },
+  {
+    "curriculumId": "ppct-12-1-9",
+    "includeDecision": "include",
+    "genre": "Truyện truyền kỳ",
+    "title": "Hải khẩu linh từ – Đền thiêng cửa bể",
+    "sourceId": "hai-khau-linh-tu-text",
+    "checkedAt": "2026-10-09",
+    "reason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK."
+  },
+  {
+    "curriculumId": "ppct-12-2-6",
+    "includeDecision": "include",
+    "genre": "Ký",
+    "title": "Nghệ thuật băm thịt gà",
+    "sourceId": "nghe-thuat-bam-thit-ga-text",
+    "checkedAt": "2026-10-09",
+    "reason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK."
+  },
+  {
+    "curriculumId": "ppct-12-2-7",
+    "includeDecision": "include",
+    "genre": "Hồi ký",
+    "title": "Bước vào đời",
+    "sourceId": "buoc-vao-doi-text",
+    "checkedAt": "2026-10-09",
+    "reason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK."
+  },
+  {
+    "curriculumId": "ppct-12-2-12",
+    "includeDecision": "include",
+    "genre": "Truyện vừa",
+    "title": "Trở về",
+    "sourceId": "tro-ve-text",
+    "checkedAt": "2026-10-09",
+    "reason": "Đã đối chiếu nhan đề, tác giả, diễn biến và hình thức văn học bằng nguồn ghi trong bài. Giữ nguyên nhãn PPCT để truy nguồn; không coi nguồn thứ cấp là xác nhận ấn bản SGK."
+  }
+]

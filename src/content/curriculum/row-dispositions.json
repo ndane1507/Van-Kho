@@ -1,0 +1,639 @@
+[
+  {
+    "sourceRow": 8,
+    "grade": 10,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1, 2, 3:  Truyện về các vị thần sáng tạo thế giới",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 9,
+    "grade": 10,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 4:  Tản Viên từ Phán sự lục",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 10,
+    "grade": 10,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 5:  Chữ người tử tù",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 15,
+    "grade": 10,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1, 2, 3:  Chùm thơ hai-cư",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 16,
+    "grade": 10,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 4:  Thu hứng",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 17,
+    "grade": 10,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 5:  Mùa xuân chín",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 18,
+    "grade": 10,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 6:  Bản hoà âm ngôn từ trong  Tiếng thu  của Lưu Trọng Lư",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 24,
+    "grade": 10,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Hiền tài là nguyên khí của quốc gia",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 25,
+    "grade": 10,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 2:  Yêu và đồng cảm",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 26,
+    "grade": 10,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 3:  Chữ bầu lên nhà thơ",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 32,
+    "grade": 10,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Héc-to từ biệt Ăng-đrô-mác",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 33,
+    "grade": 10,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 2:  Đăm Săn đi bắt Nữ Thần Mặt Trời",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 38,
+    "grade": 10,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Xuý Vân giả dại",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 39,
+    "grade": 10,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 2:  Huyện đường",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 40,
+    "grade": 10,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 3:  Múa rối nước - hiện đại soi bóng tiền nhân",
+    "includeDecision": "exclude_nonliterary"
+  },
+  {
+    "sourceRow": 49,
+    "grade": 10,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 1:  Tác gia Nguyễn Trãi",
+    "includeDecision": "author_profile_only"
+  },
+  {
+    "sourceRow": 50,
+    "grade": 10,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Bình Ngô đại cáo",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 51,
+    "grade": 10,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 3:  Bảo kính cảnh giới (Bài 43)",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 52,
+    "grade": 10,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 4:  Dục Thuý sơn",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 57,
+    "grade": 10,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 1:  Người cầm quyền khôi phục uy quyền",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 58,
+    "grade": 10,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Dưới bóng hoàng lan",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 59,
+    "grade": 10,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 3:  Một chuyện đùa nho nhỏ",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 65,
+    "grade": 10,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 1:  Sự sống và cái chết",
+    "includeDecision": "exclude_nonliterary"
+  },
+  {
+    "sourceRow": 66,
+    "grade": 10,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Nghệ thuật truyền thống của người Việt",
+    "includeDecision": "exclude_nonliterary"
+  },
+  {
+    "sourceRow": 67,
+    "grade": 10,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 3:  Phục hồi tâng ozone: Thành công hiếm hoi của nỗ lực toàn cầu",
+    "includeDecision": "exclude_nonliterary"
+  },
+  {
+    "sourceRow": 73,
+    "grade": 10,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 1:  Về chính chúng ta",
+    "includeDecision": "needs_review"
+  },
+  {
+    "sourceRow": 74,
+    "grade": 10,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Con đường không chọn",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 75,
+    "grade": 10,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 3:  Một đời như kẻ tìm đường",
+    "includeDecision": "needs_review"
+  },
+  {
+    "sourceRow": 101,
+    "grade": 11,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Vợ nhặt",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 103,
+    "grade": 11,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 2:  Chí Phèo",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 111,
+    "grade": 11,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Nhớ đồng",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 113,
+    "grade": 11,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Nhớ đồng",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 114,
+    "grade": 11,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 2:  Tràng giang",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 116,
+    "grade": 11,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB3:  Con đường mùa đông",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 124,
+    "grade": 11,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Chiếu cầu hiền",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 126,
+    "grade": 11,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Chiếu cầu hiền",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 127,
+    "grade": 11,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 2:  Tôi có một ước mơ",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 129,
+    "grade": 11,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 3:  Một thời đại trong thi ca",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 137,
+    "grade": 11,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Lời tiễn dặn",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 139,
+    "grade": 11,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 2:  Dương phụ hành",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 140,
+    "grade": 11,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 3:  Thuyền và biển",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 147,
+    "grade": 11,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Sống, hay không sống",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 149,
+    "grade": 11,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 2:  Vĩnh biệt Cửu Trùng Đài",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 162,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 1:  Tác gia Nguyễn Du",
+    "includeDecision": "author_profile_only"
+  },
+  {
+    "sourceRow": 163,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Trao duyên",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 165,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Trao duyên",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 166,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 3:  Độc tiểu Thanh kí",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 174,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 1:  Ai đã đặt tên cho dòng sông?",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 176,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 1:  Ai đã đặt tên cho dòng sông?",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 177,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Và tôi vẫn muốn mẹ…",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 179,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Và tôi vẫn muốn mẹ…",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 180,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 3:  Cà Mau quê xứ",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 189,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 1:  Nữ phóng viên đầu tiên",
+    "includeDecision": "exclude_nonliterary"
+  },
+  {
+    "sourceRow": 190,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Trí thông minh nhân tạo",
+    "includeDecision": "exclude_nonliterary"
+  },
+  {
+    "sourceRow": 192,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Trí thông minh nhân tạo",
+    "includeDecision": "exclude_nonliterary"
+  },
+  {
+    "sourceRow": 193,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 3:  Pa-ra-lim-pích (Paralympic): Một lịch sử chữa lành những vết thương.",
+    "includeDecision": "exclude_nonliterary"
+  },
+  {
+    "sourceRow": 203,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 1:  Bài ca ngất ngưởng",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 204,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Văn tế nghĩa sĩ Cần Giuộc",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 206,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Văn tế nghĩa sĩ Cần Giuộc",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 207,
+    "grade": 11,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 3:  Cộng đồng và cá thể",
+    "includeDecision": "needs_review"
+  },
+  {
+    "sourceRow": 238,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Xuân Tóc Đỏ cứu quốc",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 240,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 2: Mùa lá rụng trong vườn",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 248,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Cảm hoài",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 250,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Cảm hoài",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 251,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 2:  Tây Tiến",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 253,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 2:  Tây Tiến",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 254,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB3:  Đàn ghi ta của Lor-ca",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 263,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Nhìn về vốn văn hóa dân tộc",
+    "includeDecision": "needs_review"
+  },
+  {
+    "sourceRow": 264,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 2:  Năng lực sáng tạo",
+    "includeDecision": "needs_review"
+  },
+  {
+    "sourceRow": 266,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 2:  Năng lực sáng tạo",
+    "includeDecision": "needs_review"
+  },
+  {
+    "sourceRow": 267,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 3:  Mấy ý nghĩ về thơ",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 275,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Hải khẩu linh từ - Đền thiên của bể",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 277,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Hải khẩu linh từ - Đền thiên của bể",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 278,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 2:  Muối của rừng",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 285,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 1:  Nhân vật quan trọng",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 287,
+    "grade": 12,
+    "semester": 1,
+    "ppctLessonLabel": "Đọc VB 2:  Giấu của",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 300,
+    "grade": 12,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 1:  Tác gia Hồ Chí Minh",
+    "includeDecision": "author_profile_only"
+  },
+  {
+    "sourceRow": 301,
+    "grade": 12,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Tuyên ngôn Độc lập",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 303,
+    "grade": 12,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB3,4:  Mộ; Nguyên tiêu",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 304,
+    "grade": 12,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 5:  Những trò lố hay là Va-ren và Phan Bội Châu",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 306,
+    "grade": 12,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 5:  Những trò lố hay là Va-ren và Phan Bội Châu",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 314,
+    "grade": 12,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 1:  Nghệ thuật băm thịt gà",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 316,
+    "grade": 12,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Bước vào đời",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 325,
+    "grade": 12,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 1:  Pa-ra-ma",
+    "includeDecision": "exclude_nonliterary"
+  },
+  {
+    "sourceRow": 326,
+    "grade": 12,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Giáo dục khai phóng ở Việt Nam nhìn từ Đông Kinh Nghĩa thục",
+    "includeDecision": "exclude_nonliterary"
+  },
+  {
+    "sourceRow": 328,
+    "grade": 12,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Giáo dục khai phóng ở Việt Nam nhìn từ Đông Kinh Nghĩa thục",
+    "includeDecision": "exclude_nonliterary"
+  },
+  {
+    "sourceRow": 329,
+    "grade": 12,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 3:  Đời muối",
+    "includeDecision": "exclude_nonliterary"
+  },
+  {
+    "sourceRow": 339,
+    "grade": 12,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 1:  Vội vàng",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 340,
+    "grade": 12,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Trở về",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 342,
+    "grade": 12,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 2:  Trở về",
+    "includeDecision": "include"
+  },
+  {
+    "sourceRow": 343,
+    "grade": 12,
+    "semester": 2,
+    "ppctLessonLabel": "Đọc VB 3:  Hồn trương ba, da hàng thịt",
+    "includeDecision": "include"
+  }
+]

@@ -1,0 +1,2 @@
+import fs from 'node:fs';
+for(const p of ['README.md','QA.md']){let s=fs.readFileSync(p,'utf8');s=s.replace('Hiện có 4 bài mẫu tự biên soạn: Tràng giang, Chữ người tử tù, Bình Ngô đại cáo, Hồn Trương Ba, da hàng thịt.','Hiện có 60 bài phân tích tự biên soạn, bao gồm thơ, truyện, sử thi, thần thoại, kịch, ký, chính luận và phê bình văn học.').replace('Bốn bài mẫu là nội dung tự biên soạn','60 bài phân tích là nội dung tự biên soạn');fs.writeFileSync(p,s);}

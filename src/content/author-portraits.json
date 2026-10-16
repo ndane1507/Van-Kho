@@ -1,0 +1,306 @@
+[
+  {
+    "id": "ho-me-ro",
+    "file": "Bust_Homer_BM_1825.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bust_Homer_BM_1825.jpg",
+    "license": "Public domain (người chụp thải quyền)",
+    "attribution": "Ảnh: Marie-Lan Nguyen (2006), public domain. Tượng: bản sao La Mã sau nguyên bản Hy Lạp cổ.",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "shakespeare",
+    "file": "Shakespeare.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shakespeare.jpg",
+    "license": "Public domain (PD-old-100, chân dung Chandos)",
+    "attribution": "Chân dung Chandos, National Portrait Gallery NPG 1.",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "victor-hugo",
+    "file": "Victor_Hugo_Nadar.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Victor_Hugo_Nadar.jpg",
+    "license": "Public domain (PD-old)",
+    "attribution": "Ảnh: Félix Nadar (1820–1910).",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "pushkin",
+    "file": "Orest Kiprensky - Портрет поэта А.С.Пушкина - Google Art Project.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orest_Kiprensky_-_Портрет_поэта_А.С.Пушкина_-_Google_Art_Project.jpg",
+    "license": "Public domain (PD-old-100)",
+    "attribution": "Tranh sơn dầu 1827 của Orest Kiprensky (1782–1836), qua Google Art Project.",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "gogol",
+    "file": "N.Gogol by F.Moller (1840, Tretyakov gallery).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:N.Gogol_by_F.Moller_(1840,_Tretyakov_gallery).jpg",
+    "license": "Public domain (PD-old-100)",
+    "attribution": "Tranh của F. Moller (1812–1874), phòng tranh Tretyakov.",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "chekhov",
+    "file": "Osip Braz - Anton Chekhov, 1898.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osip_Braz_-_Anton_Chekhov,_1898.jpg",
+    "license": "Public domain (PD-old-80)",
+    "attribution": "Tranh 1898 của Osip Braz (1873–1936).",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "robert-frost",
+    "file": "Robert Frost, 1913.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robert_Frost,_1913.JPG",
+    "license": "Public domain tại Mỹ (PD-US, xuất bản trước 1931)",
+    "attribution": "Ảnh 1913, kho ảnh The New York Times.",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "hemingway",
+    "file": "Ernest Hemingway 1923 passport photo.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ernest_Hemingway_1923_passport_photo.jpg",
+    "license": "Public domain (PD-USGov)",
+    "attribution": "Ảnh hộ chiếu 1923, lưu trữ NARA Hoa Kỳ.",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "martin-luther-king",
+    "file": "Martin Luther King - March on Washington.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_-_March_on_Washington.jpg",
+    "license": "Public domain (PD-USGov-USIA)",
+    "attribution": "Ảnh: Rowland Scherman cho USIA, 28-08-1963, lưu trữ NARA.",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "do-phu",
+    "file": "Du Fu.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Du_Fu.jpg",
+    "license": "Public domain (PD-old)",
+    "attribution": "Tranh trích Vạn tiếu đường họa truyện (xuất bản 1921).",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "phong-tu-khai",
+    "file": "豐子愷.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:豐子愷.jpg",
+    "license": "Public domain (PD-China-1996)",
+    "attribution": "Ảnh trích Dân quốc danh nhân đồ giám (1937).",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "ngo-thi-nham",
+    "file": "Ngô Thì Nhậm.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ngô_Thì_Nhậm.jpg",
+    "license": "CC BY-SA 4.0",
+    "attribution": "Ảnh tượng tại Điện Tây Sơn Tam Kiệt (Bảo tàng Quang Trung): Bùi Thụy Đào Nguyên, CC BY-SA 4.0.",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "nguyen-cong-tru",
+    "file": "Portrait of Nguyễn Công Trứ (1778 -1858).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Nguyễn_Công_Trứ_(1778_-1858).jpg",
+    "license": "Public domain (PD-Vietnam, PD-1996)",
+    "attribution": "Ảnh khuyết danh công bố trước 1945 (nguồn: báo Quảng Nam).",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "nguyen-dinh-chieu",
+    "file": "Chân dung Nguyễn Đình Chiểu.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chân_dung_Nguyễn_Đình_Chiểu.jpg",
+    "license": "Public domain (PD-Art, tranh thờ 2D)",
+    "attribution": "Ảnh chụp tranh thờ tại đền Ba Tri.",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "vu-trong-phung",
+    "file": "Portrait_of_Vũ_Trọng_Phụng.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Vũ_Trọng_Phụng.jpg",
+    "license": "Public domain (PD-Vietnam, PD-1996)",
+    "attribution": "Ảnh trong Nhà Văn Hiện Đại, quyển ba (1941–1945), qua Gallica.",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "ngo-tat-to",
+    "file": "Portrait_of_writer_Ngô_Tất_Tố.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_writer_Ngô_Tất_Tố.jpg",
+    "license": "Public domain (PD-Vietnam, PD-1996)",
+    "attribution": "Ảnh trong Nhà Văn Hiện Đại, quyển ba (1941–1945), qua Gallica.",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "dao-duy-anh",
+    "file": "Portrait_of_Đào_Duy_Anh.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Đào_Duy_Anh.jpg",
+    "license": "Public domain (PD-Vietnam, PD-1996)",
+    "attribution": "Ảnh trong Nhà Văn Hiện Đại, quyển hai (1942–1945), qua Gallica.",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "hoai-thanh",
+    "file": "Portrait_of_writer_Hoài_Thanh.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_writer_Hoài_Thanh.jpg",
+    "license": "Public domain (PD-Vietnam, PD-1996)",
+    "attribution": "Ảnh trong Nhà Văn Hiện Đại, quyển ba (1942–1945), qua Gallica.",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "svetlana-alexievich",
+    "file": "Swetlana Alexijewitsch 2013.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swetlana_Alexijewitsch_2013.jpg",
+    "license": "CC BY-SA 3.0",
+    "attribution": "Ảnh: Elke Wetzig (2013), CC BY-SA 3.0.",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "thanh-thao",
+    "file": "Poet Thanh Thao.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poet_Thanh_Thao.JPG",
+    "license": "CC BY-SA 3.0",
+    "attribution": "Ảnh: Conduongmoi, CC BY-SA 3.0.",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "nguyen-huy-tuong",
+    "file": "Nguyễn Huy Tưởng.jpg",
+    "sourceUrl": "https://vi.wikipedia.org/wiki/T%E1%BA%ADp_tin:Nguy%E1%BB%85n_Huy_T%C6%B0%E1%BB%9Fng.jpg",
+    "license": "Fair use — ảnh tư liệu báo chí, độ phân giải thấp, chỉ minh họa tiểu sử phi thương mại",
+    "attribution": "Nguồn: vnca.cand.com.vn (qua Wikipedia tiếng Việt).",
+    "caption": "Ảnh tư liệu: Nguyễn Huy Tưởng",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "nguyen-dinh-thi",
+    "file": "Nguyen Dinh Thi.jpg",
+    "sourceUrl": "https://vi.wikipedia.org/wiki/T%E1%BA%ADp_tin:Nguyen_Dinh_Thi.jpg",
+    "license": "Fair use — ảnh tư liệu báo chí, độ phân giải thấp, chỉ minh họa tiểu sử phi thương mại",
+    "attribution": "Nguồn: tuanvietnam.vietnamnet.vn (qua Wikipedia tiếng Việt).",
+    "caption": "Ảnh tư liệu: Nguyễn Đình Thi",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "to-huu",
+    "file": "To Huu.jpg",
+    "sourceUrl": "https://vi.wikipedia.org/wiki/T%E1%BA%ADp_tin:To_Huu.jpg",
+    "license": "Fair use — ảnh tư liệu, độ phân giải thấp, chỉ minh họa tiểu sử phi thương mại",
+    "attribution": "Nguồn: tvtl.bachkim.vn (qua Wikipedia tiếng Việt).",
+    "caption": "Ảnh tư liệu: Tố Hữu",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "nguyen-huy-thiep",
+    "file": "Nhà văn Nguyễn Huy Thiệp.jpg",
+    "sourceUrl": "https://vi.wikipedia.org/wiki/T%E1%BA%ADp_tin:Nh%C3%A0_v%C4%83n_Nguy%E1%BB%85n_Huy_Thi%E1%BB%87p.jpg",
+    "license": "Fair use — ảnh tư liệu báo chí, độ phân giải thấp, chỉ minh họa tiểu sử phi thương mại",
+    "attribution": "Nguồn: baophapluat.vn (qua Wikipedia tiếng Việt).",
+    "caption": "Ảnh tư liệu: Nguyễn Huy Thiệp",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "hoang-phu-ngoc-tuong",
+    "file": "Hoàng Phủ Ngọc Tường.jpg",
+    "sourceUrl": "https://vi.wikipedia.org/wiki/T%E1%BA%ADp_tin:Ho%C3%A0ng_Ph%E1%BB%A7_Ng%E1%BB%8Dc_T%C6%B0%E1%BB%9Dng.jpg",
+    "license": "Fair use — ảnh tư liệu báo chí, độ phân giải thấp, chỉ minh họa tiểu sử phi thương mại",
+    "attribution": "Nguồn: thanhnien.vn (qua Wikipedia tiếng Việt).",
+    "caption": "Ảnh tư liệu: Hoàng Phủ Ngọc Tường",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "long-chuong",
+    "file": "Lộng Chương.jpg",
+    "sourceUrl": "https://vi.wikipedia.org/wiki/T%E1%BA%ADp_tin:L%E1%BB%99ng_Ch%C6%B0%C6%A1ng.jpg",
+    "license": "Fair use — ảnh tư liệu báo chí, độ phân giải thấp, chỉ minh họa tiểu sử phi thương mại",
+    "attribution": "Nguồn: vnca.cand.com.vn (qua Wikipedia tiếng Việt).",
+    "caption": "Ảnh tư liệu: Lộng Chương",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "nguyen-du-truyen-ky",
+    "file": "傳奇漫錄書影.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%82%B3%E5%A5%87%E6%BC%AB%E9%8C%84%E6%9B%B8%E5%BD%B1.jpg",
+    "license": "Public domain (ảnh tự chụp bản khắc 1763 do người tải lên thải quyền)",
+    "attribution": "Ảnh bản khắc Truyền kỳ mạn lục (1763): Clioherodotus, public domain.",
+    "caption": "Bản khắc Truyền kỳ mạn lục (1763) — chưa có chân dung tác giả xác thực",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "than-nhan-trung",
+    "file": "BiaTienSi1442.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BiaTienSi1442.jpg",
+    "license": "CC BY-SA 3.0",
+    "attribution": "Ảnh bia tiến sĩ Văn Miếu: Ngokhong, CC BY-SA 3.0.",
+    "caption": "Bia tiến sĩ tại Văn Miếu — chưa có chân dung tác giả xác thực",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "doan-thi-diem",
+    "file": "Nhà lưu niệm Hồng Hà nữ sĩ Đoàn Thị Điểm.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nh%C3%A0_l%C6%B0u_ni%E1%BB%87m_H%E1%BB%93ng_H%C3%A0_n%E1%BB%AF_s%C4%A9_%C4%90o%C3%A0n_Th%E1%BB%8B_%C4%90i%E1%BB%83m.jpg",
+    "license": "CC BY-SA 4.0",
+    "attribution": "Ảnh nhà lưu niệm tại Giai Phạm, Hưng Yên: Phuthuyhy, CC BY-SA 4.0.",
+    "caption": "Nhà lưu niệm Đoàn Thị Điểm (Hưng Yên)",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "dang-dung",
+    "file": "Temple at Dang Dung, Tay Ho in 2014.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_at_Dang_Dung,_Tay_Ho_in_2014.jpg",
+    "license": "CC BY-SA 4.0",
+    "attribution": "Ảnh đền Đặng Dung (Tây Hồ, 2014): Vuong Tri Binh, CC BY-SA 4.0.",
+    "caption": "Đền Đặng Dung (Tây Hồ, Hà Nội)",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "le-dat",
+    "file": "Nha-tho-Le-Dat.jpg",
+    "sourceUrl": "https://baotangvanhoc.vn/giai-thuong-nha-nuoc/dot-2-giai-thuong-nha-nuoc/le-dat-1929-2008/",
+    "license": "Fair use — ảnh tư liệu Bảo tàng Văn học Việt Nam, độ phân giải thấp, chỉ minh họa tiểu sử phi thương mại",
+    "attribution": "Nguồn: Bảo tàng Văn học Việt Nam (Hội Nhà văn Việt Nam).",
+    "caption": "Ảnh tư liệu: Lê Đạt",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "ma-van-khang",
+    "file": "MaiVanKhang-tn.jpg",
+    "sourceUrl": "https://thanhnien.vn/nha-van-go-cua-thoi-doi-moi-18527203.htm",
+    "license": "Fair use — ảnh tư liệu báo chí, độ phân giải thấp, chỉ minh họa tiểu sử phi thương mại",
+    "attribution": "Nguồn: thanhnien.vn (qua Wikipedia tiếng Việt).",
+    "caption": "Ảnh tư liệu: Ma Văn Kháng",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "tran-tuan",
+    "file": "a-tuan.jpg",
+    "sourceUrl": "https://hanoimoi.vn/mot-the-gioi-biet-lap-cua-tran-tuan-698703.html",
+    "license": "Fair use — ảnh tư liệu báo chí, độ phân giải thấp, chỉ minh họa tiểu sử phi thương mại",
+    "attribution": "Nguồn: hanoimoi.vn.",
+    "caption": "Ảnh tư liệu: Trần Tuấn",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "chu-van-son",
+    "file": "thay-chu-van-son.jpg",
+    "sourceUrl": "https://vnexpress.net/nha-phe-binh-van-hoc-chu-van-son-qua-doi-3911285.html",
+    "license": "Fair use — ảnh tư liệu báo chí, độ phân giải thấp, chỉ minh họa tiểu sử phi thương mại",
+    "attribution": "Nguồn: vnexpress.net.",
+    "caption": "Ảnh tư liệu: Chu Văn Sơn",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "dan-gian",
+    "file": "Đám cưới chuột.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C4%90%C3%A1m_c%C6%B0%E1%BB%9Bi_chu%E1%BB%99t.JPG",
+    "license": "Public domain (tranh khắc gỗ dân gian khuyết danh)",
+    "attribution": "Tranh dân gian Đông Hồ, public domain.",
+    "caption": "Tranh dân gian Đông Hồ: Đám cưới chuột",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "hai-cu-nhat-ban",
+    "file": "Basho by Buson.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basho_by_Buson.jpg",
+    "license": "Public domain (tranh thế kỷ 18)",
+    "attribution": "Chân dung Matsuo Bashō do Yosa Buson vẽ, public domain.",
+    "caption": "Matsuo Bashō (tranh Yosa Buson) — hồ sơ gồm ba thi nhân hai-cư",
+    "checkedAt": "2026-10-12"
+  }
+]

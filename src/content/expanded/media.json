@@ -1,0 +1,592 @@
+[
+  {
+    "id": "chu-nguoi-tu-tu",
+    "path": "/images/chu-nguoi-tu-tu.webp",
+    "title": "Minh họa Chữ người tử tù",
+    "alt": "Tranh AI: Người tù viết chữ trong ánh đuốc, quản ngục kính cẩn trong buồng giam.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "binh-ngo-dai-cao",
+    "path": "/images/binh-ngo-dai-cao.webp",
+    "title": "Minh họa Bình Ngô đại cáo",
+    "alt": "Tranh AI: Bút, cuộn giấy và ấn trên bàn, phía xa là núi trong ánh bình minh.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "hon-truong-ba-da-hang-thit",
+    "path": "/images/hon-truong-ba-da-hang-thit.webp",
+    "title": "Minh họa Hồn Trương Ba, da hàng thịt",
+    "alt": "Tranh AI: Ghế trống giữa vườn cây sáng và bóng nặng trên tường, gợi xung đột hồn và xác.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "truyen-ve-cac-vi-than-sang-tao-the-gioi",
+    "path": "/images/truyen-ve-cac-vi-than-sang-tao-the-gioi.webp",
+    "title": "Minh họa Truyện về các vị thần sáng tạo thế giới",
+    "alt": "Tranh minh họa riêng cho tác phẩm Truyện về các vị thần sáng tạo thế giới.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "tan-vien-tu-phan-su-luc",
+    "path": "/images/tan-vien-tu-phan-su-luc.webp",
+    "title": "Minh họa Tản Viên từ Phán sự lục",
+    "alt": "Tranh minh họa riêng cho tác phẩm Tản Viên từ Phán sự lục.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "chum-tho-hai-cu",
+    "path": "/images/chum-tho-hai-cu.webp",
+    "title": "Minh họa Chùm thơ hai-cư",
+    "alt": "Tranh minh họa riêng cho tác phẩm Chùm thơ hai-cư.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "thu-hung",
+    "path": "/images/thu-hung.webp",
+    "title": "Minh họa Thu hứng",
+    "alt": "Tranh minh họa riêng cho tác phẩm Thu hứng.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "mua-xuan-chin",
+    "path": "/images/mua-xuan-chin.webp",
+    "title": "Minh họa Mùa xuân chín",
+    "alt": "Tranh minh họa riêng cho tác phẩm Mùa xuân chín.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "ban-hoa-am-ngon-tu",
+    "path": "/images/ban-hoa-am-ngon-tu.webp",
+    "title": "Minh họa Bản hòa âm ngôn từ trong Tiếng thu của Lưu Trọng Lư",
+    "alt": "Tranh minh họa riêng cho tác phẩm Bản hòa âm ngôn từ trong Tiếng thu của Lưu Trọng Lư.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "hien-tai-la-nguyen-khi",
+    "path": "/images/hien-tai-la-nguyen-khi.webp",
+    "title": "Minh họa Hiền tài là nguyên khí của quốc gia",
+    "alt": "Tranh minh họa riêng cho tác phẩm Hiền tài là nguyên khí của quốc gia.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "yeu-va-dong-cam",
+    "path": "/images/yeu-va-dong-cam.webp",
+    "title": "Minh họa Yêu và đồng cảm",
+    "alt": "Tranh minh họa riêng cho tác phẩm Yêu và đồng cảm.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "chu-bau-len-nha-tho",
+    "path": "/images/chu-bau-len-nha-tho.webp",
+    "title": "Minh họa Chữ bầu lên nhà thơ",
+    "alt": "Tranh minh họa riêng cho tác phẩm Chữ bầu lên nhà thơ.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "hec-to-tu-biet-ang-dro-mac",
+    "path": "/images/hec-to-tu-biet-ang-dro-mac.webp",
+    "title": "Minh họa Héc-to từ biệt Ăng-đrô-mác",
+    "alt": "Tranh minh họa riêng cho tác phẩm Héc-to từ biệt Ăng-đrô-mác.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "dam-san-di-bat-nu-than-mat-troi",
+    "path": "/images/dam-san-di-bat-nu-than-mat-troi.webp",
+    "title": "Minh họa Đăm Săn đi bắt Nữ Thần Mặt Trời",
+    "alt": "Tranh minh họa riêng cho tác phẩm Đăm Săn đi bắt Nữ Thần Mặt Trời.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "xuy-van-gia-dai",
+    "path": "/images/xuy-van-gia-dai.webp",
+    "title": "Minh họa Xúy Vân giả dại",
+    "alt": "Tranh minh họa riêng cho tác phẩm Xúy Vân giả dại.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "huyen-duong",
+    "path": "/images/huyen-duong.webp",
+    "title": "Minh họa Huyện đường",
+    "alt": "Tranh minh họa riêng cho tác phẩm Huyện đường.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "bao-kinh-canh-gioi",
+    "path": "/images/bao-kinh-canh-gioi.webp",
+    "title": "Minh họa Bảo kính cảnh giới (Bài 43)",
+    "alt": "Tranh minh họa riêng cho tác phẩm Bảo kính cảnh giới (Bài 43).",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "duc-thuy-son",
+    "path": "/images/duc-thuy-son.webp",
+    "title": "Minh họa Dục Thúy sơn",
+    "alt": "Tranh minh họa riêng cho tác phẩm Dục Thúy sơn.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "nguoi-cam-quyen-khoi-phuc-uy-quyen",
+    "path": "/images/nguoi-cam-quyen-khoi-phuc-uy-quyen.webp",
+    "title": "Minh họa Người cầm quyền khôi phục uy quyền",
+    "alt": "Tranh minh họa riêng cho tác phẩm Người cầm quyền khôi phục uy quyền.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "duoi-bong-hoang-lan",
+    "path": "/images/duoi-bong-hoang-lan.webp",
+    "title": "Minh họa Dưới bóng hoàng lan",
+    "alt": "Tranh minh họa riêng cho tác phẩm Dưới bóng hoàng lan.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "mot-chuyen-dua-nho-nho",
+    "path": "/images/mot-chuyen-dua-nho-nho.webp",
+    "title": "Minh họa Một chuyện đùa nho nhỏ",
+    "alt": "Tranh minh họa riêng cho tác phẩm Một chuyện đùa nho nhỏ.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "con-duong-khong-chon",
+    "path": "/images/con-duong-khong-chon.webp",
+    "title": "Minh họa Con đường không chọn",
+    "alt": "Tranh minh họa riêng cho tác phẩm Con đường không chọn.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "vo-nhat",
+    "path": "/images/vo-nhat.webp",
+    "title": "Minh họa Vợ nhặt",
+    "alt": "Tranh minh họa riêng cho tác phẩm Vợ nhặt.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "chi-pheo",
+    "path": "/images/chi-pheo.webp",
+    "title": "Minh họa Chí Phèo",
+    "alt": "Tranh minh họa riêng cho tác phẩm Chí Phèo.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "nho-dong",
+    "path": "/images/nho-dong.webp",
+    "title": "Minh họa Nhớ đồng",
+    "alt": "Tranh minh họa riêng cho tác phẩm Nhớ đồng.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "con-duong-mua-dong",
+    "path": "/images/con-duong-mua-dong.webp",
+    "title": "Minh họa Con đường mùa đông",
+    "alt": "Tranh minh họa riêng cho tác phẩm Con đường mùa đông.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "chieu-cau-hien",
+    "path": "/images/chieu-cau-hien.webp",
+    "title": "Minh họa Chiếu cầu hiền",
+    "alt": "Tranh minh họa riêng cho tác phẩm Chiếu cầu hiền.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "toi-co-mot-uoc-mo",
+    "path": "/images/toi-co-mot-uoc-mo.webp",
+    "title": "Minh họa Tôi có một ước mơ",
+    "alt": "Tranh minh họa riêng cho tác phẩm Tôi có một ước mơ.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "mot-thoi-dai-trong-thi-ca",
+    "path": "/images/mot-thoi-dai-trong-thi-ca.webp",
+    "title": "Minh họa Một thời đại trong thi ca",
+    "alt": "Tranh minh họa riêng cho tác phẩm Một thời đại trong thi ca.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "loi-tien-dan",
+    "path": "/images/loi-tien-dan.webp",
+    "title": "Minh họa Lời tiễn dặn",
+    "alt": "Tranh minh họa riêng cho tác phẩm Lời tiễn dặn.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "duong-phu-hanh",
+    "path": "/images/duong-phu-hanh.webp",
+    "title": "Minh họa Dương phụ hành",
+    "alt": "Tranh minh họa riêng cho tác phẩm Dương phụ hành.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "thuyen-va-bien",
+    "path": "/images/thuyen-va-bien.webp",
+    "title": "Minh họa Thuyền và biển",
+    "alt": "Tranh minh họa riêng cho tác phẩm Thuyền và biển.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "song-hay-khong-song",
+    "path": "/images/song-hay-khong-song.webp",
+    "title": "Minh họa Sống, hay không sống",
+    "alt": "Tranh minh họa riêng cho tác phẩm Sống, hay không sống.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "vinh-biet-cuu-trung-dai",
+    "path": "/images/vinh-biet-cuu-trung-dai.webp",
+    "title": "Minh họa Vĩnh biệt Cửu Trùng Đài",
+    "alt": "Tranh minh họa riêng cho tác phẩm Vĩnh biệt Cửu Trùng Đài.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "trao-duyen",
+    "path": "/images/trao-duyen.webp",
+    "title": "Minh họa Trao duyên",
+    "alt": "Tranh minh họa riêng cho tác phẩm Trao duyên.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "doc-tieu-thanh-ki",
+    "path": "/images/doc-tieu-thanh-ki.webp",
+    "title": "Minh họa Độc Tiểu Thanh kí",
+    "alt": "Tranh minh họa riêng cho tác phẩm Độc Tiểu Thanh kí.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "ai-da-dat-ten-cho-dong-song",
+    "path": "/images/ai-da-dat-ten-cho-dong-song.webp",
+    "title": "Minh họa Ai đã đặt tên cho dòng sông?",
+    "alt": "Tranh minh họa riêng cho tác phẩm Ai đã đặt tên cho dòng sông?.",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "va-toi-van-muon-me",
+    "path": "/images/va-toi-van-muon-me.webp",
+    "title": "Minh họa Và tôi vẫn muốn mẹ…",
+    "alt": "Tranh minh họa riêng cho tác phẩm Và tôi vẫn muốn mẹ….",
+    "author": "OpenAI ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 09/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "tay-tien",
+    "path": "/images/tay-tien.webp",
+    "title": "Minh họa Tây Tiến",
+    "alt": "Đoàn chiến sĩ hành quân trên triền núi cao phủ sương, gợi không gian miền Tây trong bài thơ Tây Tiến.",
+    "author": "Muse AI",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng Muse AI cho Văn Khố, 10/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "cam-hoai",
+    "path": "/images/cam-hoai.webp",
+    "title": "Minh họa Cảm hoài",
+    "alt": "Người tráng sĩ đứng bên sông dưới ánh trăng, gợi nỗi hoài cảm và chí lớn trong bài thơ Cảm hoài.",
+    "author": "Muse AI",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng Muse AI cho Văn Khố, 10/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "dan-ghi-ta-cua-lor-ca",
+    "path": "/images/dan-ghi-ta-cua-lor-ca.webp",
+    "title": "Minh họa Đàn ghi ta của Lor-ca",
+    "alt": "Cây đàn ghi ta vỡ giữa không gian Tây Ban Nha và ánh trăng, minh họa bài thơ Đàn ghi ta của Lor-ca.",
+    "author": "Muse AI",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng Muse AI cho Văn Khố, 10/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "mo",
+    "path": "/images/mo.webp",
+    "title": "Minh họa Mộ (Chiều tối)",
+    "alt": "Người lữ khách dừng bên bếp lửa khi chiều buông trên núi, gợi hành trình trong bài thơ Mộ.",
+    "author": "Muse AI",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng Muse AI cho Văn Khố, 10/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "nguyen-tieu",
+    "path": "/images/nguyen-tieu.webp",
+    "title": "Minh họa Nguyên tiêu (Rằm tháng giêng)",
+    "alt": "Con thuyền trên dòng sông đêm dưới ánh trăng rằm, minh họa bài thơ Nguyên tiêu.",
+    "author": "Muse AI",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng Muse AI cho Văn Khố, 10/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "voi-vang",
+    "path": "/images/voi-vang.webp",
+    "title": "Minh họa Vội vàng",
+    "alt": "Khu vườn mùa xuân rực nắng với hoa lá đang độ tươi thắm, gợi cảm hứng sống trong bài thơ Vội vàng.",
+    "author": "Muse AI",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng Muse AI cho Văn Khố, 10/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "ca-mau-que-xu",
+    "path": "/images/ca-mau-que-xu.webp",
+    "alt": "Tranh sơn dầu: Rừng đước bạt ngàn Cà Mau, kênh rạch chằng chịt, xuồng ba lá lướt trên mặt nước trong ánh bình minh.",
+    "title": "Minh họa Cà Mau quê xứ",
+    "author": "Google Gemini ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 11/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "bai-ca-ngat-nguong",
+    "path": "/images/bai-ca-ngat-nguong.webp",
+    "alt": "Tranh sơn dầu: Nguyễn Công Trứ phong lưu ung dung cưỡi bò vàng qua đường làng cổ kính, xa xa non xanh và mái chùa.",
+    "title": "Minh họa Bài ca ngất ngưởng",
+    "author": "Google Gemini ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 11/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "van-te-nghia-si-can-giuoc",
+    "path": "/images/van-te-nghia-si-can-giuoc.webp",
+    "alt": "Tranh sơn dầu: Nghĩa binh nông dân áo vải cầm tầm vông, gươm dao và đuốc lửa tấn công đồn giặc trong đêm rực lửa.",
+    "title": "Minh họa Văn tế nghĩa sĩ Cần Giuộc",
+    "author": "Google Gemini ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 11/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "xuan-toc-do-cuu-quoc",
+    "path": "/images/xuan-toc-do-cuu-quoc.webp",
+    "alt": "Tranh sơn dầu trào phúng: Xuân Tóc Đỏ giơ cao vợt trên sân quần vợt Hà Nội xưa giữa đám đông thượng lưu và quan chức thuộc địa.",
+    "title": "Minh họa Xuân Tóc Đỏ cứu quốc",
+    "author": "Google Gemini ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 11/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "mua-la-rung-trong-vuon",
+    "path": "/images/mua-la-rung-trong-vuon.webp",
+    "alt": "Tranh sơn dầu: Gian nhà Hà Nội chiều 30 Tết, bàn thờ gia tiên ấm cúng bên cành đào và khu vườn mùa đông lá vàng rơi.",
+    "title": "Minh họa Mùa lá rụng trong vườn",
+    "author": "Google Gemini ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 11/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "may-y-nghi-ve-tho",
+    "path": "/images/may-y-nghi-ve-tho.webp",
+    "alt": "Tranh sơn dầu: Nhà thơ trẻ bên bàn viết dưới ánh đèn dầu trong lán nứa chiến khu Việt Bắc, trăng sáng trên đồi núi ngoài cửa sổ.",
+    "title": "Minh họa Mấy ý nghĩ về thơ",
+    "author": "Google Gemini ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 11/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "hai-khau-linh-tu",
+    "path": "/images/hai-khau-linh-tu.webp",
+    "alt": "Tranh sơn dầu: Ngôi đền cổ bên vách đá cửa biển sóng vỗ cuồn cuộn, bóng dáng liệt nữ Chế Thắng phu nhân ẩn hiện linh thiêng giữa sương khói.",
+    "title": "Minh họa Hải khẩu linh từ – Đền thiêng cửa bể",
+    "author": "Google Gemini ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 11/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "muoi-cua-rung",
+    "path": "/images/muoi-cua-rung.webp",
+    "alt": "Tranh sơn dầu: Ông lão thợ săn khoác súng bước đi thanh thản trong rừng sương mây, hoa tử huyền trắng muốt nở bừng trên lối mòn.",
+    "title": "Minh họa Muối của rừng",
+    "author": "Google Gemini ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 11/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "nhan-vat-quan-trong",
+    "path": "/images/nhan-vat-quan-trong.webp",
+    "alt": "Tranh sơn dầu trào phúng: Khlestakov huênh hoang trên ghế bành giữa đám quan chức thị trấn run rẩy cúi lạy dâng tiền hối lộ.",
+    "title": "Minh họa Nhân vật quan trọng",
+    "author": "Google Gemini ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 11/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "giau-cua",
+    "path": "/images/giau-cua.webp",
+    "alt": "Tranh sơn dầu: Lão hà tiện Harpagon co ro ôm chặt tráp vàng dưới ánh nến chập chờn trong căn phòng tối, ánh mắt dáo dác nghi kỵ.",
+    "title": "Minh họa Giấu của",
+    "author": "Google Gemini ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 11/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "tuyen-ngon-doc-lap",
+    "path": "/images/tuyen-ngon-doc-lap.webp",
+    "alt": "Tranh sơn dầu lịch sử: Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập tại quảng trường Ba Đình ngày 2/9/1945 giữa rừng cờ đỏ sao vàng.",
+    "title": "Minh họa Tuyên ngôn Độc lập",
+    "author": "Google Gemini ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 11/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "nhung-tro-lo",
+    "path": "/images/nhung-tro-lo.webp",
+    "alt": "Tranh sơn dầu: Toàn quyền Va-ren lố lăng khua tay diễn thuyết trước cụ Phan Bội Châu ngồi tĩnh lặng uy nghiêm như pho tượng đồng.",
+    "title": "Minh họa Những trò lố hay là Va-ren và Phan Bội Châu",
+    "author": "Google Gemini ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 11/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "nghe-thuat-bam-thit-ga",
+    "path": "/images/nghe-thuat-bam-thit-ga.webp",
+    "alt": "Tranh sơn dầu trào phúng: Đám tiên chỉ làng xúm quanh chăm chú quan sát người thợ băm thịt gà chia phần tỉ mỉ giữa đình làng.",
+    "title": "Minh họa Nghệ thuật băm thịt gà",
+    "author": "Google Gemini ImageGen",
+    "license": "Ảnh AI tạo riêng cho dự án.",
+    "attribution": "Minh họa tạo bằng AI cho Văn Khố, 11/10/2026.",
+    "generatedByAI": true
+  },
+  {
+    "id": "buoc-vao-doi",
+    "path": "/images/buoc-vao-doi.webp",
+    "title": "Minh họa Bước vào đời",
+    "alt": "Kiệt tác hội họa Wanderer above the Sea of Fog (1818) của Caspar David Friedrich: Người thanh niên đứng trên mỏm đá chiêm ngưỡng biển sương mờ ảo, biểu tượng cho khát vọng và ngã rẽ cuộc đời.",
+    "author": "Caspar David Friedrich",
+    "license": "Public Domain (Bảo tàng Hamburger Kunsthalle).",
+    "attribution": "Tranh sơn dầu lãng mạn Wanderer above the Sea of Fog (1818) của Caspar David Friedrich, lưu trữ công cộng.",
+    "generatedByAI": false
+  },
+  {
+    "id": "tro-ve",
+    "path": "/images/tro-ve.webp",
+    "title": "Minh họa Trở về",
+    "alt": "Kiệt tác hội họa The Fog Warning (1885) của Winslow Homer: Người ngư phủ đơn độc trên chiếc thuyền gỗ giữa sóng biển mênh mông chèo về bến lúc chiều buông.",
+    "author": "Winslow Homer",
+    "license": "Public Domain (Bảo tàng Mỹ thuật Boston / Google Art Project).",
+    "attribution": "Tranh sơn dầu kinh điển The Fog Warning (1885) của Winslow Homer, lưu trữ công cộng.",
+    "generatedByAI": false
+  }
+]
