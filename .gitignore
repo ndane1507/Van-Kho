@@ -7,3 +7,6 @@ qa/
 !.env.example
 
 research/
+
+.vercel
+.env*
