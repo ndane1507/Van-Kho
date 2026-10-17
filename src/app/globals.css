@@ -602,7 +602,7 @@ h2{font-size:38px}
  .about-purpose{padding-top:0}.about-purpose h2{font-size:35px;margin-bottom:18px}.about-stats{gap:13px;margin-top:26px;padding-top:22px}
  .about-stats strong{font-size:44px}.about-stats span{font-size:14px}
  .about-section{grid-template-columns:1fr;gap:28px;padding:42px 0;scroll-margin-top:105px}
- .about-section h2{font-size:36px;margin-top:14px}.about-section h2 br{display:none}
+ .about-section h2{font-size:36px;margin-top:14px}.about-section h2 br{display:inline;content:" "}
  .about-content-list h3,.reading-steps h3{font-size:29px}.about-content-list p,.reading-steps p{font-size:17px;line-height:1.9}
  .reading-steps li{grid-template-columns:32px 1fr;gap:17px}.reading-steps li>span{font-size:30px}
  .about-closing{grid-template-columns:1fr;gap:27px;padding-top:42px}.about-closing h2{font-size:35px}.about-closing p:not(.eyebrow){font-size:17px}.about-links a{font-size:17px}

@@ -21,7 +21,7 @@ export default function AiTutorPage() {
       <header className="ai-tutor-header">
         <p className="eyebrow">TRỢ LÝ VĂN HỌC AI · KHÔNG GIAN HỌC TẬP TƯƠNG TÁC</p>
         <h1>
-          Người đồng hành<br />
+          Người đồng hành{' '}<br />
           <em>cùng từng trang viết.</em>
         </h1>
         <p>

@@ -16,7 +16,7 @@ export default function About() {
         <div className="page-heading">
           <p className="eyebrow">VỀ VĂN KHỐ</p>
           <h1>
-            Đọc để hiểu.
+            Đọc để hiểu.{' '}
             <br />
             <em>Hiểu để cảm nhận.</em>
           </h1>
@@ -31,7 +31,7 @@ export default function About() {
         </div>
         <div className="about-purpose">
           <h2>
-            Mỗi tác phẩm,
+            Mỗi tác phẩm,{' '}
             <br />
             một lối khám phá.
           </h2>
@@ -61,7 +61,7 @@ export default function About() {
         <div>
           <p className="eyebrow">SỨ MỆNH CỦA VĂN KHỐ</p>
           <h2 id="about-mission">
-            Văn học
+            Văn học{' '}
             <br />
             cho mọi học sinh.
           </h2>
@@ -117,7 +117,7 @@ export default function About() {
         <div>
           <p className="eyebrow">TẦM NHÌN &amp; CAM KẾT</p>
           <h2 id="about-vision">
-            Từ tủ sách nhỏ
+            Từ tủ sách nhỏ{' '}
             <br />
             tới thói quen đọc.
           </h2>
@@ -155,7 +155,7 @@ export default function About() {
         <div>
           <p className="eyebrow">BẠN SẼ TÌM THẤY GÌ?</p>
           <h2 id="about-content">
-            Từ bối cảnh
+            Từ bối cảnh{' '}
             <br />
             đến từng chi tiết.
           </h2>
@@ -190,7 +190,7 @@ export default function About() {
         <div>
           <p className="eyebrow">CÁCH SỬ DỤNG</p>
           <h2 id="about-how">
-            Bắt đầu bằng
+            Bắt đầu bằng{' '}
             <br />
             điều bạn muốn hiểu.
           </h2>
@@ -234,7 +234,7 @@ export default function About() {
         <div>
           <p className="eyebrow">ĐỒNG HÀNH VỚI VIỆC HỌC VĂN</p>
           <h2 id="about-benefits">
-            Chuẩn bị tốt hơn.
+            Chuẩn bị tốt hơn.{' '}
             <br />
             Cảm nhận sâu hơn.
           </h2>
