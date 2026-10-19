@@ -17,12 +17,13 @@ export function AuthorDirectory({authors}:{authors:AuthorCard[]}){
   return matchesPeriod&&target.includes(normalize(query.trim()));
  }).sort((a,b)=>a.name.localeCompare(b.name,'vi')),[authors,period,query]);
  const gridRef=useRef<HTMLDivElement>(null);
+ const hasResults=filtered.length>0;
  useEffect(()=>{
   const el=gridRef.current;if(!el)return;
   if(window.matchMedia('(prefers-reduced-motion: reduce)').matches||typeof IntersectionObserver==='undefined'){el.classList.add('is-visible');return;}
   const io=new IntersectionObserver((entries)=>{for(const entry of entries)if(entry.isIntersecting){entry.target.classList.add('is-visible');io.disconnect();}},{threshold:0,rootMargin:'0px 0px 20% 0px'});
   io.observe(el);return ()=>io.disconnect();
- },[]);
+ },[hasResults]);
  return <section className="author-directory-list" aria-labelledby="directory-list-title">
   <div className="directory-list-heading"><div><p className="eyebrow">DANH MỤC TRA CỨU</p><h2 id="directory-list-title">Tìm một tác giả</h2></div><span>{filtered.length} / {authors.length} hồ sơ</span></div>
   <label className="author-search"><Search size={19}/><span className="sr-only">Tìm theo tên, tác phẩm hoặc thời kỳ</span><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Tên tác giả, tác phẩm, thời kỳ…"/></label>

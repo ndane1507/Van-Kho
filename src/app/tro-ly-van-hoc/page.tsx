@@ -45,9 +45,9 @@ export default function AiTutorPage() {
         </div>
       </header>
 
-      <main>
+      <div className="ai-workspace">
         <AiTutorChat />
-      </main>
+      </div>
     </div>
   );
 }

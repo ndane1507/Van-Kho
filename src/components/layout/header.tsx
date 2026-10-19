@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { LibraryBig, Menu, X } from 'lucide-react';
 import { ThemeSwitch } from './theme';
 
@@ -16,6 +16,14 @@ const grades = [10, 11, 12];
 export function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  useEffect(() => {
+    if (!open) return;
+    const close = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setOpen(false);
+    };
+    window.addEventListener('keydown', close);
+    return () => window.removeEventListener('keydown', close);
+  }, [open]);
   const active = (href: string) => pathname === href || pathname.startsWith(href + '/');
 
   return (
@@ -49,6 +57,7 @@ export function Header() {
           <button
             className="menu-button"
             aria-expanded={open}
+            aria-controls={open ? 'mobile-navigation' : undefined}
             aria-label={open ? 'Đóng điều hướng' : 'Mở điều hướng'}
             onClick={() => setOpen((v) => !v)}
           >
@@ -57,7 +66,7 @@ export function Header() {
         </div>
       </div>
       {open && (
-        <nav className="mobile-panel" aria-label="Điều hướng trên điện thoại" onClick={() => setOpen(false)}>
+        <nav id="mobile-navigation" className="mobile-panel" aria-label="Điều hướng trên điện thoại" onClick={() => setOpen(false)}>
           <Link href="/thu-vien">Thư viện</Link>
           {grades.map((g) => (
             <Link key={g} href={`/lop-${g}`}>Văn học lớp {g}</Link>
