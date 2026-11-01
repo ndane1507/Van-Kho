@@ -12,6 +12,10 @@ export function ReadingProgress() {
     let raf = 0;
     const update = () => {
       queued = false;
+      if (window.scrollY === 0) {
+        bar.style.transform = 'scaleX(0)';
+        return;
+      }
       const root = document.documentElement;
       const max = root.scrollHeight - root.clientHeight;
       bar.style.transform = `scaleX(${max > 0 ? Math.min(1, root.scrollTop / max) : 0})`;

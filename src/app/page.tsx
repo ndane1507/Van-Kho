@@ -22,28 +22,28 @@ export default function Home() {
         <div className="opening-copy">
           <p className="opening-label">Không gian dành cho người yêu văn</p>
           <h1 id="opening-title">Lật một trang.<br /><em>Mở một thế giới.</em></h1>
-          <p className="opening-description">Đọc tác phẩm, gặp người viết và tìm thấy cảm nhận của riêng mình.</p>
+          <p className="opening-description">Bài phân tích Ngữ văn lớp 10–12. Tìm tác phẩm đang học, đọc theo từng mục và ôn lại kiến thức trọng tâm.</p>
+          <section className="discovery-bar" aria-label="Tìm nhanh trong thư viện">
+            <p><strong>{works.length}</strong> tác phẩm <span>/</span> <strong>{authors.length}</strong> tác giả <span>/</span> Lớp 10, 11, 12</p>
+            <Form className="discovery-search" action="/tim-kiem" role="search" aria-label="Tìm trong thư viện">
+              <Search size={19} strokeWidth={1.5} aria-hidden="true" />
+              <label htmlFor="home-q" className="sr-only">Tìm tác phẩm hoặc tác giả</label>
+              <input id="home-q" name="q" placeholder="Hôm nay, bạn muốn đọc gì?" autoComplete="off" />
+              <button aria-label="Tìm kiếm" type="submit"><ArrowRight size={20} aria-hidden="true" /></button>
+            </Form>
+          </section>
+          <nav className="home-grade-links" aria-label="Bắt đầu theo lớp">{[10,11,12].map(grade=><Link key={grade} href={`/lop-${grade}`}>Lớp {grade}<ArrowUpRight size={15} aria-hidden="true"/></Link>)}</nav>
           <div className="opening-actions">
             <Link href="/thu-vien" className="button">Khám phá thư viện <ArrowUpRight size={19} aria-hidden="true" /></Link>
             <a href="#cau-chuyen" className="text-link">Câu chuyện Văn Khố <ArrowRight size={17} aria-hidden="true" /></a>
           </div>
         </div>
         <figure className="opening-art">
-          <Image src="/images/van-kho-reading-room.webp" alt="Sách mở bên cửa sổ gỗ nhìn ra dòng sông và núi xa, minh họa AI cho không gian Văn Khố." fill sizes="(max-width: 767px) calc(100vw - 40px), 45vw" preload quality={75} />
+          <Image src="/images/van-kho-reading-room.webp" alt="Sách mở bên cửa sổ gỗ nhìn ra dòng sông và núi xa, minh họa AI cho không gian Văn Khố." fill sizes="(max-width: 767px) calc(100vw - 40px), 45vw" loading="lazy" quality={75} />
         </figure>
       </section>
 
       <div className="container">
-        <section className="discovery-bar" aria-label="Tìm nhanh trong thư viện">
-          <p><strong>{works.length}</strong> tác phẩm <span>/</span> <strong>{authors.length}</strong> tác giả <span>/</span> Lớp 10, 11, 12</p>
-          <Form className="discovery-search" action="/tim-kiem" role="search" aria-label="Tìm trong thư viện">
-            <Search size={19} strokeWidth={1.5} aria-hidden="true" />
-            <label htmlFor="home-q" className="sr-only">Tìm tác phẩm hoặc tác giả</label>
-            <input id="home-q" name="q" placeholder="Hôm nay, bạn muốn đọc gì?" autoComplete="off" />
-            <button aria-label="Tìm kiếm" type="submit"><ArrowRight size={20} aria-hidden="true" /></button>
-          </Form>
-        </section>
-
         <Reveal>
           <section className="film-section" id="cau-chuyen" aria-labelledby="film-title">
             <div className="section-heading">

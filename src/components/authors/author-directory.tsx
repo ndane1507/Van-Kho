@@ -25,7 +25,7 @@ export function AuthorDirectory({authors}:{authors:AuthorCard[]}){
   io.observe(el);return ()=>io.disconnect();
  },[hasResults]);
  return <section className="author-directory-list" aria-labelledby="directory-list-title">
-  <div className="directory-list-heading"><div><p className="eyebrow">DANH MỤC TRA CỨU</p><h2 id="directory-list-title">Tìm một tác giả</h2></div><span>{filtered.length} / {authors.length} hồ sơ</span></div>
+  <div className="directory-list-heading"><div><p className="eyebrow">DANH MỤC TRA CỨU</p><h2 id="directory-list-title">Tìm một tác giả</h2></div><span role="status" aria-live="polite" aria-atomic="true">{filtered.length} / {authors.length} hồ sơ</span></div>
   <label className="author-search"><Search size={19}/><span className="sr-only">Tìm theo tên, tác phẩm hoặc thời kỳ</span><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Tên tác giả, tác phẩm, thời kỳ…"/></label>
   <div className="author-period-filter" role="group" aria-label="Lọc theo thời kỳ">{periods.map(item=><button key={item} className={period===item?'active':''} onClick={()=>setPeriod(item)} aria-pressed={period===item}>{item}</button>)}</div>
   {filtered.length>0?<div ref={gridRef} className="author-directory-grid reveal-grid">{filtered.map((a,index)=><article className="directory-author-card" key={a.id}>

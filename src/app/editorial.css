@@ -5,6 +5,8 @@
   --reading-width:720px;
 }
 body{font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased}
+/* Keep the footer below the viewport while streamed page content is pending. */
+.page-space.page-loading{min-height:100svh}
 h1,h2,h3{letter-spacing:-.035em}
 h1,h2{line-height:1.16}h2 em{font-weight:400;color:var(--accent)}
 p{text-wrap:pretty}
@@ -46,9 +48,9 @@ p{text-wrap:pretty}
 .opening-actions .button{gap:23px}
 .opening-actions .text-link{font-size:13px}
 .opening-art{position:relative;isolation:isolate;aspect-ratio:1.02;max-height:550px;overflow:hidden;border-radius:3px 3px 54px 3px;background:var(--surface)}
-.opening-art img{object-fit:cover;object-position:50% 58%;animation:opening-image 1.5s ease-out both}
+.opening-art img{object-fit:cover;object-position:50% 58%;animation:none}
 @keyframes opening-image{from{transform:scale(1.035)}to{transform:scale(1)}}
-.opening-copy>*{animation:vk-rise .7s ease backwards}
+.opening-copy>*{animation:none}
 .opening-copy>h1{animation-delay:.08s}.opening-copy>.opening-description{animation-delay:.16s}.opening-copy>.opening-actions{animation-delay:.22s}
 .discovery-bar{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:30px;padding-block:24px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .discovery-bar>p{font-size:13px;color:var(--muted);line-height:1.6}
@@ -200,14 +202,14 @@ p{text-wrap:pretty}
 .toc-title{font-size:11px;letter-spacing:.1em;margin-bottom:22px}
 .toc nav a{font-size:12px;line-height:1.8;padding:10px 12px;gap:12px;border-radius:0 3px 3px 0}
 .toc nav a>span{font-size:10px}.toc nav a.active{background:var(--surface)}
-.article-body{font-size:18px;line-height:1.95;letter-spacing:.005em;max-width:var(--reading-width)}
+.article-body{font-size:19px;line-height:1.8;letter-spacing:.005em;max-width:var(--reading-width);overflow-wrap:anywhere}
 .article-body h2{font-size:36px;line-height:1.25;margin-bottom:26px}
 .article-body p+p{margin-top:23px}
-.article-body section{margin-bottom:40px;padding-bottom:45px;scroll-margin-top:120px}
+.article-body section{margin-bottom:40px;padding-bottom:45px;scroll-margin-top:0px}
 .lead-paragraph{font-size:20px;line-height:1.9}
 .lead-paragraph::first-letter{font-size:3.5em;line-height:.9;padding-top:9px;padding-right:14px}
 .analysis-unit{margin-top:36px}.analysis-unit h3{font-size:29px;margin-bottom:19px}
-.analysis-unit .evidence{background:var(--surface);border-left:2px solid var(--accent);font-size:16px;line-height:1.9;padding:20px 24px;border-radius:0 3px 3px 0}
+.analysis-unit .evidence{background:var(--surface);border-left:2px solid var(--accent);font-size:17px;line-height:1.8;padding:20px 24px;border-radius:0 3px 3px 0;white-space:pre-line}
 .related{padding-block:50px 70px}.related>h2{font-size:44px;margin-bottom:25px}
 .reading-progress{height:2px}
 
@@ -356,13 +358,13 @@ p{text-wrap:pretty}
   .reading-invitation>.text-link{display:flex;width:fit-content;margin:10px 0 0;font-size:11px}
   .page-space{padding-top:30px;padding-bottom:55px}.page-heading{margin-bottom:30px}.page-heading h1{font-size:54px}.page-heading>.eyebrow{font-size:10px}
   .page-heading>p:not(.eyebrow){font-size:14px;line-height:1.85;margin-top:17px}
-  .vk-filter{padding:17px;margin-bottom:24px}.vk-searchrow{min-height:54px}.vk-searchrow input{font-size:13px;min-height:54px;padding-inline:10px}.vk-searchrow>svg{width:18px;margin-left:12px}.vk-searchbtn{width:46px}
-  .vk-filters summary{font-size:12px}.vk-filtergrid{grid-template-columns:1fr 1fr;gap:16px 12px}.vk-filtergrid label{font-size:11px}.vk-filtergrid select{font-size:12px;min-height:48px;padding-inline:12px 30px;background-position:right 10px center}.vk-filtergrid .button{grid-column:1/-1;font-size:12px}
+  .vk-filter{padding:17px;margin-bottom:24px}.vk-searchrow{min-height:54px}.vk-searchrow input{font-size:16px;min-height:54px;padding-inline:10px}.vk-searchrow>svg{width:18px;margin-left:12px}.vk-searchbtn{width:46px}
+  .vk-filters summary{font-size:12px}.vk-filtergrid{grid-template-columns:1fr 1fr;gap:16px 12px}.vk-filtergrid label{font-size:11px}.vk-filtergrid select{font-size:16px;min-height:48px;padding-inline:12px 30px;background-position:right 10px center}.vk-filtergrid .button{grid-column:1/-1;font-size:12px}
   .vk-resultline{font-size:12px;padding-block:17px;margin-top:20px}.vk-resultline strong{font-size:27px}.vk-clear{font-size:11px}
   .vk-row{grid-template-columns:minmax(0,1fr) 102px;gap:16px;padding-block:23px;align-items:start}.vk-row-index,.vk-row-arrow{display:none}
   .vk-row-body{grid-column:1;grid-row:1}.vk-row-thumb{grid-column:2;grid-row:1;width:102px;aspect-ratio:1;align-self:center}
   .vk-row-meta{font-size:11px;line-height:1.8;gap:3px 0}.vk-row-meta>span+span::before{margin-inline:5px}.vk-row-meta>span:last-child{display:none}
-  .vk-row-title{font-size:25px;margin-top:7px;line-height:1.2}.vk-row-desc{font-size:13px;line-height:1.8;margin-top:9px;-webkit-line-clamp:2}
+  .vk-row-title{font-size:25px;margin-top:7px;line-height:1.2}.vk-row-desc{font-size:16px;line-height:1.8;margin-top:9px;-webkit-line-clamp:2}
   .library-curation{padding:20px;margin-block:24px 10px}.library-curation-links{grid-template-columns:1fr;gap:20px}.library-curation-links>a{font-size:24px}.library-curation-links small{font-size:10px}
   .grade-tabs{width:100%;margin-bottom:30px}.grade-tabs a{flex:1;justify-content:center;font-size:12px;padding:11px 10px}
   .grade-overview{grid-template-columns:1fr;gap:25px;padding-bottom:15px}.grade-overview h1{font-size:51px}.grade-summary{font-size:11px;gap:17px}.grade-summary strong{font-size:25px}
@@ -373,9 +375,9 @@ p{text-wrap:pretty}
   .work-hero.has-art{grid-template-columns:1fr;gap:30px;padding-top:5px;padding-bottom:30px}.work-hero h1{font-size:48px;line-height:1.14;letter-spacing:-.035em}
   .work-hero .work-meta{font-size:11px}.hero-author{font-size:26px;margin-top:20px}.hero-description{font-size:14px;line-height:1.9;margin-top:17px}
   .work-hero figure .artwork{aspect-ratio:1.5}.work-hero figure figcaption{font-size:10px}
-  .reading-layout{grid-template-columns:1fr;gap:25px;padding-top:28px}.toc{top:74px}.toc-desktop{display:none}
-  .article-body{font-size:16px;line-height:1.95}.article-body h2{font-size:31px;margin-bottom:21px}.article-body section{padding-bottom:30px;margin-bottom:28px;scroll-margin-top:120px}
-  .lead-paragraph{font-size:17px;line-height:1.95}.lead-paragraph::first-letter{font-size:3.2em}.analysis-unit h3{font-size:26px;line-height:1.25}.analysis-unit .evidence{font-size:14px;padding:16px 18px}
+  .reading-layout{grid-template-columns:1fr;gap:25px;padding-top:28px}.toc{top:74px;padding:0}.toc-desktop{display:none}
+  .article-body{font-size:17px;line-height:1.8}.article-body h2{font-size:31px;margin-bottom:21px}.article-body section{padding-bottom:30px;margin-bottom:28px;scroll-margin-top:70px}
+  .lead-paragraph{font-size:18px;line-height:1.8}.lead-paragraph::first-letter{font-size:3.2em}.analysis-unit h3{font-size:26px;line-height:1.25}.analysis-unit .evidence{font-size:16px;padding:16px 18px}
   .related>h2{font-size:36px}.related{padding-top:30px;padding-bottom:40px}
   .directory-heading{grid-template-columns:1fr;gap:26px;padding-block:3px 32px}.directory-heading h1{font-size:48px;line-height:1.17}.directory-heading>div:first-child>p:last-child{font-size:14px}
   .directory-stats{padding:18px 22px;max-width:none}.directory-stats strong{font-size:33px}.directory-stats span{font-size:10px}
@@ -419,3 +421,74 @@ p{text-wrap:pretty}
   .selection-art img,.film-play>img,.path-item>svg,.desktop-nav a::after{transition:none;transform:none!important}
   .button:hover,.ai-prompt-btn:hover{transform:none}
 }
+
+/* Reading metadata uses existing editorial data; no new academic claims. */
+.section-kind{font-size:13px;color:var(--muted);margin-bottom:10px}
+.reading-sources{font-size:16px;line-height:1.8}
+.reading-sources ul{padding-left:22px}.reading-sources li+li{margin-top:20px}
+.reading-sources a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.reading-sources li p{font-size:14px;color:var(--muted);margin-top:6px}
+.article-body section>p{white-space:pre-line}
+
+/* Start with a useful search, before the decorative opening artwork. */
+.opening-copy .discovery-bar{grid-template-columns:1fr;gap:12px;margin-top:24px;padding-block:16px}
+.opening-copy .discovery-search{border:1px solid var(--line);padding-left:14px;border-radius:3px;gap:10px}
+.opening-copy .discovery-search button{border-radius:2px;margin-right:4px;flex-shrink:0}
+.discovery-search input,.author-search input{font-size:16px}
+.home-grade-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+.home-grade-links a{display:inline-flex;align-items:center;gap:14px;min-height:44px;padding:6px 14px;border:1px solid var(--line);font-size:15px}
+.home-grade-links a:hover{border-color:var(--accent);color:var(--accent)}
+@media(max-width:767px){
+ .opening{padding-block:28px;gap:24px}.opening-art{aspect-ratio:1.8}
+ .opening-description{font-size:16px;max-width:100%}
+ .opening-actions .button{font-size:14px}.opening-actions .text-link{font-size:13px}
+ .opening-copy .discovery-bar>p{font-size:12px;flex-wrap:wrap;justify-content:flex-start;gap:5px}
+ .opening-copy .discovery-bar>p>span{margin-inline:5px}
+ .discovery-search input,.author-search input{font-size:16px}
+ .home-grade-links{gap:8px}.home-grade-links a{flex:1;justify-content:center;padding-inline:10px;gap:10px}
+ .menu-button{width:44px;height:44px}.author-period-filter button{min-height:44px;font-size:13px}
+ .directory-author-card p{font-size:15px}.author-essay>p:not(.eyebrow){font-size:17px;line-height:1.8}
+}
+
+.ai-error{display:flex;align-items:center;gap:10px;padding:12px 16px;background:var(--surface);border:1px solid var(--line);border-radius:3px;font-size:16px;line-height:1.7;color:#9f2424}
+.dark .ai-error{color:#f4b4a5}
+.ai-error button{min-width:44px;min-height:44px}
+.ai-textarea,.ai-prompt-btn{font-size:16px}.ai-message-bubble{font-size:16px;line-height:1.8}
+@media(max-width:767px){.ai-textarea,.ai-prompt-btn,.ai-message-bubble{font-size:16px}.ai-footnote{font-size:12px;line-height:1.7}}
+
+/* On phones, start reading immediately; artwork remains available on request. */
+.work-art-mobile{display:none}
+@media(max-width:767px){
+ .opening-art,.work-art-desktop{display:none}
+ .work-art-mobile{display:block;margin-top:24px;border-block:1px solid var(--line)}
+ .work-art-mobile summary{padding:12px 0;min-height:44px;font-size:16px;color:var(--accent)}
+ .work-art-mobile figure{margin-block:12px 18px}
+}
+@media print{.work-art-mobile{display:none}.work-art-desktop{display:block}}
+
+/* Lesson content is ready in the HTML, without a decorative reveal delay. */
+html.js .work-hero-main>*,html.js .work-hero figure .artwork img{animation:none}
+
+@media(max-width:767px){.lead-paragraph::first-letter{font:inherit;color:inherit;float:none;padding:0}}
+
+.author-sources{padding-block:32px;border-top:1px solid var(--line);max-width:var(--reading-width);margin-inline:auto}
+.author-sources h2{font-size:32px;margin-bottom:20px}
+.ai-chat-header-title{line-height:1.4}
+.toc nav a{font-size:14px;line-height:1.65;min-height:44px}.toc-title{font-size:13px}
+.theme-slider{min-height:44px}.theme-slider-knob{top:7px}
+@media(max-width:767px){.theme-slider{transform:none;margin-left:0}}
+
+.work-art-mobile figcaption a{display:inline-flex;align-items:center;min-height:44px;color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+
+
+.home-editorial>.container>.reveal{content-visibility:auto;contain-intrinsic-block-size:auto 800px}
+@media print{.home-editorial>.container>.reveal{content-visibility:visible;contain-intrinsic-block-size:none}}
+.analysis-entry{display:inline-flex;align-items:center;gap:10px;min-height:44px;margin-top:16px}
+.analysis-label{font-family:var(--font-sans),sans-serif;font-size:13px;color:var(--muted);margin-bottom:8px}
+.analysis-unit .analysis-explanation>strong{font-weight:600}
+h1,h2,h3{font-synthesis:none}
+.analysis-guide{color:var(--muted);font-size:16px;line-height:1.8;margin-bottom:24px}
+/* A chosen section is always fully laid out, including keyboard navigation. */
+.reading-chunk{content-visibility:auto;contain-intrinsic-block-size:auto 600px}
+.reading-chunk:has(>section:target),.reading-chunk:focus-within{content-visibility:visible;contain-intrinsic-block-size:none}
+@media print{.reading-chunk{content-visibility:visible;contain-intrinsic-block-size:none}}

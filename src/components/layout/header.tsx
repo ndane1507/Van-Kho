@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { LibraryBig, Menu, X } from 'lucide-react';
 import { ThemeSwitch } from './theme';
 
@@ -16,13 +16,24 @@ const grades = [10, 11, 12];
 export function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
   useEffect(() => {
     if (!open) return;
     const close = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') setOpen(false);
+      if (event.key === 'Escape') { setOpen(false); menuButtonRef.current?.focus(); }
+    };
+    const closeOnHistory = () => setOpen(false);
+    const closeOnDesktop = () => {
+      if (window.matchMedia('(min-width: 1101px)').matches) setOpen(false);
     };
     window.addEventListener('keydown', close);
-    return () => window.removeEventListener('keydown', close);
+    window.addEventListener('popstate', closeOnHistory);
+    window.addEventListener('resize', closeOnDesktop);
+    return () => {
+      window.removeEventListener('keydown', close);
+      window.removeEventListener('popstate', closeOnHistory);
+      window.removeEventListener('resize', closeOnDesktop);
+    };
   }, [open]);
   const active = (href: string) => pathname === href || pathname.startsWith(href + '/');
 
@@ -35,7 +46,7 @@ export function Header() {
         </div>
       </div>
       <div className="header-inner">
-        <Link href="/" className="brand" aria-label="Văn Khố — trang chủ">
+        <Link prefetch={false} href="/" className="brand" aria-label="Văn Khố — trang chủ">
           <span className="brand-mark" aria-hidden="true"><LibraryBig size={22} strokeWidth={1.6} /></span>
           <span className="brand-text">Văn <em>Khố</em><span className="brand-sub">ĐỌC SÂU · HIỂU KỸ</span></span>
         </Link>
@@ -55,6 +66,7 @@ export function Header() {
         <div className="header-actions">
           <ThemeSwitch />
           <button
+            ref={menuButtonRef}
             className="menu-button"
             aria-expanded={open}
             aria-controls={open ? 'mobile-navigation' : undefined}

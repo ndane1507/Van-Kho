@@ -1,4 +1,5 @@
 import { NextRequest } from 'next/server';
+import {z} from 'zod';
 
 export const runtime = 'nodejs';
 export const maxDuration = 60;
@@ -20,21 +21,22 @@ VAI TRÒ VÀ TÔN CHỈ SƯ PHẠM:
    - Đưa ra hướng dẫn giải quyết từng câu hỏi hoặc dàn ý phân tích từng bước rõ ràng.
 5. Định dạng câu trả lời bằng Markdown rõ ràng: dùng tiêu đề ngắn, gạch đầu dòng, in đậm từ khóa, trích dẫn thơ/văn trong khối trích dẫn (quote).`;
 
-interface HistoryItem {
-  role: 'user' | 'assistant';
-  content: string;
-}
+const requestSchema = z.object({
+  message: z.string().optional(),
+  imageBase64: z.string().nullish(),
+  history: z.array(z.object({role: z.enum(['user', 'assistant']), content: z.string()})).default([]),
+});
 
 export async function POST(req: NextRequest) {
   try {
-    const body = await req.json();
-    const { message, imageBase64, history = [] } = body as {
-      message?: string;
-      imageBase64?: string;
-      history?: HistoryItem[];
-    };
+    let body: unknown;
+    try { body = await req.json(); }
+    catch { return Response.json({error: 'Nội dung yêu cầu phải là JSON hợp lệ.'}, {status: 400}); }
+    const parsedBody = requestSchema.safeParse(body);
+    if (!parsedBody.success) return Response.json({error: 'Định dạng câu hỏi, ảnh hoặc lịch sử trò chuyện không hợp lệ.'}, {status: 400});
+    const {message, imageBase64, history} = parsedBody.data;
 
-    if (!message && !imageBase64) {
+    if (!message?.trim() && !imageBase64?.trim()) {
       return new Response(JSON.stringify({ error: 'Vui lòng cung cấp nội dung câu hỏi hoặc ảnh đính kèm.' }), {
         status: 400,
         headers: { 'Content-Type': 'application/json' },
@@ -53,13 +55,6 @@ export async function POST(req: NextRequest) {
         JSON.stringify({ error: 'Ảnh quá lớn. Vui lòng chọn ảnh dưới 5MB hoặc chụp lại với độ phân giải thấp hơn.' }),
         { status: 400, headers: { 'Content-Type': 'application/json' } }
       );
-    }
-
-    if (!Array.isArray(history)) {
-      return new Response(JSON.stringify({ error: 'Định dạng lịch sử trò chuyện không hợp lệ.' }), {
-        status: 400,
-        headers: { 'Content-Type': 'application/json' },
-      });
     }
 
     const baseUrl = (
@@ -143,9 +138,11 @@ export async function POST(req: NextRequest) {
       temperature: 0.7,
     };
 
+    const upstreamSignal = AbortSignal.any([req.signal, AbortSignal.timeout(55_000)]);
     const callUpstream = () =>
       fetch(`${baseUrl}/chat/completions`, {
         method: 'POST',
+        signal: upstreamSignal,
         headers: {
           'Content-Type': 'application/json',
           Authorization: `Bearer ${apiKey}`,
@@ -163,7 +160,7 @@ export async function POST(req: NextRequest) {
 
     if (!upstreamRes.ok) {
       const errText = await upstreamRes.text().catch(() => '');
-      console.error('AI upstream error:', upstreamRes.status, errText.slice(0, 1000));
+      console.error('AI upstream error:', upstreamRes.status);
       let friendly = `Dịch vụ AI tạm thời bận (${upstreamRes.status}). Vui lòng đợi vài giây rồi bấm thử lại.`;
       if (upstreamRes.status === 401 || upstreamRes.status === 403) {
         friendly = 'Khóa API của Trợ lý AI không hợp lệ hoặc đã hết hạn. Vui lòng báo cho quản trị viên kiểm tra AI_API_KEY.';
@@ -205,6 +202,11 @@ export async function POST(req: NextRequest) {
       return '';
     };
 
+    if (upstreamRes.headers.get('Content-Type')?.includes('application/json')) {
+      const text = extractText(await upstreamRes.json());
+      return new Response(text, {headers: {'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'no-cache, no-transform'}});
+    }
+
     const stream = new ReadableStream({
       async start(controller) {
         const reader = upstreamRes.body?.getReader();
@@ -216,7 +218,6 @@ export async function POST(req: NextRequest) {
         const decoder = new TextDecoder();
         const encoder = new TextEncoder();
         let buffer = '';
-        let gotText = false;
 
         try {
           while (true) {
@@ -236,7 +237,6 @@ export async function POST(req: NextRequest) {
                   try {
                     const text = extractText(JSON.parse(trimmed));
                     if (text) {
-                      gotText = true;
                       controller.enqueue(encoder.encode(text));
                     }
                   } catch {
@@ -251,12 +251,11 @@ export async function POST(req: NextRequest) {
               try {
                 const parsed = JSON.parse(jsonStr);
                 if (parsed?.error) {
-                  console.error('AI SSE error payload:', JSON.stringify(parsed).slice(0, 500));
+                  console.error('AI SSE error payload received');
                   continue;
                 }
                 const content = extractText(parsed);
                 if (content) {
-                  gotText = true;
                   controller.enqueue(encoder.encode(content));
                 }
               } catch {
@@ -265,8 +264,9 @@ export async function POST(req: NextRequest) {
             }
           }
           // Trường hợp gateway trả một JSON duy nhất (không SSE).
+          buffer += decoder.decode();
           const tail = buffer.trim();
-          if (!gotText && tail) {
+          if (tail && !/^data:\s*\[DONE\]$/.test(tail)) {
             try {
               const text = extractText(JSON.parse(tail.replace(/^data:\s*/, '')));
               if (text) controller.enqueue(encoder.encode(text));
@@ -274,10 +274,11 @@ export async function POST(req: NextRequest) {
               // bỏ qua
             }
           }
+          controller.close();
         } catch (err) {
           controller.error(err);
         } finally {
-          controller.close();
+          reader.releaseLock();
         }
       },
     });
@@ -289,7 +290,7 @@ export async function POST(req: NextRequest) {
       },
     });
   } catch (error) {
-    console.error('API route exception:', error);
+    console.error('API route exception:', error instanceof Error ? error.name : 'UnknownError');
     return new Response(
       JSON.stringify({
         error: 'Không thể kết nối đến dịch vụ AI lúc này. Vui lòng kiểm tra mạng và thử lại sau ít phút.',

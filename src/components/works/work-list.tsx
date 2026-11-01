@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import {getImageProps} from 'next/image';
 import { ArrowUpRight } from 'lucide-react';
 import { authorFor, entryFor, media } from '@/lib/content';
 import { PlaceholderArt } from '@/components/media/placeholder-art';
@@ -26,7 +26,7 @@ export function WorkList({ items, showGrade = true }: { items: Work[]; showGrade
             </span>
             <span className="vk-row-thumb" aria-hidden="true">
               {image ? (
-                <Image src={image.path} alt="" width={320} height={240} sizes="(max-width: 767px) 112px, 160px" quality={65} />
+                <picture><img {...getImageProps({src: image.path, alt: '', width: 320, height: 240, sizes: '(max-width: 767px) 112px, 160px', quality: 65}).props} alt=""/></picture>
               ) : (
                 <PlaceholderArt title={w.title} genre={w.genre} />
               )}

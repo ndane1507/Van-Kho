@@ -1,0 +1,39 @@
+[
+  {
+    "path": "docs\\media\\fonts\\BeVietnamPro-Medium.ttf",
+    "sha256": "b60832bfa0fcd015158112c64d7e3fdad3b0c6287d1823f85a3103636e845268",
+    "family": "Be Vietnam Pro Medium",
+    "revision": 1.0019989013671875,
+    "weight": 500
+  },
+  {
+    "path": "docs\\media\\fonts\\BeVietnamPro-Regular.ttf",
+    "sha256": "cd1ef6e9d7db28ad5cdb88a65ccbe693870e60d340b791f349d248342b4fe4c3",
+    "family": "Be Vietnam Pro",
+    "revision": 1.0019989013671875,
+    "weight": 400
+  },
+  {
+    "path": "docs\\media\\fonts\\BeVietnamPro-SemiBold.ttf",
+    "sha256": "bd8e27eb02720b9d91e59e4f10a90878643219f25ce6a8d9a4f06a8a88d3bb71",
+    "family": "Be Vietnam Pro SemiBold",
+    "revision": 1.0019989013671875,
+    "weight": 600
+  },
+  {
+    "path": "docs\\media\\fonts\\Newsreader.ttf",
+    "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+    "family": "Newsreader 16pt",
+    "revision": 1.0030059814453125,
+    "weight": 400
+  },
+  {
+    "path": "docs/media/fonts/Newsreader-Italic.ttf",
+    "sha256": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792",
+    "family": "Newsreader 16pt",
+    "revision": 1.0030059814453125,
+    "weight": 400,
+    "style": "italic",
+    "source": "https://github.com/google/fonts/blob/main/ofl/newsreader/Newsreader-Italic%5Bopsz,wght%5D.ttf"
+  }
+]

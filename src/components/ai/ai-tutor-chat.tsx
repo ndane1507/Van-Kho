@@ -222,6 +222,13 @@ export function AiTutorChat() {
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const msgSeqRef = useRef(0);
 
+  useEffect(() => {
+    const textarea = textareaRef.current;
+    if (!textarea) return;
+    textarea.style.height = 'auto';
+    textarea.style.height = `${Math.min(textarea.scrollHeight, 160)}px`;
+  }, [input]);
+
   // Handle image file selection with client-side scaling/compression
   const handleFileProcess = (file: File) => {
     if (!file.type.startsWith('image/')) {
@@ -329,6 +336,7 @@ export function AiTutorChat() {
     setErrorMsg(null);
     setPinnedToBottom(true);
     const currentImage = attachedImage;
+    const currentFileName = attachedFileName;
     const currentText = messageText;
 
     // Reset input fields
@@ -367,8 +375,8 @@ export function AiTutorChat() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           message: currentText,
-          imageBase64: currentImage,
-          history: historyPayload.slice(0, -1), // Previous turns
+          imageBase64: currentImage ?? undefined,
+          history: historyPayload.slice(0, -1).slice(-10), // Previous turns
         }),
       });
 
@@ -398,7 +406,7 @@ export function AiTutorChat() {
       const assistantMessageId = `assistant-${msgSeqRef.current}`;
       const cleanResponse = fullResponse.trim();
       if (!cleanResponse) {
-        setErrorMsg('Trợ lý AI trả về phản hồi rỗng. Vui lòng bấm Gửi để thử lại.');
+        throw new Error('Trợ lý AI trả về phản hồi rỗng. Vui lòng thử gửi lại.');
       } else {
         setMessages((prev) => [
           ...prev,
@@ -414,6 +422,10 @@ export function AiTutorChat() {
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Đã có lỗi xảy ra khi kết nối với Trợ lý AI.';
       setErrorMsg(msg);
+      setInput(currentText);
+      if (currentImage) { setAttachedImage(currentImage); setAttachedFileName(currentFileName); }
+      setStreamingContent('');
+      setMessages(previous => previous.filter(message => message.id !== userMessageId));
     } finally {
       setIsLoading(false);
     }
@@ -438,10 +450,10 @@ export function AiTutorChat() {
     >
       {/* Header Bar */}
       <div className="ai-chat-header">
-        <div className="ai-chat-header-title">
+        <h2 className="ai-chat-header-title">
           <span className="pulse-dot" aria-hidden="true" />
           <span>Trợ lý Ngữ văn Trực tuyến</span>
-        </div>
+        </h2>
         <div className="ai-chat-header-actions">
           <button
             type="button"
@@ -538,17 +550,7 @@ export function AiTutorChat() {
         {errorMsg && (
           <div
             role="alert"
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '10px',
-              padding: '12px 16px',
-              background: 'rgba(239, 68, 68, 0.1)',
-              border: '1px solid rgba(239, 68, 68, 0.3)',
-              borderRadius: '4px',
-              fontSize: '14px',
-              color: '#ef4444',
-            }}
+            className="ai-error"
           >
             <AlertCircle size={18} style={{ flexShrink: 0 }} />
             <span style={{ flex: 1 }}>{errorMsg}</span>
@@ -638,11 +640,7 @@ export function AiTutorChat() {
                 : 'Nhập câu hỏi văn học, yêu cầu lập dàn ý, phân tích tác phẩm... (Nhấn Enter để gửi)'
             }
             value={input}
-            onChange={(e) => {
-              setInput(e.target.value);
-              e.target.style.height = 'auto';
-              e.target.style.height = `${Math.min(e.target.scrollHeight, 160)}px`;
-            }}
+            onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
             rows={1}
             disabled={isLoading}

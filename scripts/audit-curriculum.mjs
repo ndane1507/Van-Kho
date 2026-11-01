@@ -47,7 +47,6 @@ report.humanReviewedArticles=workData.filter(w=>w.status==='published'&&w.humanR
 fs.writeFileSync(path.join(root,'src/content/curriculum/inventory.json'),JSON.stringify(entries,null,2));
 fs.writeFileSync(path.join(root,'src/content/curriculum/row-dispositions.json'),JSON.stringify(dispositions,null,2));
 fs.writeFileSync(path.join(root,'src/content/curriculum/audit-report.json'),JSON.stringify(report,null,2));
-fs.mkdirSync(path.join(root,'public/data'),{recursive:true});
-for(const filename of ['inventory.json','audit-report.json'])fs.copyFileSync(path.join(root,'src/content/curriculum',filename),path.join(root,'public/data',filename));
+// Internal curriculum reports stay in src/content; do not export them publicly.
 console.log(JSON.stringify(report,null,2));
 if(missingRows.length||duplicateRecords.length) process.exitCode=1;

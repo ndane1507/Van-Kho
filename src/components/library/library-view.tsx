@@ -18,7 +18,7 @@ export function LibraryView({params,grade,genreSlug,action='/thu-vien',showPicks
  const availableAuthors=authors.filter(item=>availableWorks.some(work=>work.authorIds.includes(item.id))).sort((a,b)=>a.name.localeCompare(b.name,'vi'));
  const availableTopics=topics.filter(item=>availableWorks.some(work=>work.topics.includes(item))).sort((a,b)=>a.localeCompare(b,'vi'));
  return <>
-  <Form className="vk-filter" action={action} scroll={false} role="search" aria-label="Tìm và lọc tác phẩm">
+  <Form key={JSON.stringify([q,g,genre,author,topic,sort])} className="vk-filter" action={action} scroll={false} role="search" aria-label="Tìm và lọc tác phẩm">
    <div className="vk-searchrow">
     <Search size={22} strokeWidth={1.5} aria-hidden="true"/>
     <label htmlFor="q" className="sr-only">Tìm tác phẩm, tác giả hoặc chủ đề</label>
@@ -38,7 +38,7 @@ export function LibraryView({params,grade,genreSlug,action='/thu-vien',showPicks
    </details>
   </Form>
   {showPicks&&!filtered&&picks.length>0&&<section className="library-curation" aria-labelledby="vk-picks-title"><p id="vk-picks-title">Có thể bắt đầu từ đây</p><div className="library-curation-links">{picks.slice(0,3).map(work=><Link key={work.id} href={`/tac-pham/${work.slug}`}><span>{work.title}<small>{authorFor(work).name}</small></span><ArrowRight size={17} aria-hidden="true"/></Link>)}</div></section>}
-  <div className="vk-resultline"><p><strong>{items.length}</strong> bài phân tích{q&&<> cho “{q}”</>}</p>{filtered&&<Link className="vk-clear" href={action}><X size={16}/>Xóa bộ lọc</Link>}</div>
+  <div className="vk-resultline"><p role="status" aria-live="polite" aria-atomic="true"><strong>{items.length}</strong> bài phân tích{q&&<> cho “{q}”</>}</p>{filtered&&<Link className="vk-clear" href={action}><X size={16}/>Xóa bộ lọc</Link>}</div>
   {grade&&items.length>0&&<nav className="vk-jumps" aria-label="Đến học kỳ">{[1,2].map(semester=><a key={semester} href={`#hoc-ky-${semester}`}><span>Học kỳ {semester===1?'I':'II'}</span><small>{items.filter(work=>entryFor(work)!.semester===semester).length} tác phẩm</small></a>)}</nav>}
   {items.length===0?<div className="empty-state"><h2>Chưa tìm thấy tác phẩm</h2><p>Thử một tên ngắn hơn, hoặc xóa bộ lọc để xem tất cả bài đang có.</p><Link className="text-link" href={action}>Xem lại danh mục <ArrowRight size={17}/></Link></div>:grade?<div className="vk-semesters">{[1,2].map(semester=>{
    const semesterWorks=items.filter(work=>entryFor(work)!.semester===semester);

@@ -1,49 +1,55 @@
-# Văn Khố — Thư viện Văn học THPT
+# Văn Khố
 
-> **SẢN PHẨM HỌC TẬP SỐ**
-> **MÔN NGỮ VĂN**
-> **Năm học: 2026–2027**
-> **Giáo viên: Võ Thị Mỹ Ngà**
-> **Học sinh lớp: 12A4**
-> **Khóa: K60 Trường THPT Yên Lãng**
+Website đọc và học Ngữ văn dành cho học sinh THPT lớp 10–12. Văn Khố giúp tìm tác phẩm, tìm hiểu tác giả và đọc các bài phân tích theo từng luận điểm.
 
-## Giới thiệu
+## Tính năng
 
-**Văn Khố** là website thư viện văn học dành cho học sinh Trung học Phổ thông. Web giúp các em tìm lại bài đang học, khám phá tác giả và bước vào thế giới nghệ thuật của tác phẩm qua những bài phân tích có hệ thống — từ bối cảnh, bố cục đến từng hình tượng và cách biểu đạt.
+- Thư viện 60 tác phẩm với tìm kiếm tiếng Việt có dấu hoặc không dấu.
+- Lọc theo lớp, thể loại, tác giả và chủ đề; chia sẻ kết quả bằng đường dẫn.
+- Bài đọc có mục lục, tóm tắt, luận điểm, dẫn chứng, phân tích và nguồn đối chiếu.
+- Hồ sơ 50 tác giả và các tác phẩm liên quan.
+- Trợ lý văn học AI hỗ trợ gợi ý cách đọc, dàn ý và nhận xét bài viết; có thể nhận ảnh đề bài.
+- Giao diện sáng/tối, thích ứng với điện thoại và máy tính.
 
-## Có gì trong web
+## Chạy website
 
-- **60 bài phân tích tác phẩm** Ngữ văn lớp 10, 11, 12 (chương trình GDPT 2018, bộ Kết nối tri thức): thơ, truyện, kịch, ký, chính luận và phê bình văn học.
-- **Hồ sơ tác giả**: tiểu sử, phong cách sáng tác và các tác phẩm liên quan.
-- **Tìm kiếm tiếng Việt có dấu/không dấu** theo tên tác phẩm, tác giả, thể loại, chủ đề; bộ lọc chia sẻ qua đường dẫn.
-- **Trang đọc tập trung**: mục lục bám theo bài, tóm tắt 60 giây, tranh minh họa, nguồn đối chiếu cho từng phần.
-- **Trợ lý Văn học AI**: gợi mở dàn ý, giải thích điển tích, hướng dẫn đọc hiểu đề bài — kể cả từ ảnh chụp; rèn cách nghĩ thay vì dọn sẵn đáp án.
-- **Giao diện sáng/tối**, đọc tốt trên điện thoại và máy tính.
+Yêu cầu Node.js 22.19 trở lên và npm.
 
-## Cách chạy
-
-Yêu cầu Node.js 22.16 trở lên.
-
-```powershell
+```bash
 npm ci
 npm run dev
 ```
 
-Mở http://localhost:3000. Bản production:
+Mở http://localhost:3000. Chạy bản production:
 
-```powershell
+```bash
 npm run build
 npm start
 ```
 
-Để dùng Trợ lý AI, tạo file `.env.local` theo mẫu `.env.example` và điền khóa API Gemini (`AI_API_KEY`).
+Để sử dụng trợ lý AI, sao chép `.env.example` thành `.env.local` và cấu hình `AI_API_KEY`. Khóa được sử dụng trên máy chủ; không đưa `.env.local` hoặc khóa thật lên GitHub. Các chức năng đọc và tìm kiếm hoạt động khi chưa cấu hình AI.
 
-## Công nghệ
+## Triển khai Vercel
 
-Next.js (App Router), TypeScript, Tailwind CSS, next-themes, Zod, Lucide.
+Kết nối repository GitHub với project Vercel và cấu hình `AI_API_KEY`, `AI_BASE_URL`, `AI_MODEL` cho môi trường Preview/Production. `AI_BASE_URL` phải là địa chỉ HTTPS của dịch vụ AI có thể truy cập từ Internet, không phải localhost. Đặt `NEXT_PUBLIC_SITE_URL` theo domain công khai của website.
 
-## Bản quyền
+Giao diện gọi `/api/tro-ly-van-hoc` trên cùng domain. Khi website chạy tại `https://van-kho.vercel.app`, API tự có địa chỉ `https://van-kho.vercel.app/api/tro-ly-van-hoc`; khóa AI vẫn chỉ được sử dụng trên server.
 
-Nội dung phân tích do nhóm tự biên soạn. Tác phẩm gốc thuộc quyền của các chủ sở hữu tương ứng. Ảnh chân dung ghi rõ nguồn và giấy phép sử dụng.
+## Phát triển
 
-Người thực hiện: **Nguyễn Đức Anh & Nguyễn Văn Đạt** — Lớp 12A4, Khóa K60, Trường THPT Yên Lãng.
+Next.js App Router, React, TypeScript, Tailwind CSS và Zod. Source ứng dụng ở `src/`, tài nguyên công khai ở `public/`, công cụ bảo trì ở `scripts/` và kiểm thử ở `tests/`.
+
+```bash
+npm run typecheck
+npm run lint
+npm test
+npm run build
+```
+
+`npm ci` thiết lập lớp tương thích API cho bộ lint với minimatch đã vá bảo mật. Nếu cài bằng `--ignore-scripts`, chạy `node scripts/install-minimatch-compat.mjs` trước khi lint hoặc test.
+
+## Nội dung và bản quyền
+
+Bài phân tích do nhóm tự biên soạn và có nguồn đối chiếu. Dẫn chứng diễn ý được phân biệt với trích dẫn nguyên văn; người đọc nên đối chiếu văn bản đang học. Tác phẩm gốc thuộc quyền của chủ sở hữu tương ứng. Ảnh có chú thích nguồn; font đi kèm giấy phép trong `public/fonts/` và `docs/media/fonts/`.
+
+Thực hiện bởi **Nguyễn Đức Anh & Nguyễn Văn Đạt**.

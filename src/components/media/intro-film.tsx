@@ -22,7 +22,7 @@ export function IntroFilm() {
   }
 
   return <div className="intro-film">
-    <video ref={videoRef} controls={started} playsInline preload="none" poster="/images/van-kho-film-poster-v3.jpg" width="1280" height="720" aria-label="Phim giới thiệu Văn Khố, Nguyễn Văn Đạt và Nguyễn Đức Anh, thời lượng 30 giây" onPlay={() => setStarted(true)}>
+    <video ref={videoRef} controls={started} playsInline preload="none" width="1280" height="720" aria-label="Phim giới thiệu Văn Khố, Nguyễn Văn Đạt và Nguyễn Đức Anh, thời lượng 30 giây" onPlay={() => setStarted(true)}>
       <source src="/videos/van-kho-introduction-v3.mp4" type="video/mp4" />
       Trình duyệt của bạn không hỗ trợ video. <a href="/videos/van-kho-introduction-v3.mp4">Tải phim giới thiệu</a>.
     </video>

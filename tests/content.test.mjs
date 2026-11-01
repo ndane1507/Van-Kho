@@ -47,3 +47,10 @@ test('Complete literary inventory and distinct illustrations',()=>{
  const pending=JSON.parse(fs.readFileSync(new URL('../src/content/expanded/pending-illustrations.json',import.meta.url),'utf8'));assert.equal(pending.length,0);
  for(const w of workData)assert.ok(w.mediaId&&mediaData.some(m=>m.id===w.mediaId),w.slug);
 });
+
+test('Author citations and published identifiers form a complete, unique graph',()=>{
+ for(const data of [workData,authorData,sourceData,mediaData])assert.equal(new Set(data.map(item=>item.id)).size,data.length);
+ for(const data of [workData,authorData])assert.equal(new Set(data.map(item=>item.slug)).size,data.length);
+ for(const author of authorData)for(const id of author.sourceIds)assert.ok(sourceData.some(source=>source.id===id),`${author.slug}: missing ${id}`);
+ for(const source of sourceData)if(source.url)assert.ok(['http:','https:'].includes(new URL(source.url).protocol),source.id);
+});
