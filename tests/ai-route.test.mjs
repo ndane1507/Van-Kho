@@ -8,7 +8,8 @@ import {transpileModule, ModuleKind, ScriptTarget} from 'typescript';
 const source = fs.readFileSync(new URL('../src/app/api/tro-ly-van-hoc/route.ts', import.meta.url), 'utf8');
 fs.mkdirSync(new URL('../qa/', import.meta.url), {recursive: true});
 const compiled = new URL(`../qa/ai-route-${process.pid}.mjs`, import.meta.url);
-fs.writeFileSync(compiled, transpileModule(source, {compilerOptions: {module: ModuleKind.ESNext, target: ScriptTarget.ES2022}}).outputText);
+const resolvable = source.replace("'@/content/works'", JSON.stringify(new URL('../src/content/works.ts', import.meta.url).href));
+fs.writeFileSync(compiled, transpileModule(resolvable, {compilerOptions: {module: ModuleKind.ESNext, target: ScriptTarget.ES2022}}).outputText);
 const {POST} = await import(compiled.href);
 const request = body => new Request('http://localhost/api/tro-ly-van-hoc', {method: 'POST', body: JSON.stringify(body), headers: {'Content-Type': 'application/json'}});
 
@@ -51,6 +52,29 @@ test('AI route validates requests and preserves streamed text without live API c
     delete process.env.GEMINI_API_KEY;
     try { assert.equal((await POST(request({message: 'Hướng dẫn đọc hiểu'}))).status, 503); }
     finally { process.env.AI_API_KEY = 'test-only-placeholder'; }
+  });
+  await t.test('Relevant study notes follow the named work and retain follow-up context', async child => {
+    let sent;
+    child.mock.method(globalThis, 'fetch', async (_url, init) => {
+      sent = JSON.parse(init.body);
+      return new Response(JSON.stringify({choices: [{message: {content: 'Gợi ý có căn cứ.'}}]}), {headers: {'Content-Type': 'application/json'}});
+    });
+    for (const message of ['Phân tích Tràng giang', 'phan tich trang giang']) {
+      await POST(request({message}));
+      const notes = JSON.parse(sent.messages[0].content.split('\n').at(-1));
+      assert.deepEqual(notes.map(work => work.title), ['Tràng giang']);
+      assert.ok(notes[0].sections.some(section => section.units?.some(unit => unit.evidence && unit.explanation)));
+    }
+    await POST(request({message: 'Rút gọn ý trên', history: [{role: 'user', content: 'Phân tích Tràng giang'}]}));
+    assert.equal(JSON.parse(sent.messages[0].content.split('\n').at(-1))[0].title, 'Tràng giang');
+    await POST(request({message: 'Phân tích Tây Tiến', history: [{role: 'user', content: 'Phân tích Tràng giang'}]}));
+    assert.deepEqual(JSON.parse(sent.messages[0].content.split('\n').at(-1)).map(work => work.title), ['Tây Tiến']);
+    for (const message of ['Luận điểm là gì?', 'Viết một đoạn về lòng tốt']) {
+      await POST(request({message}));
+      assert.ok(!sent.messages[0].content.includes('HỌC LIỆU VĂN KHỐ ĐỂ ĐỐI CHIẾU'));
+    }
+    await POST(request({message: 'Phân tích bài Mộ'}));
+    assert.deepEqual(JSON.parse(sent.messages[0].content.split('\n').at(-1)).map(work => work.title), ['Mộ (Chiều tối)']);
   });
   await t.test('UTF-8 chunks and a final SSE delta without newline are preserved', async child => {
     let sent;

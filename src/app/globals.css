@@ -1023,77 +1023,6 @@ html.js .author-masthead-art{animation:vk-rise .8s ease .18s backwards}
 .author-portrait-wrap img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s ease}
 .author-portrait-wrap:hover img{transform:scale(1.03)}
 
-/* AI Literary Tutor (Trợ lý Văn học) */
-.ai-tutor-page{padding-top:25px;padding-bottom:75px;max-width:1040px}
-.ai-tutor-header{margin-bottom:28px}
-.ai-tutor-header h1{margin-top:6px;margin-bottom:12px;font-size:clamp(34px,4.2vw,52px)}
-.ai-tutor-header p{font-size:16px;color:var(--muted);max-width:720px;line-height:1.7}
-.ai-badge-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
-.ai-badge{display:inline-flex;align-items:center;gap:6px;padding:4px 12px;font-size:12px;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:2px}
-.ai-prompts-label{font-size:11px;letter-spacing:.12em;color:var(--muted);margin-bottom:10px;display:block;font-weight:600}
-.ai-prompts-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px;margin-bottom:28px}
-.ai-prompt-btn{text-align:left;background:var(--surface);border:1px solid var(--line);padding:12px 16px;font-size:14px;line-height:1.5;color:var(--text);border-radius:4px;transition:border-color .2s,background .2s,transform .15s;display:flex;align-items:flex-start;gap:8px}
-.ai-prompt-btn:hover{border-color:var(--accent);background:var(--bg);transform:translateY(-1px)}
-.ai-prompt-btn svg{color:var(--accent);margin-top:2px;flex-shrink:0}
-.ai-chat-card{border:1px solid var(--line);background:var(--surface);border-radius:6px;overflow:hidden;display:flex;flex-direction:column;min-height:560px;box-shadow:0 4px 24px rgba(0,0,0,.03)}
-.ai-chat-header{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;border-bottom:1px solid var(--line);background:var(--bg)}
-.ai-chat-header-title{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:500;color:var(--text)}
-.ai-chat-header-title .pulse-dot{width:8px;height:8px;border-radius:50%;background:var(--accent)}
-.ai-chat-header-actions{display:flex;align-items:center;gap:8px}
-.ai-chat-btn-subtle{background:transparent;border:1px solid var(--line);padding:4px 10px;font-size:12px;color:var(--muted);border-radius:3px;display:inline-flex;align-items:center;gap:5px;transition:color .2s,border-color .2s}
-.ai-chat-btn-subtle:hover{color:var(--accent);border-color:var(--accent)}
-.ai-messages-wrap{flex:1;padding:24px 20px;overflow-y:auto;display:flex;flex-direction:column;gap:20px;max-height:60vh}
-.ai-jump-wrap{position:sticky;bottom:4px;display:flex;justify-content:flex-end;z-index:2;pointer-events:none;margin-top:-8px}
-.ai-jump-btn{pointer-events:auto;display:inline-flex;align-items:center;gap:6px;background:var(--text);color:var(--bg);border:1px solid var(--text);border-radius:2px;padding:8px 16px;font-size:13px;font-weight:500;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.18)}
-.ai-jump-btn:hover{filter:brightness(1.08)}
-.ai-message{display:flex;gap:14px;max-width:88%}
-.ai-message.user{align-self:flex-end;flex-direction:row-reverse}
-.ai-message.assistant{align-self:flex-start}
-.ai-avatar{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;flex-shrink:0;font-size:13px;font-weight:600;border:1px solid var(--line)}
-.ai-message.assistant .ai-avatar{background:var(--accent);color:var(--bg)}
-.ai-message.user .ai-avatar{background:var(--surface);color:var(--text)}
-.ai-message-bubble{background:var(--bg);border:1px solid var(--line);padding:14px 18px;border-radius:6px;font-size:15px;line-height:1.7;position:relative}
-.ai-message.user .ai-message-bubble{background:var(--surface);border-color:var(--line)}
-.ai-message-bubble h3,.ai-message-bubble h4{font-family:var(--font-serif),Georgia,serif;margin:12px 0 6px;font-size:19px;color:var(--accent)}
-.ai-message-bubble p{margin-bottom:8px}
-.ai-message-bubble p:last-child{margin-bottom:0}
-.ai-message-bubble blockquote{margin:10px 0;padding:8px 14px;border-left:3px solid var(--accent);background:var(--surface);font-style:italic;color:var(--text);font-family:var(--font-serif),Georgia,serif}
-.ai-message-bubble ul,.ai-message-bubble ol{margin:8px 0 8px 20px;padding:0}
-.ai-message-bubble li{margin-bottom:4px}
-.ai-message-bubble strong{font-weight:600;color:var(--text)}
-.ai-message-bubble em{font-style:italic}
-.ai-message-bubble code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88em;background:var(--surface);border:1px solid var(--line);border-radius:3px;padding:1px 6px}
-.ai-message-bubble a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
-.ai-message-bubble a:hover{filter:brightness(1.1)}
-.ai-message-bubble hr{border:0;border-top:1px solid var(--line);margin:14px 0}
-.ai-message-image-preview{margin-bottom:10px;border-radius:4px;overflow:hidden;border:1px solid var(--line);max-width:280px;max-height:200px}
-.ai-message-image-preview img{width:100%;height:auto;display:block;object-fit:cover}
-.ai-message-copy{position:absolute;top:10px;right:10px;background:transparent;border:0;color:var(--muted);cursor:pointer;padding:4px;border-radius:3px;transition:color .2s}
-.ai-message-copy:hover{color:var(--accent)}
-.ai-input-zone{border-top:1px solid var(--line);background:var(--bg);padding:16px 20px}
-.ai-input-zone.border-accent{outline:2px dashed var(--accent);outline-offset:-2px}
-.ai-image-attachment-bar{display:flex;align-items:center;justify-content:space-between;padding:8px 12px;background:var(--surface);border:1px solid var(--line);border-radius:4px;margin-bottom:10px;font-size:13px}
-.ai-attachment-info{display:flex;align-items:center;gap:8px}
-.ai-attachment-thumb{width:36px;height:36px;object-fit:cover;border-radius:3px;border:1px solid var(--line)}
-.ai-remove-attachment{background:transparent;border:0;color:var(--muted);cursor:pointer;padding:4px;border-radius:3px}
-.ai-remove-attachment:hover{color:#ef4444}
-.ai-input-form{display:flex;align-items:flex-end;gap:10px}
-.ai-textarea{flex:1;min-height:52px;max-height:160px;padding:12px 14px;border:1px solid var(--line);border-radius:4px;background:var(--surface);color:var(--text);font-size:15px;line-height:1.5;resize:none;font-family:inherit}
-.ai-textarea:focus{border-color:var(--accent);outline:none}
-.ai-attach-btn{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:4px;cursor:pointer;transition:color .2s,border-color .2s;flex-shrink:0}
-.ai-attach-btn:hover{color:var(--accent);border-color:var(--accent)}
-.ai-send-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-width:44px;height:44px;padding:0 16px;background:var(--accent);color:var(--bg);border-radius:4px;border:0;cursor:pointer;font-size:14px;font-weight:500;transition:opacity .2s;flex-shrink:0}
-.ai-send-btn:disabled{opacity:.5;cursor:not-allowed}
-.ai-footnote{font-size:12px;color:var(--muted);margin-top:10px;text-align:center}
-@media(max-width:767px){
-  .ai-tutor-page{padding-top:15px}
-  .ai-message{max-width:95%}
-  .ai-prompts-list{grid-template-columns:1fr}
-  .ai-chat-card{min-height:480px}
-  .ai-messages-wrap{padding:16px 12px}
-  .ai-input-zone{padding:12px 14px}
-}
-
 /* ============ EDITORIAL 2.0 — "Tòa soạn văn học" ============
    Dấu hiệu nhận diện: số serif outline, hairline kép, nhãn eyebrow,
    accent son đỏ. Chỉ override/bổ sung, không phá cấu trúc cũ. */
@@ -1162,28 +1091,6 @@ html.js .author-masthead-art{animation:vk-rise .8s ease .18s backwards}
 /* ---- TOC: số son đỏ ---- */
 .toc nav a>span{color:var(--accent);font-weight:600}
 .toc nav a.active{background:color-mix(in srgb,var(--accent) 9%,transparent)}
-
-/* ---- Chat 2.0 ---- */
-.ai-chat-card{border-radius:2px;box-shadow:0 30px 70px -34px rgba(32,27,20,.4);border:1px solid var(--line)}
-.ai-chat-header{background:var(--surface);padding:16px 24px}
-.ai-chat-header-title{font-family:var(--font-serif),Georgia,serif;font-size:20px;font-weight:500}
-.ai-chat-header-title .pulse-dot{box-shadow:0 0 0 5px color-mix(in srgb,var(--accent) 18%,transparent)}
-.ai-message-bubble{border-radius:2px;box-shadow:0 10px 26px -18px rgba(32,27,20,.45)}
-.ai-message.assistant .ai-message-bubble{background:var(--bg)}
-.ai-message.user .ai-message-bubble{background:var(--text);color:var(--bg);border-color:var(--text)}
-.ai-message.user .ai-message-bubble strong{color:inherit}
-.ai-message.assistant .ai-avatar{background:var(--rule);color:var(--bg);border-color:var(--rule);font-family:var(--font-serif),serif}
-.ai-message-bubble h3,.ai-message-bubble h4{color:var(--accent);font-weight:500}
-.ai-message-bubble blockquote{border-left-width:3px;font-size:17px}
-.ai-prompt-btn{border-radius:2px;transition:border-color .2s,transform .15s ease,box-shadow .2s ease}
-.ai-prompt-btn:hover{transform:translateY(-2px);box-shadow:0 14px 30px -18px rgba(32,27,20,.4)}
-.ai-send-btn{border-radius:2px}
-.ai-textarea,.ai-attach-btn{border-radius:2px}
-.ai-typing{display:inline-flex;gap:6px;align-items:center;padding:6px 0}
-.ai-typing i{width:7px;height:7px;border-radius:50%;background:var(--accent);animation:ai-blink 1.1s infinite}
-.ai-typing i:nth-child(2){animation-delay:.18s}
-.ai-typing i:nth-child(3){animation-delay:.36s}
-@keyframes ai-blink{0%,100%{opacity:.25}50%{opacity:1}}
 
 /* ---- Footer colophon ---- */
 .site-footer{border-top:2px solid var(--rule)}

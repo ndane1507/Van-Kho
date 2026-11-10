@@ -8,8 +8,7 @@ qa/
 
 research/
 
-.vercel
-.env*
+.vercel/
 
 # Generated local agent instructions; not part of the public website.
 /AGENTS.md

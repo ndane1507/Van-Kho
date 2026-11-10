@@ -21,7 +21,6 @@ interface ChatMessage {
   role: 'user' | 'assistant';
   content: string;
   image?: string;
-  timestamp: string;
 }
 
 const STARTER_PROMPTS = [
@@ -46,12 +45,9 @@ const STARTER_PROMPTS = [
 const INITIAL_MESSAGE: ChatMessage = {
   id: 'init-msg',
   role: 'assistant',
-  content: `Chào em! Thầy/cô là **Trợ lý Văn học của Văn Khố**.
+  content: `Bạn đang đọc tác phẩm nào?
 
-Em có thể trao đổi bất kỳ câu hỏi nào về các tác phẩm, tác giả hoặc kỹ năng viết văn trong chương trình Ngữ văn THPT (Lớp 10, 11, 12 theo chuẩn GDPT 2018).
-
-> **Gợi ý học tập:** Nếu em có **ảnh chụp đề kiểm tra, đoạn trích văn bản hoặc phiếu học tập**, em hãy nhấn nút đính kèm hình ảnh (hoặc kéo thả ảnh vào khung) để đính kèm nhé. Thầy/cô sẽ đọc đề và hướng dẫn em cách tìm luận điểm, phân tích chi tiết từng bước!`,
-  timestamp: 'Văn Khố AI',
+Gửi câu hỏi, đoạn văn cần góp ý hoặc **ảnh đề bài**. Mình sẽ giúp bạn tìm ý, phân tích dẫn chứng và viết rõ điều muốn nói.`,
 };
 
 // Lightweight safe markdown renderer for literary formatting
@@ -188,36 +184,26 @@ export function AiTutorChat() {
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [isDragOver, setIsDragOver] = useState(false);
 
-  const messagesEndRef = useRef<HTMLDivElement>(null);
   const scrollWrapRef = useRef<HTMLDivElement>(null);
   const [pinnedToBottom, setPinnedToBottom] = useState(true);
-  const autoScrolling = useRef(false);
-  const autoScrollTimer = useRef<number | null>(null);
+  const pinnedRef = useRef(true);
 
-  const scrollToBottom = useCallback((instant = false) => {
+  const scrollToBottom = useCallback(() => {
     const el = scrollWrapRef.current;
     if (!el) return;
-    const reduceMotion =
-      typeof window !== 'undefined' &&
-      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    autoScrolling.current = true;
-    if (autoScrollTimer.current) window.clearTimeout(autoScrollTimer.current);
-    autoScrollTimer.current = window.setTimeout(() => {
-      autoScrolling.current = false;
-    }, instant || reduceMotion ? 80 : 550);
-    el.scrollTo({ top: el.scrollHeight, behavior: instant || reduceMotion ? 'auto' : 'smooth' });
+    el.scrollTop = el.scrollHeight;
   }, []);
 
   const handleMessagesScroll = useCallback(() => {
-    if (autoScrolling.current) return;
     const el = scrollWrapRef.current;
     if (!el) return;
-    setPinnedToBottom(el.scrollHeight - el.scrollTop - el.clientHeight < 90);
+    pinnedRef.current = el.scrollHeight - el.scrollTop - el.clientHeight < 64;
+    setPinnedToBottom(pinnedRef.current);
   }, []);
 
   useEffect(() => {
-    if (pinnedToBottom) scrollToBottom();
-  }, [messages, streamingContent, isLoading, pinnedToBottom, scrollToBottom]);
+    if (pinnedRef.current && (messages.length > 1 || isLoading || errorMsg)) scrollToBottom();
+  }, [messages, streamingContent, isLoading, errorMsg, scrollToBottom]);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const msgSeqRef = useRef(0);
@@ -286,6 +272,7 @@ export function AiTutorChat() {
   const handleDrop = (e: React.DragEvent) => {
     e.preventDefault();
     setIsDragOver(false);
+    if (isLoading) return;
     const file = e.dataTransfer.files?.[0];
     if (file) handleFileProcess(file);
   };
@@ -324,6 +311,10 @@ export function AiTutorChat() {
       setMessages([INITIAL_MESSAGE]);
       setStreamingContent('');
       setErrorMsg(null);
+      setInput('');
+      pinnedRef.current = true;
+      setPinnedToBottom(true);
+      if (scrollWrapRef.current) scrollWrapRef.current.scrollTop = 0;
       handleClearImage();
     }
   };
@@ -334,6 +325,7 @@ export function AiTutorChat() {
     if ((!messageText && !attachedImage) || isLoading) return;
 
     setErrorMsg(null);
+    pinnedRef.current = true;
     setPinnedToBottom(true);
     const currentImage = attachedImage;
     const currentFileName = attachedFileName;
@@ -351,9 +343,8 @@ export function AiTutorChat() {
     const newUserMessage: ChatMessage = {
       id: userMessageId,
       role: 'user',
-      content: currentText || (currentImage ? 'Nhờ thầy/cô đọc ảnh đề bài này và hướng dẫn giải đáp giúp em ạ.' : ''),
+      content: currentText || 'Đọc ảnh đề bài và hướng dẫn mình giải đáp.',
       image: currentImage ?? undefined,
-      timestamp: 'Vừa xong',
     };
 
     const nextHistory = [...messages, newUserMessage];
@@ -414,7 +405,6 @@ export function AiTutorChat() {
             id: assistantMessageId,
             role: 'assistant',
             content: cleanResponse,
-            timestamp: 'Vừa xong',
           },
         ]);
       }
@@ -432,7 +422,8 @@ export function AiTutorChat() {
   };
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-    if (e.key === 'Enter' && !e.shiftKey) {
+    if (e.nativeEvent.isComposing || e.keyCode === 229) return;
+    if (e.key === 'Enter' && !e.shiftKey && !window.matchMedia('(max-width: 767px) and (pointer: coarse)').matches) {
       e.preventDefault();
       handleSendMessage();
     }
@@ -452,13 +443,14 @@ export function AiTutorChat() {
       <div className="ai-chat-header">
         <h2 className="ai-chat-header-title">
           <span className="pulse-dot" aria-hidden="true" />
-          <span>Trợ lý Ngữ văn Trực tuyến</span>
+          <span>Cùng bạn đọc và viết</span>
         </h2>
         <div className="ai-chat-header-actions">
           <button
             type="button"
             className="ai-chat-btn-subtle"
             onClick={handleClearChat}
+            disabled={isLoading}
             title="Làm mới cuộc trò chuyện"
           >
             <RotateCcw size={13} />
@@ -467,122 +459,124 @@ export function AiTutorChat() {
         </div>
       </div>
 
-      {/* Suggested Prompts (Visible when only initial message exists) */}
-      {messages.length === 1 && !isLoading && (
-        <div style={{ padding: '16px 20px 0' }}>
-          <span className="ai-prompts-label">CÂU HỎI & CHỦ ĐỀ GỢI Ý NHANH</span>
-          <div className="ai-prompts-list">
-            {STARTER_PROMPTS.map((item) => (
-              <button
-                key={item.title}
-                type="button"
-                className="ai-prompt-btn"
-                onClick={() => handleSendMessage(item.prompt)}
-              >
-                <Sparkles size={16} />
-                <div>
-                  <strong>{item.title}</strong>
-                  <p style={{ margin: 0, fontSize: '12px', color: 'var(--muted)' }}>
-                    {item.prompt}
+      <div className="ai-conversation">
+        <div
+          className="ai-messages-wrap"
+          ref={scrollWrapRef}
+          onScroll={handleMessagesScroll}
+          role="log"
+          aria-live="polite"
+          aria-relevant="additions"
+          aria-busy={isLoading}
+          aria-label="Lịch sử trò chuyện với Trợ lý Văn học"
+          tabIndex={0}
+        >
+          {messages.map((m) => (
+            <div key={m.id} className={`ai-message ${m.role}`}>
+              <div className="ai-avatar" aria-hidden="true">
+                {m.role === 'assistant' ? <BookOpen size={16} /> : <User size={16} />}
+              </div>
+              <div className="ai-message-bubble">
+                {m.role === 'assistant' && (
+                  <button
+                    type="button"
+                    className="ai-message-copy"
+                    onClick={() => handleCopyText(m.content, m.id)}
+                    title="Sao chép câu trả lời"
+                  >
+                    {copiedId === m.id ? <Check size={14} /> : <Copy size={14} />}
+                  </button>
+                )}
+                {m.image && (
+                  <div className="ai-message-image-preview">
+                    <img src={m.image} alt="Ảnh đề bài học sinh tải lên" />
+                  </div>
+                )}
+                <div className="ai-message-text">{renderMarkdown(m.content)}</div>
+              </div>
+            </div>
+          ))}
+
+          {messages.length === 1 && !isLoading && (
+            <div className="ai-starters">
+              <span className="ai-prompts-label">Bắt đầu từ một câu hỏi</span>
+              <div className="ai-prompts-list">
+                {STARTER_PROMPTS.map((item) => (
+                  <button
+                    key={item.title}
+                    type="button"
+                    className="ai-prompt-btn"
+                    onClick={() => handleSendMessage(item.prompt)}
+                  >
+                    <Sparkles size={16} />
+                    <div>
+                      <strong>{item.title}</strong>
+                      <p>
+                        {item.prompt}
+                      </p>
+                    </div>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Live Streaming Response */}
+          {isLoading && (
+            <div className="ai-message assistant">
+              <div className="ai-avatar" aria-hidden="true">
+                <BookOpen size={16} />
+              </div>
+              <div className="ai-message-bubble">
+                {streamingContent ? (
+                  renderMarkdown(streamingContent)
+                ) : (
+                  <p className="ai-thinking">
+                    <span className="ai-typing" aria-hidden="true"><i /><i /><i /></span>
+                    Đang đọc câu hỏi…
                   </p>
-                </div>
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
+                )}
+              </div>
+            </div>
+          )}
 
-      {/* Messages Scroll Area */}
-      <div
-        className="ai-messages-wrap"
-        ref={scrollWrapRef}
-        onScroll={handleMessagesScroll}
-        role="log"
-        aria-live="polite"
-        aria-label="Lịch sử trò chuyện với Trợ lý Văn học"
-      >
-        {messages.map((m) => (
-          <div key={m.id} className={`ai-message ${m.role}`}>
-            <div className="ai-avatar" aria-hidden="true">
-              {m.role === 'assistant' ? <BookOpen size={16} /> : <User size={16} />}
-            </div>
-            <div className="ai-message-bubble">
-              {m.role === 'assistant' && (
-                <button
-                  type="button"
-                  className="ai-message-copy"
-                  onClick={() => handleCopyText(m.content, m.id)}
-                  title="Sao chép câu trả lời"
-                >
-                  {copiedId === m.id ? <Check size={14} /> : <Copy size={14} />}
-                </button>
-              )}
-              {m.image && (
-                <div className="ai-message-image-preview">
-                  <img src={m.image} alt="Ảnh đề bài học sinh tải lên" />
-                </div>
-              )}
-              <div className="ai-message-text">{renderMarkdown(m.content)}</div>
-            </div>
-          </div>
-        ))}
-
-        {/* Live Streaming Response */}
-        {isLoading && (
-          <div className="ai-message assistant">
-            <div className="ai-avatar" aria-hidden="true">
-              <BookOpen size={16} />
-            </div>
-            <div className="ai-message-bubble">
-              {streamingContent ? (
-                renderMarkdown(streamingContent)
-              ) : (
-                <p style={{ display: 'flex', alignItems: 'center', gap: '10px', color: 'var(--muted)' }}>
-                  <span className="ai-typing" aria-hidden="true"><i /><i /><i /></span>
-                  Đang đọc đề bài và suy ngẫm giải đáp...
-                </p>
-              )}
-            </div>
-          </div>
-        )}
-
-        {/* Error Notification */}
-        {errorMsg && (
-          <div
-            role="alert"
-            className="ai-error"
-          >
-            <AlertCircle size={18} style={{ flexShrink: 0 }} />
-            <span style={{ flex: 1 }}>{errorMsg}</span>
-            <button
-              type="button"
-              onClick={() => setErrorMsg(null)}
-              aria-label="Đóng thông báo lỗi"
-              style={{
-                background: 'transparent',
-                border: 0,
-                color: 'inherit',
-                cursor: 'pointer',
-                padding: '4px',
-                display: 'grid',
-                placeItems: 'center',
-              }}
+          {/* Error Notification */}
+          {errorMsg && (
+            <div
+              role="alert"
+              className="ai-error"
             >
-              <X size={16} />
-            </button>
-          </div>
-        )}
+              <AlertCircle size={18} style={{ flexShrink: 0 }} />
+              <span style={{ flex: 1 }}>{errorMsg}</span>
+              <button
+                type="button"
+                onClick={() => setErrorMsg(null)}
+                aria-label="Đóng thông báo lỗi"
+                style={{
+                  background: 'transparent',
+                  border: 0,
+                  color: 'inherit',
+                  cursor: 'pointer',
+                  padding: '4px',
+                  display: 'grid',
+                  placeItems: 'center',
+                }}
+              >
+                <X size={16} />
+              </button>
+            </div>
+          )}
 
-        <div ref={messagesEndRef} />
-
+        </div>
         {!pinnedToBottom && (
           <div className="ai-jump-wrap">
             <button
               type="button"
               className="ai-jump-btn"
               onClick={() => {
+                pinnedRef.current = true;
                 setPinnedToBottom(true);
-                scrollToBottom(true);
+                scrollToBottom();
               }}
             >
               ↓ Tin nhắn mới nhất
@@ -625,6 +619,7 @@ export function AiTutorChat() {
             type="button"
             className="ai-attach-btn"
             onClick={() => fileInputRef.current?.click()}
+            disabled={isLoading}
             title="Đính kèm ảnh đề bài / bài tập (hoặc kéo thả vào đây)"
           >
             <ImageIcon size={20} />
@@ -636,14 +631,15 @@ export function AiTutorChat() {
             aria-label="Nhập câu hỏi gửi Trợ lý Văn học"
             placeholder={
               attachedImage
-                ? 'Nhập thêm yêu cầu hoặc câu hỏi cụ thể về bức ảnh (Nhấn Enter để gửi)...'
-                : 'Nhập câu hỏi văn học, yêu cầu lập dàn ý, phân tích tác phẩm... (Nhấn Enter để gửi)'
+                ? 'Bạn muốn hỏi gì về ảnh đề bài?'
+                : 'Câu hỏi của bạn…'
             }
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
             rows={1}
-            disabled={isLoading}
+            maxLength={4000}
+            readOnly={isLoading}
           />
 
           <button
@@ -660,7 +656,7 @@ export function AiTutorChat() {
 
         <p className="ai-footnote">
           <HelpCircle size={12} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '4px' }} />
-          Trợ lý AI Văn Khố hướng dẫn phương pháp, phân tích dẫn chứng và gợi mở luận điểm; không làm thay bài tập chép nguyên mẫu.
+          AI có thể nhầm. Đối chiếu trích dẫn với văn bản đang học.
         </p>
       </div>
     </div>

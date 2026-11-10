@@ -1,0 +1,6 @@
+qa/
+docs/
+.env*
+!.env.example
+AGENTS.md
+*.tsbuildinfo
